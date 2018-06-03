@@ -1,0 +1,104 @@
+%%  ************    LibreSilicon's 1st TestWafer    *******************
+%%
+%%  Organisation:   Chipforge
+%%                  Germany / European Union
+%%
+%%  Profile:        Chipforge focus on fine System-on-Chip Cores in
+%%                  Verilog HDL Code which are easy understandable and
+%%                  adjustable. For further information see
+%%                          www.chipforge.org
+%%                  there are projects from small cores up to PCBs, too.
+%%
+%%  File:           PearlRiver/Documents/LaTeX/ringoscillators.tex
+%%
+%%  Purpose:        Chapter File for Ring Oscillators
+%%
+%%  ************    LaTeX with circdia.sty package      ***************
+%%
+%%  ///////////////////////////////////////////////////////////////////
+%%
+%%  Copyright (c) 2018 by chipforge <hsank@nospam.chipforge.org>
+%%  All rights reserved.
+%%
+%%      This Standard Cell Library is licensed under the Libre Silicon
+%%      public license; you can redistribute it and/or modify it under
+%%      the terms of the Libre Silicon public license as published by
+%%      the Libre Silicon alliance, either version 1 of the License, or
+%%      (at your option) any later version.
+%%
+%%      This design is distributed in the hope that it will be useful,
+%%      but WITHOUT ANY WARRANTY; without even the implied warranty of
+%%      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+%%      See the Libre Silicon Public License for more details.
+%%
+%%  ///////////////////////////////////////////////////////////////////
+Ring Oscillators are the hidden Champions in case of qualifying a process.
+
+Here is a example of a Ring Oscillator with 5 inverting stages (build with inverters).
+
+\input{schematic_invring}
+
+If $EN = 0$ the Ring Oscillator does nothing. But when $EN$ becomes $1$, the output of the most left NAND2 Gate depends on the other input. With both inputs for the NAND2 Gate are $1$, the output goes to $0$, otherwise the output is $1$.
+
+Hence we can describe $EN$ as a high-active Enable signal.
+
+Assuming now $EN = 1$, the Ring Oscillator is enabled, the NAND3 Gate delivers the inverted input value from the long feedback line on his output. Assuming there was a level change, this edge propagates through every gate (which takes time $t_D$ for every INV Gate). At $n \cdot t_D$ this edge cames back over the feedback line with inverted polarity, while using odd numbers only of inverting Gates.
+
+While edges progagates once through the long line of inverting gates and arrives on the enabling gate again inverted, after 2 runs, this forms a waveform on $f_{INV}$ which is similiar to a clock with a 50-50 duty cycle. The last buffer, between the feedback line and the output pin, is just a buffer to keep the driven capacaty on the output line low.
+Now we can say, that the frequency of the output signal depends just on the delay $t_D$ over the inverting gates. The Equation for odd numbers of $n$ is
+
+\begin{equation}\label{f_inv}
+    f_{INV} = \frac{1}{2n \cdot t_D}
+\end{equation}
+
+Usually, Ring Oscillators are build from 100..150 Gates in one row. The reason for that is the lowpass characteristic of PAD Cells - the output frequency on PAD cells should be below their cut-off frequency.
+
+With a reasonable guessed value of $t_D$ and equation \ref{f_inv} we can now adjust $f_{INV}$ below the cut-off frequency.
+
+At this point we should think about $t_D$ which depends of course from different parameters, at least
+
+\begin{enumerate}
+\item the Supply Voltage for the inverting Gates,
+\item the current Temperature,
+\item and the Quality of the processed technology for every Gate.
+\end{enumerate}
+
+All three items matter for Process Evaluation and Process Calibration, just by indirect measurement of $t_D$ under different test conditions. BTW, $t_D$ follows equation \ref{f_inv} as
+
+\begin{equation}\label{t_D}
+    t_D = \frac{1}{2n \cdot f_{INV}}
+\end{equation}
+
+If you are already familiar with cell design, you migth be knowing that the delay $t_D$ over the gate differs for both edges. We assume here, that the transistor sizes for PMOS and NMOS transistors are well balanced with a relationship of $\gamma = 2$ and therefor $t_D$ has the same value for both edges.
+
+With knowledge of the Ring Oscillator build by simple Inverting Gates, we might think about more advanced cells with different transistor sizes. The schematic with NAND Gates looks quite similiar.
+
+\input{schematic_nand3ring}
+
+While using 3-input NAND Gates, all inputs on every gate are wired together. Using just 2-input NAND Gates would be possible also but not recommended as 3-input NAND Gates having one more stacked transisor and are heavier to process accuratly. Hence getting the oscillating output frequency on $f_{NAND}$ means much more.
+
+Adapting the same scheme on NOR3-Gates we get this third Ring Oscillator schematic.
+
+\input{schematic_nor3ring}
+
+Now please, make yourself familiar with the method of "Logical Effort" for calculating the transistor sizes to get well balanced cells. We still assume that $\gamma = 2$, where the PMOS transistors are 2 times bigger than the NMOS transistors.
+
+As the logical effort differs for every type of Gate (and therefor there delay), we can calculate the relationship between all output frequencies $f_{INV}$, $f_{NAND}$ and $f_{NOR}$.
+
+The highest output frequency should have the INV Gate based Ring Oscillator ($f_{INV}$) with the lowest logical effort $g = \frac{3}{3}$, followed by the NAND3 Gate based Ring Oscillator ($f_{NAND}$) with logical effort $g = \frac{5}{3}$. The lowest frequency should have the NOR3 Gate based Ring Oscillator ($f_{NOR}$) with logical effort of $g = \frac{7}{3}$.
+
+According the calculation of getting the delay from the logical effort, the relations can be expressed as
+%
+\begin{equation}
+    f_{INV} \approx f_{max}
+\end{equation}
+%
+\begin{equation}
+    f_{NAND} \approx \frac{9}{11} \cdot f_{INV}
+\end{equation}
+%
+\begin{equation}
+    f_{NOR} \approx \frac{9}{13} \cdot f_{INV}
+\end{equation}
+
+
