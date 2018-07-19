@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1531994799
+timestamp 1532001542
 << metal1 >>
 rect -352 152 0 156
 rect 824 152 1176 156
@@ -289,8 +289,6 @@ rect 706 32 710 40
 rect 738 32 742 40
 rect 770 32 774 40
 rect 802 32 806 40
-<< glass >>
-rect 824 80 832 84
 use Library/magic/L500_TP_blank  L500_TP_blank_1 Library/magic
 timestamp 1531942424
 transform 1 0 -360 0 1 18
