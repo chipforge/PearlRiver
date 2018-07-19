@@ -71,9 +71,9 @@ rect 2 2 22 6
 << nsubstratencontact >>
 rect 2 82 22 86
 << labels >>
+rlabel psubstratepcontact 2 2 22 6 1 gnd!
+rlabel nsubstratencontact 2 82 22 86 5 vdd!
 rlabel m2contact 2 26 6 30 3 B
 rlabel m2contact 18 34 22 38 1 A
 rlabel m2contact 10 42 14 46 1 Z
-rlabel nsubstratencontact 2 82 22 86 5 vdd!
-rlabel psubstratepcontact 2 2 22 6 1 gnd!
 << end >>
