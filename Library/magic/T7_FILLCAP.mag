@@ -1,6 +1,8 @@
 magic
 tech scmos
-timestamp 1532020973
+timestamp 1533654616
+<< pwell >>
+rect 0 0 24 23
 << nwell >>
 rect 0 32 24 56
 << polysilicon >>
