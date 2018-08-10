@@ -1,18 +1,19 @@
 #!/usr/bin/python3
 
-import gdspy
 import os
+import gdspy
+
+orig_box_width=50.
+orig_box_spacing=50.
 
 layer_mapping = {
-	'pwell' : {
-		41: 1,
-	},
-	'nwell' : {
-		42: 1,
-	}
+	'pwell' : [41],
+	'nwell' : [42],
+	'isolation' : [41,42],
+	'metal1' : [49],
 }
 
-cellname="L500_MOSFET_aligning"
+cellname='L500_MOSFET_aligning'
 
 magic_script="\n"
 magic_script+="drc off"
@@ -47,18 +48,29 @@ magic_script+="\n"
 print(os.popen("mkdir -p gds").read())
 print(os.popen("magic -dnull -noconsole << EOF"+magic_script+"EOF").read())
 
+gdsii=gdspy.GdsLibrary()
+gdsii.read_gds(
+	"gds/"+cellname+".gds",
+)
+cell=gdsii.extract(cellname)
+cell=cell.flatten()
+bb=cell.get_bounding_box()
+left_bottom=bb[0]
+right_top=bb[1]
+left_bottom_rect=gdspy.Rectangle(left_bottom-orig_box_spacing, left_bottom-orig_box_spacing-[orig_box_width,orig_box_width], 100)
+right_top_rect=gdspy.Rectangle(right_top+orig_box_spacing, right_top+orig_box_spacing+[orig_box_width,orig_box_width], 100)
+cell.add(left_bottom_rect)
+cell.add(right_top_rect)
+cell=cell.flatten()
 
 for layername in layer_mapping:
-	gdsii=gdspy.GdsLibrary(layername)
-	gdsii.read_gds(
-		"gds/"+cellname+".gds",
-		layers=layer_mapping[layername],
-		rename={cellname:layername},
-	)
-	#cell=gdsii.extract(layername)
-	#cell.name=layername
-	#cell=cell.flatten()
-	#cell.remove_polygons(lambda pts, layer, datatype: layer != 1)
-	#newgdsii=gdspy.GdsLibrary("mask_"+layername)
-	#newgdsii.add(cell)
-	#newgdsii.write_gds("gds/mask_"+layername+".gds")
+	ncell=cell.copy(layername,deep_copy=True)
+	ncell=ncell.flatten()
+	for idx in ncell.get_layers():
+		if not idx in layer_mapping[layername]:
+			if idx != 100:
+				ncell=ncell.remove_polygons(lambda pts, layer, datatype: layer == idx)
+	ncell=ncell.flatten(single_layer=1)
+	newgdsii=gdspy.GdsLibrary("mask_"+layername)
+	newgdsii.add(ncell)
+	newgdsii.write_gds("gds/mask_"+layername+".gds")
