@@ -140,39 +140,39 @@ rect 328 410 332 419
 rect 8 406 16 410
 rect 410 276 419 280
 rect 421 276 430 280
-use Library/magic/L500_TP_blank  L500_TP_blank_6 Library/magic
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_6 Library/magic
 timestamp 1531942424
 transform 1 0 0 0 1 480
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_7
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_7
 timestamp 1531942424
 transform 1 0 240 0 1 480
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_8
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_8
 timestamp 1531942424
 transform 1 0 480 0 1 480
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_1
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_1
 timestamp 1531942424
 transform 1 0 0 0 1 240
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_3
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_3
 timestamp 1531942424
 transform 1 0 240 0 1 240
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_5
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_5
 timestamp 1531942424
 transform 1 0 480 0 1 240
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_0
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_0
 timestamp 1531942424
 transform 1 0 0 0 1 0
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_2
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2
 timestamp 1531942424
 transform 1 0 240 0 1 0
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_4
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_4
 timestamp 1531942424
 transform 1 0 480 0 1 0
 box 0 0 120 120

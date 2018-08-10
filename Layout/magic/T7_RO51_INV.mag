@@ -141,11 +141,11 @@ rect 378 24 382 32
 rect 394 24 398 32
 rect 410 24 414 32
 rect 18 -8 22 24
-use Library/magic/L500_TP_blank  L500_TP_blank_1 Library/magic
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_1 Library/magic
 timestamp 1531942424
 transform 1 0 -360 0 1 4
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_0
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_0
 timestamp 1531942424
 transform 1 0 -120 0 1 4
 box 0 0 120 120
@@ -357,11 +357,11 @@ use Library/magic/T7_INV  T7_INV_24
 timestamp 1533657739
 transform 1 0 408 0 1 -2
 box 0 0 16 56
-use Library/magic/L500_TP_blank  L500_TP_blank_2
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2
 timestamp 1531942424
 transform 1 0 424 0 1 4
 box 0 0 120 120
-use Library/magic/L500_TP_blank  L500_TP_blank_3
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_3
 timestamp 1531942424
 transform 1 0 664 0 1 4
 box 0 0 120 120
