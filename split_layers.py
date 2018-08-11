@@ -1,19 +1,27 @@
 #!/usr/bin/python3
 
+import sys
 import os
 import gdspy
 
-orig_box_width=50.
+orig_box_width=10.
 orig_box_spacing=10.
 
 layer_mapping = {
 	'pwell' : [41],
 	'nwell' : [42],
 	'isolation' : [41,42],
+	'gate' : [46],
+	'nimplant' : [45],
+	'pimplant' : [44],
+	'contact' : [47,48],
 	'metal1' : [49],
 }
 
-cellname='L500_MOSFET_aligning'
+layout_path='Layout/magic'
+
+#cellname='L500_MOSFET_aligning'
+cellname='T10_RO51_NAND3'
 
 magic_script="\n"
 magic_script+="drc off"
@@ -22,7 +30,7 @@ magic_script+="box 0 0 0 0"
 magic_script+="\n"
 magic_script+="tech load scmos"
 magic_script+="\n"
-magic_script+="load Layout/magic/"+cellname+".mag"
+magic_script+="load "+layout_path+"/"+cellname+".mag"
 magic_script+="\n"
 magic_script+="drc off"
 magic_script+="\n"
@@ -63,7 +71,6 @@ p21=bb[1]+[orig_box_spacing,orig_box_spacing]
 p22=bb[1]+[orig_box_spacing,orig_box_spacing]+[orig_box_width,orig_box_width]
 
 cell=cell.flatten()
-help(cell)
 
 for layername in layer_mapping:
 	ncell=cell.copy(layername,deep_copy=True)
@@ -73,7 +80,10 @@ for layername in layer_mapping:
 	ncell=ncell.add(gdspy.Rectangle(p11, p12, 1))
 	ncell=ncell.add(gdspy.Rectangle(p21, p22, 1))
 	ncell=ncell.flatten(single_layer=1,single_datatype=1)
-
 	newgdsii=gdspy.GdsLibrary("mask_"+layername)
 	newgdsii.add(ncell)
 	newgdsii.write_gds("gds/mask_"+layername+".gds")
+
+if len(sys.argv)==2:
+	if sys.argv[1]=='-s':
+		gdspy.LayoutViewer()
