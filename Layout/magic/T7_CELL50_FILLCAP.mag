@@ -1,0 +1,258 @@
+magic
+tech scmos
+timestamp 1533830913
+<< metal1 >>
+rect -352 124 0 128
+rect 600 124 952 128
+rect -352 116 -328 124
+rect -316 116 -304 124
+rect -294 116 -284 124
+rect -276 116 -268 124
+rect -262 116 -256 124
+rect -252 116 -248 124
+rect 848 116 852 124
+rect 856 116 862 124
+rect 868 116 876 124
+rect 884 116 894 124
+rect 904 116 916 124
+rect 928 116 952 124
+rect -8 76 0 80
+rect 600 76 608 80
+rect -8 48 0 52
+rect 600 48 608 52
+rect -352 4 -348 26
+rect -344 4 -338 26
+rect -332 4 -324 26
+rect -316 4 -306 26
+rect -296 4 -284 26
+rect -272 4 -248 26
+rect 848 4 852 12
+rect 856 4 862 12
+rect 868 4 876 12
+rect 884 4 894 12
+rect 904 4 916 12
+rect 928 4 952 12
+rect -352 0 19 4
+rect 600 0 952 4
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_1 Library/magic
+timestamp 1531942424
+transform 1 0 -360 0 1 4
+box 0 0 120 120
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_0
+timestamp 1531942424
+transform 1 0 -120 0 1 4
+box 0 0 120 120
+use Library/magic/T7_FILLCAP  T7_FILLCAP_49 Library/magic
+timestamp 1533654616
+transform -1 0 24 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_48
+timestamp 1533654616
+transform -1 0 48 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_47
+timestamp 1533654616
+transform -1 0 72 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_46
+timestamp 1533654616
+transform -1 0 96 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_45
+timestamp 1533654616
+transform -1 0 120 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_44
+timestamp 1533654616
+transform -1 0 144 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_43
+timestamp 1533654616
+transform -1 0 168 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_42
+timestamp 1533654616
+transform -1 0 192 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_41
+timestamp 1533654616
+transform -1 0 216 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_40
+timestamp 1533654616
+transform -1 0 240 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_39
+timestamp 1533654616
+transform -1 0 264 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_38
+timestamp 1533654616
+transform -1 0 288 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_37
+timestamp 1533654616
+transform -1 0 312 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_36
+timestamp 1533654616
+transform -1 0 336 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_35
+timestamp 1533654616
+transform -1 0 360 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_34
+timestamp 1533654616
+transform -1 0 384 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_33
+timestamp 1533654616
+transform -1 0 408 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_32
+timestamp 1533654616
+transform -1 0 432 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_31
+timestamp 1533654616
+transform -1 0 456 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_30
+timestamp 1533654616
+transform -1 0 480 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_29
+timestamp 1533654616
+transform -1 0 504 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_28
+timestamp 1533654616
+transform -1 0 528 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_27
+timestamp 1533654616
+transform -1 0 552 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_26
+timestamp 1533654616
+transform -1 0 576 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_25
+timestamp 1533654616
+transform -1 0 600 0 -1 130
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_0
+timestamp 1533654616
+transform 1 0 0 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_1
+timestamp 1533654616
+transform 1 0 24 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_2
+timestamp 1533654616
+transform 1 0 48 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_3
+timestamp 1533654616
+transform 1 0 72 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_4
+timestamp 1533654616
+transform 1 0 96 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_5
+timestamp 1533654616
+transform 1 0 120 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_6
+timestamp 1533654616
+transform 1 0 144 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_7
+timestamp 1533654616
+transform 1 0 168 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_8
+timestamp 1533654616
+transform 1 0 192 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_9
+timestamp 1533654616
+transform 1 0 216 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_10
+timestamp 1533654616
+transform 1 0 240 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_11
+timestamp 1533654616
+transform 1 0 264 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_12
+timestamp 1533654616
+transform 1 0 288 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_13
+timestamp 1533654616
+transform 1 0 312 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_14
+timestamp 1533654616
+transform 1 0 336 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_15
+timestamp 1533654616
+transform 1 0 360 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_16
+timestamp 1533654616
+transform 1 0 384 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_17
+timestamp 1533654616
+transform 1 0 408 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_18
+timestamp 1533654616
+transform 1 0 432 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_19
+timestamp 1533654616
+transform 1 0 456 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_20
+timestamp 1533654616
+transform 1 0 480 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_21
+timestamp 1533654616
+transform 1 0 504 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_22
+timestamp 1533654616
+transform 1 0 528 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_23
+timestamp 1533654616
+transform 1 0 552 0 1 -2
+box 0 0 24 56
+use Library/magic/T7_FILLCAP  T7_FILLCAP_24
+timestamp 1533654616
+transform 1 0 576 0 1 -2
+box 0 0 24 56
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2
+timestamp 1531942424
+transform 1 0 600 0 1 4
+box 0 0 120 120
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_3
+timestamp 1531942424
+transform 1 0 840 0 1 4
+box 0 0 120 120
+<< labels >>
+rlabel space -100 24 -20 104 1 vdd!
+rlabel space -340 24 -260 104 1 gnd!
+rlabel space 620 24 700 104 1 vdd!
+rlabel space 860 24 940 104 1 gnd!
+<< end >>
