@@ -15,13 +15,16 @@ layer_mapping = {
 	'nimplant' : [45],
 	'pimplant' : [44],
 	'contact' : [47,48],
-	'metal1' : [49],
+	'metal1' : [43],
+	'metal2' : [49],
 }
 
-layout_path='Layout/magic'
+layout_path='Layout'
+#layout_path='Library'
 
 #cellname='L500_MOSFET_aligning'
 cellname='T10_RO51_NAND3'
+#cellname='T6_INV'
 
 magic_script="\n"
 magic_script+="drc off"
@@ -30,7 +33,7 @@ magic_script+="box 0 0 0 0"
 magic_script+="\n"
 magic_script+="tech load scmos"
 magic_script+="\n"
-magic_script+="load "+layout_path+"/"+cellname+".mag"
+magic_script+="load "+layout_path+"/magic/"+cellname+".mag"
 magic_script+="\n"
 magic_script+="drc off"
 magic_script+="\n"
@@ -46,20 +49,16 @@ magic_script+="gds label no"
 magic_script+="\n"
 magic_script+="gds merge yes"
 magic_script+="\n"
-magic_script+="gds write gds/"+cellname
-magic_script+="\n"
-magic_script+="calma write gds/"+cellname
+magic_script+="gds write "+layout_path+"/gds/"+cellname
 magic_script+="\n"
 magic_script+="quit -noprompt"
 magic_script+="\n"
 
-print(os.popen("mkdir -p gds").read())
+print(os.popen("mkdir -p "+layout_path+"/gds").read())
 print(os.popen("magic -dnull -noconsole << EOF"+magic_script+"EOF").read())
 
 gdsii=gdspy.GdsLibrary()
-gdsii.read_gds(
-	"gds/"+cellname+".gds",
-)
+gdsii.read_gds(layout_path+"/gds/"+cellname+".gds")
 cell=gdsii.extract(cellname)
 cell=cell.flatten()
 bb=cell.get_bounding_box()
@@ -70,6 +69,8 @@ p12=bb[0]-[orig_box_spacing,orig_box_spacing]
 p21=bb[1]+[orig_box_spacing,orig_box_spacing]
 p22=bb[1]+[orig_box_spacing,orig_box_spacing]+[orig_box_width,orig_box_width]
 
+cell=cell.add(gdspy.Rectangle(p11, p12, 1))
+cell=cell.add(gdspy.Rectangle(p21, p22, 1))
 cell=cell.flatten()
 
 for layername in layer_mapping:
@@ -82,7 +83,7 @@ for layername in layer_mapping:
 	ncell=ncell.flatten(single_layer=1,single_datatype=1)
 	newgdsii=gdspy.GdsLibrary("mask_"+layername)
 	newgdsii.add(ncell)
-	newgdsii.write_gds("gds/mask_"+layername+".gds")
+	newgdsii.write_gds(layout_path+"/gds/mask_"+layername+".gds")
 
 if len(sys.argv)==2:
 	if sys.argv[1]=='-s':
