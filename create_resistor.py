@@ -9,16 +9,14 @@ file.write("\n")
 file.write("<< metal1 >>")
 file.write("\n")
 
-R=10e3
-
-num_stripes=2
+num_stripes=100
+R=1e3
 tw=1
 rho=2.65e-8 # Ohm * meter
 h=600e-9 # 600 nm
 lam=1e-6 # lambda = 1 um
 A=h*lam*tw # in square meter
-# R=rho*(l/A)
-l=(R*A)/rho
+l=((A*R)/rho)/lam
 
 x1=0
 x2=round(l/num_stripes)
@@ -45,4 +43,4 @@ for i in range(1,num_stripes):
 
 file.write("<< end >>")
 file.write("\n")
-file.close() 
+file.close()
