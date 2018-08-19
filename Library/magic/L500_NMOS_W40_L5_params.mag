@@ -1,0 +1,87 @@
+magic
+tech scmos
+timestamp 1534616806
+<< pwell >>
+rect 158 163 218 196
+<< polysilicon >>
+rect 156 177 160 182
+rect 200 177 202 182
+<< ndiffusion >>
+rect 160 182 200 184
+rect 160 175 200 177
+<< metal1 >>
+rect 90 224 100 248
+rect 260 224 270 248
+rect 90 214 146 224
+rect 136 177 146 214
+rect 160 214 270 224
+rect 160 194 200 214
+rect 160 146 200 165
+rect 90 136 200 146
+rect 204 146 216 165
+rect 204 136 270 146
+rect 90 112 100 136
+rect 260 112 270 136
+<< ntransistor >>
+rect 160 177 200 182
+<< polycontact >>
+rect 146 177 156 182
+<< ndcontact >>
+rect 160 184 200 194
+rect 160 165 200 175
+<< psubstratepcontact >>
+rect 204 165 216 194
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2 Library/magic
+timestamp 1531942424
+transform 1 0 0 0 1 240
+box 0 0 120 120
+use Library/magic/L500_CHAR_g  L500_CHAR_g_0
+timestamp 1534322005
+transform 1 0 120 0 1 230
+box 0 0 12 18
+use Library/magic/L500_CHAR_d  L500_CHAR_d_0 Library/magic
+timestamp 1534321738
+transform 1 0 228 0 1 230
+box 0 0 12 18
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_3
+timestamp 1531942424
+transform 1 0 240 0 1 240
+box 0 0 120 120
+use Library/magic/L500_CHAR_4  L500_CHAR_4_0 Library/magic
+timestamp 1534324830
+transform 1 0 220 0 1 171
+box 0 0 12 18
+use Library/magic/L500_CHAR_0  L500_CHAR_0_0 Library/magic
+timestamp 1534325425
+transform 1 0 236 0 1 171
+box 0 0 12 18
+use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0 Library/magic
+timestamp 1534532558
+transform 1 0 252 0 1 171
+box 0 0 8 18
+use Library/magic/L500_CHAR_5  L500_CHAR_5_1 Library/magic
+timestamp 1534324893
+transform 1 0 264 0 1 171
+box 0 0 12 18
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_0
+timestamp 1531942424
+transform 1 0 0 0 1 0
+box 0 0 120 120
+use Library/magic/L500_CHAR_s  L500_CHAR_s_0
+timestamp 1534323853
+transform 1 0 120 0 1 112
+box 0 0 12 18
+use Library/magic/L500_CHAR_b  L500_CHAR_b_0 Library/magic
+timestamp 1534321628
+transform 1 0 228 0 1 112
+box 0 0 12 18
+use Library/magic/L500_TPM1_blank  L500_TPM1_blank_1
+timestamp 1531942424
+transform 1 0 240 0 1 0
+box 0 0 120 120
+<< labels >>
+rlabel space 20 260 100 340 1 gate
+rlabel space 20 20 100 100 1 source
+rlabel space 260 20 340 100 1 bulk
+rlabel space 260 260 340 340 1 drain
+<< end >>
