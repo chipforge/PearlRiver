@@ -1,0 +1,64 @@
+magic
+tech scmos
+timestamp 1534782471
+use Library/magic/L500_PMOS_W40_L2_params  L500_PMOS_W40_L2_params_0
+timestamp 1534777616
+transform 1 0 0 0 1 0
+box 0 0 360 360
+use Library/magic/L500_PMOS_W40_L5_params  L500_PMOS_W40_L5_params_0
+timestamp 1534698187
+transform 1 0 480 0 1 0
+box 0 0 360 360
+use Library/magic/L500_PMOS_W40_L10_params  L500_PMOS_W40_L10_params_0
+timestamp 1534698090
+transform 1 0 960 0 1 0
+box 0 0 360 360
+use Library/magic/L500_PMOS_W40_L20_params  L500_PMOS_W40_L20_params_0
+timestamp 1534697963
+transform 1 0 1440 0 1 0
+box 0 0 360 360
+use Library/magic/L500_PMOS_W40_L40_params  L500_PMOS_W40_L40_params_0
+timestamp 1534697791
+transform 1 0 1920 0 1 0
+box 0 0 360 360
+use Library/magic/L500_PMOS_W20_L2_params  L500_PMOS_W20_L2_params_0
+timestamp 1534777616
+transform 1 0 0 0 1 480
+box 0 0 360 360
+use Library/magic/L500_PMOS_W20_L5_params  L500_PMOS_W20_L5_params_0
+timestamp 1534777616
+transform 1 0 480 0 1 480
+box 0 0 360 360
+use Library/magic/L500_PMOS_W20_L10_params  L500_PMOS_W20_L10_params_0
+timestamp 1534777616
+transform 1 0 960 0 1 480
+box 0 0 360 360
+use Library/magic/L500_PMOS_W20_L20_params  L500_PMOS_W20_L20_params_0
+timestamp 1534777616
+transform 1 0 1440 0 1 480
+box 0 0 360 360
+use Library/magic/L500_PMOS_W10_L2_params  L500_PMOS_W10_L2_params_0
+timestamp 1534777616
+transform 1 0 0 0 1 960
+box 0 0 360 360
+use Library/magic/L500_PMOS_W10_L5_params  L500_PMOS_W10_L5_params_0
+timestamp 1534777072
+transform 1 0 480 0 1 960
+box 0 0 360 360
+use Library/magic/L500_PMOS_W10_L10_params  L500_PMOS_W10_L10_params_0
+timestamp 1534698870
+transform 1 0 960 0 1 960
+box 0 0 360 360
+use Library/magic/L500_PMOS_W5_L2_params  L500_PMOS_W5_L2_params_0
+timestamp 1534777616
+transform 1 0 0 0 1 1440
+box 0 0 360 360
+use Library/magic/L500_PMOS_W5_L5_params  L500_PMOS_W5_L5_params_0
+timestamp 1534777072
+transform 1 0 480 0 1 1440
+box 0 0 360 360
+use Library/magic/L500_PMOS_W3_L2_params  L500_PMOS_W3_L2_params_0 Library/magic
+timestamp 1534782471
+transform 1 0 0 0 1 1920
+box 0 0 360 360
+<< end >>
