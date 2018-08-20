@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1534527965
+timestamp 1534793986
 << polysilicon >>
 rect 528 271 1228 278
 rect 1332 273 1832 278
@@ -151,32 +151,32 @@ use Library/magic/L500_CHAR_under  L500_CHAR_under_0 Library/magic
 timestamp 1534325915
 transform 1 0 520 0 1 50
 box 0 0 12 4
-use Library/magic/L500_CHAR_r  Library/magic/L500_CHAR_r_0
-timestamp 1534323853
+use Library/magic/L500_CHAR_r  Library/magic/L500_CHAR_r_0 Library/magic
+timestamp 1534323573
 transform 1 0 536 0 1 50
 box 0 0 12 18
 use Library/magic/L500_CHAR_s  L500_CHAR_s_10
-timestamp 1534318840
+timestamp 1534323853
 transform 1 0 552 0 1 50
 box 0 0 12 18
 use Library/magic/L500_CHAR_q  L500_CHAR_q_0 Library/magic
-timestamp 1534323573
+timestamp 1534588197
 transform 1 0 568 0 1 50
 box 0 0 12 18
-use Library/magic/L500_CHAR_u  L500_CHAR_u_3
-timestamp 1534226087
+use Library/magic/L500_CHAR_u  L500_CHAR_u_3 Library/magic
+timestamp 1534323899
 transform 1 0 584 0 1 50
 box 0 0 12 18
-use Library/magic/L500_CHAR_a  L500_CHAR_a_8
-timestamp 1534323210
+use Library/magic/L500_CHAR_a  L500_CHAR_a_8 Library/magic
+timestamp 1534325357
 transform 1 0 600 0 1 50
 box 0 0 12 18
-use Library/magic/L500_CHAR_r  L500_CHAR_r_1 Library/magic
-timestamp 1534321786
+use Library/magic/L500_CHAR_r  L500_CHAR_r_1
+timestamp 1534323573
 transform 1 0 616 0 1 50
 box 0 0 12 18
-use Library/magic/L500_CHAR_e  L500_CHAR_e_1
-timestamp 1534323853
+use Library/magic/L500_CHAR_e  L500_CHAR_e_1 Library/magic
+timestamp 1534321786
 transform 1 0 632 0 1 50
 box 0 0 12 18
 use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2
@@ -195,7 +195,7 @@ use Library/magic/L500_CHAR_o  Library/magic/L500_CHAR_o_0
 timestamp 1534323159
 transform 1 0 2484 0 1 260
 box 0 0 12 18
-use Library/magic/L500_CHAR_u  L500_CHAR_u_0 Library/magic
+use Library/magic/L500_CHAR_u  L500_CHAR_u_0
 timestamp 1534323899
 transform 1 0 2500 0 1 260
 box 0 0 12 18

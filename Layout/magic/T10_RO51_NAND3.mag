@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1534336879
+timestamp 1534782471
 << metal1 >>
 rect -352 152 0 156
 rect 824 152 1176 156
@@ -301,7 +301,7 @@ use Library/magic/L500_SIGNATURE_gnd  L500_SIGNATURE_gnd_0 Library/magic
 timestamp 1534327291
 transform 1 0 -240 0 1 38
 box 0 0 52 18
-use Library/magic/T10_NAND3  T10_NAND3_49
+use Library/magic/T10_NAND3  T10_NAND3_49 Library/magic
 timestamp 1533654785
 transform -1 0 32 0 -1 158
 box 0 0 32 80
@@ -401,7 +401,7 @@ use Library/magic/T10_NAND3  T10_NAND3_25
 timestamp 1533654785
 transform -1 0 800 0 -1 158
 box 0 0 32 80
-use Library/magic/T10_NAND2  T10_NAND2_1
+use Library/magic/T10_NAND2  T10_NAND2_1 Library/magic
 timestamp 1533654735
 transform -1 0 824 0 -1 158
 box 0 0 24 80
