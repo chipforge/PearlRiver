@@ -60,7 +60,7 @@ use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0
 timestamp 1534532558
 transform 1 0 242 0 1 171
 box 0 0 8 18
-use Library/magic/L500_CHAR_5  L500_CHAR_5_1
+use Library/magic/L500_CHAR_2  L500_CHAR_2_1
 timestamp 1534324893
 transform 1 0 254 0 1 171
 box 0 0 12 18
