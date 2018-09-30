@@ -1,0 +1,47 @@
+magic
+tech scmos
+timestamp 1538291950
+<< pwell >>
+rect 106 194 194 300
+rect 0 106 300 194
+rect 106 0 194 106
+<< polysilicon >>
+rect 108 192 192 285
+rect 15 108 285 192
+rect 108 15 192 108
+<< metal1 >>
+rect 192 293 200 298
+rect 100 280 103 285
+rect 15 197 20 200
+rect 293 192 298 200
+rect 2 100 7 108
+rect 280 100 285 103
+rect 197 15 200 20
+rect 100 2 108 7
+<< polycontact >>
+rect 103 280 108 285
+rect 15 192 20 197
+rect 280 103 285 108
+rect 192 15 197 20
+<< psubstratepcontact >>
+rect 108 293 192 298
+rect 2 108 7 192
+rect 293 108 298 192
+rect 108 2 192 7
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_2 Library/magic
+timestamp 1537343441
+transform 1 0 0 0 1 200
+box 0 0 100 100
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 200 0 1 200
+box 0 0 100 100
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
+transform 1 0 0 0 1 0
+box 0 0 100 100
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 200 0 1 0
+box 0 0 100 100
+<< end >>
