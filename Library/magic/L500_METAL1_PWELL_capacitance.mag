@@ -1,15 +1,15 @@
 magic
 tech scmos
-timestamp 1538290829
+timestamp 1538313063
 << pwell >>
 rect 106 194 194 300
 rect 0 106 300 194
 rect 106 0 194 106
 << metal1 >>
 rect 192 293 200 298
-rect 100 278 192 285
+rect 100 280 192 285
 rect 15 192 20 200
-rect 108 192 192 278
+rect 108 192 192 280
 rect 293 192 298 200
 rect 15 108 285 192
 rect 2 100 7 108
