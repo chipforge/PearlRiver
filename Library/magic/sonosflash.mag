@@ -1,0 +1,25 @@
+magic
+tech scmos
+timestamp 1538580929
+<< nwell >>
+rect -5 -1 31 27
+<< polysilicon >>
+rect 10 15 17 17
+rect 10 -1 17 10
+<< metal1 >>
+rect -5 10 10 15
+rect 17 10 31 15
+<< sonostransistor >>
+rect 10 10 17 15
+<< emitter >>
+rect 6 10 10 15
+rect 17 10 21 15
+<< pbase >>
+rect 1 17 25 21
+rect 1 15 10 17
+rect 17 15 25 17
+rect 1 10 6 15
+rect 21 10 25 15
+rect 1 5 10 10
+rect 17 5 25 10
+<< end >>
