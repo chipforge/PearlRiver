@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1538405656
+timestamp 1538561894
 << metal1 >>
 rect -310 152 0 156
 rect 824 152 1126 156
@@ -270,23 +270,67 @@ rect 706 32 710 40
 rect 738 32 742 40
 rect 770 32 774 40
 rect 802 32 806 40
-use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1 Library/magic
+use Library/magic/L500_CHAR_r  L500_CHAR_r_0
+timestamp 1534323573
+transform 1 0 0 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_o  L500_CHAR_o_0
+timestamp 1534323159
+transform 1 0 16 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_5  L500_CHAR_5_0
+timestamp 1534324893
+transform 1 0 32 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_o  L500_CHAR_o_1
+timestamp 1534323159
+transform 1 0 32 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_1  L500_CHAR_1_0
+timestamp 1534326485
+transform 1 0 48 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_under  L500_CHAR_under_0
+timestamp 1534325915
+transform 1 0 64 0 1 162
+box 0 0 12 4
+use Library/magic/L500_CHAR_n  L500_CHAR_n_0
+timestamp 1534323117
+transform 1 0 80 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_a  L500_CHAR_a_0
+timestamp 1534325357
+transform 1 0 96 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_n  L500_CHAR_n_1
+timestamp 1534323117
+transform 1 0 112 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_d  L500_CHAR_d_0
+timestamp 1534321738
+transform 1 0 128 0 1 162
+box 0 0 12 18
+use Library/magic/L500_CHAR_3  L500_CHAR_3_0
+timestamp 1534324785
+transform 1 0 144 0 1 162
+box 0 0 12 18
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
 timestamp 1537343441
 transform 1 0 -310 0 1 28
 box 0 0 100 100
-use Library/magic/L500_SIGNATURE_vdd  L500_SIGNATURE_vdd_0 Library/magic
-timestamp 1538402043
+use Library/magic/L500_SIGNATURE_vdd  L500_SIGNATURE_vdd_0
+timestamp 1538544897
 transform 1 0 -170 0 1 100
 box 0 0 52 18
-use Library/magic/L500_SIGNATURE_gnd  L500_SIGNATURE_gnd_0 Library/magic
-timestamp 1538402043
+use Library/magic/L500_SIGNATURE_gnd  L500_SIGNATURE_gnd_0
+timestamp 1538544897
 transform 1 0 -200 0 1 38
 box 0 0 52 18
 use Library/magic/L500_TPAD_blank  L500_TPAD_blank_0
 timestamp 1537343441
 transform 1 0 -110 0 1 28
 box 0 0 100 100
-use Library/magic/T10_NAND3  T10_NAND3_49 Library/magic
+use Library/magic/T10_NAND3  T10_NAND3_49
 timestamp 1533654785
 transform -1 0 32 0 -1 158
 box 0 0 32 80
@@ -386,50 +430,10 @@ use Library/magic/T10_NAND3  T10_NAND3_25
 timestamp 1533654785
 transform -1 0 800 0 -1 158
 box 0 0 32 80
-use Library/magic/T10_NAND2  T10_NAND2_1 Library/magic
+use Library/magic/T10_NAND2  T10_NAND2_1
 timestamp 1533654735
 transform -1 0 824 0 -1 158
 box 0 0 24 80
-use Library/magic/L500_CHAR_r  L500_CHAR_r_0 Library/magic
-timestamp 1534323573
-transform 1 0 -200 0 1 4
-box 0 0 12 18
-use Library/magic/L500_CHAR_o  L500_CHAR_o_0 Library/magic
-timestamp 1534323159
-transform 1 0 -184 0 1 4
-box 0 0 12 18
-use Library/magic/L500_CHAR_5  L500_CHAR_5_0 Library/magic
-timestamp 1534324893
-transform 1 0 -168 0 1 4
-box 0 0 12 18
-use Library/magic/L500_CHAR_1  L500_CHAR_1_0 Library/magic
-timestamp 1534326485
-transform 1 0 -152 0 1 4
-box 0 0 12 18
-use Library/magic/L500_CHAR_under  L500_CHAR_under_0 Library/magic
-timestamp 1534325915
-transform 1 0 -136 0 1 4
-box 0 0 12 4
-use Library/magic/L500_CHAR_n  L500_CHAR_n_0 Library/magic
-timestamp 1534323117
-transform 1 0 -120 0 1 4
-box 0 0 12 18
-use L500_CHAR_a  L500_CHAR_a_0 Library/magic
-timestamp 1534325357
-transform 1 0 -104 0 1 4
-box 0 0 12 18
-use L500_CHAR_n  L500_CHAR_n_1 Library/magic
-timestamp 1534323117
-transform 1 0 -88 0 1 4
-box 0 0 12 18
-use L500_CHAR_d  L500_CHAR_d_0 Library/magic
-timestamp 1534321738
-transform 1 0 -72 0 1 4
-box 0 0 12 18
-use L500_CHAR_3  L500_CHAR_3_0 Library/magic
-timestamp 1534324785
-transform 1 0 -56 0 1 4
-box 0 0 12 18
 use Library/magic/T10_NAND2  T10_NAND2_0
 timestamp 1533654735
 transform 1 0 0 0 1 -2
@@ -539,11 +543,11 @@ timestamp 1537343441
 transform 1 0 826 0 1 28
 box 0 0 100 100
 use Library/magic/L500_SIGNATURE_vdd  L500_SIGNATURE_vdd_1
-timestamp 1538402043
+timestamp 1538544897
 transform 1 0 936 0 1 100
 box 0 0 52 18
 use Library/magic/L500_SIGNATURE_gnd  L500_SIGNATURE_gnd_1
-timestamp 1538402043
+timestamp 1538544897
 transform 1 0 964 0 1 38
 box 0 0 52 18
 use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
