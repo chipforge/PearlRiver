@@ -1,20 +1,20 @@
 magic
 tech scmos
-timestamp 1534795884
-use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_2 Layout/magic
-timestamp 1534794778
-transform -1 0 9411 0 -1 8407
-box 0 0 6160 3944
+timestamp 1538814797
+use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_2
+timestamp 1538814797
+transform -1 0 7000 0 -1 8000
+box 0 0 5900 3290
 use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_3
-timestamp 1534794778
-transform 0 1 2 -1 0 7996
-box 0 0 6160 3944
-use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_0
-timestamp 1534794778
-transform 1 0 1000 0 1 0
-box 0 0 6160 3944
+timestamp 1538814797
+transform 0 1 2 -1 0 7000
+box 0 0 5900 3290
 use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_1
-timestamp 1534794778
-transform 0 -1 10630 1 0 21
-box 0 0 6160 3944
+timestamp 1538814797
+transform 0 -1 8000 1 0 1000
+box 0 0 5900 3290
+use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_0
+timestamp 1538814797
+transform 1 0 1000 0 1 0
+box 0 0 5900 3290
 << end >>
