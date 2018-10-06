@@ -1,88 +1,90 @@
 magic
 tech scmos
-timestamp 1534777616
+timestamp 1538833971
 << nwell >>
-rect 168 161 208 198
+rect 138 132 178 167
 << polysilicon >>
-rect 166 177 170 182
-rect 190 177 192 182
+rect 137 147 140 152
+rect 160 147 163 152
 << pdiffusion >>
-rect 170 182 190 186
-rect 170 173 190 177
+rect 140 152 160 155
+rect 140 144 160 147
 << metal1 >>
-rect 90 224 100 248
-rect 260 224 270 248
-rect 90 214 146 224
-rect 136 182 146 214
-rect 170 214 270 224
-rect 170 196 190 214
-rect 136 177 156 182
-rect 170 146 190 163
-rect 90 136 190 146
-rect 194 146 206 163
-rect 194 136 270 146
-rect 90 112 100 136
-rect 260 112 270 136
+rect 100 200 137 210
+rect 127 152 137 200
+rect 200 165 210 200
+rect 160 155 210 165
+rect 90 134 140 144
+rect 90 100 100 134
+rect 166 100 176 134
+rect 166 90 200 100
 << ptransistor >>
-rect 170 177 190 182
+rect 140 147 160 152
 << polycontact >>
-rect 156 177 166 182
+rect 127 147 137 152
 << pdcontact >>
-rect 170 186 190 196
-rect 170 163 190 173
+rect 140 155 160 165
+rect 140 134 160 144
 << nsubstratencontact >>
-rect 194 163 206 196
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2 Library/magic
-timestamp 1531942424
-transform 1 0 0 0 1 240
-box 0 0 120 120
-use Library/magic/L500_CHAR_g  L500_CHAR_g_0 Library/magic
+rect 166 134 176 152
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_2
+timestamp 1537343441
+transform 1 0 0 0 1 200
+box 0 0 100 100
+use Library/magic/L500_CHAR_g  L500_CHAR_g_0
 timestamp 1534322005
-transform 1 0 120 0 1 230
+transform 1 0 101 0 1 178
 box 0 0 12 18
-use Library/magic/L500_CHAR_d  L500_CHAR_d_0 Library/magic
+use Library/magic/L500_CHAR_d  L500_CHAR_d_0
 timestamp 1534321738
-transform 1 0 228 0 1 230
+transform 1 0 184 0 1 187
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_3
-timestamp 1531942424
-transform 1 0 240 0 1 240
-box 0 0 120 120
-use Library/magic/L500_CHAR_2  L500_CHAR_2_0 Library/magic
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 200 0 1 200
+box 0 0 100 100
+use Library/magic/L500_CHAR_p  L500_CHAR_p_0
+timestamp 1534323117
+transform 1 0 215 0 1 140
+box 0 0 12 18
+use Library/magic/L500_CHAR_w  L500_CHAR_w_0
+timestamp 1534324213
+transform 1 0 235 0 1 152
+box 0 0 16 18
+use Library/magic/L500_CHAR_2  L500_CHAR_2_0
 timestamp 1534324708
-transform 1 0 210 0 1 171
+transform 1 0 255 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_0  L500_CHAR_0_0 Library/magic
+use Library/magic/L500_CHAR_0  L500_CHAR_0_0
 timestamp 1534325425
-transform 1 0 226 0 1 171
+transform 1 0 271 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0 Library/magic
+use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0
 timestamp 1534532558
-transform 1 0 242 0 1 171
+transform 1 0 287 0 1 152
 box 0 0 8 18
-use Library/magic/L500_CHAR_2  L500_CHAR_2_1
+use Library/magic/L500_CHAR_l  L500_CHAR_l_0
+timestamp 1534225390
+transform 1 0 239 0 1 130
+box 0 0 12 18
+use Library/magic/L500_CHAR_5  L500_CHAR_5_1
 timestamp 1534324708
-transform 1 0 254 0 1 171
+transform 1 0 255 0 1 130
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_0
-timestamp 1531942424
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
 transform 1 0 0 0 1 0
-box 0 0 120 120
-use Library/magic/L500_CHAR_s  L500_CHAR_s_0 Library/magic
+box 0 0 100 100
+use Library/magic/L500_CHAR_s  L500_CHAR_s_0
 timestamp 1534323853
-transform 1 0 120 0 1 112
+transform 1 0 104 0 1 95
 box 0 0 12 18
-use Library/magic/L500_CHAR_b  L500_CHAR_b_0 Library/magic
+use Library/magic/L500_CHAR_b  L500_CHAR_b_0
 timestamp 1534321628
-transform 1 0 228 0 1 112
+transform 1 0 190 0 1 104
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_1
-timestamp 1531942424
-transform 1 0 240 0 1 0
-box 0 0 120 120
-<< labels >>
-rlabel space 20 260 100 340 1 gate
-rlabel space 20 20 100 100 1 source
-rlabel space 260 20 340 100 1 bulk
-rlabel space 260 260 340 340 1 drain
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 200 0 1 0
+box 0 0 100 100
 << end >>
