@@ -292,11 +292,11 @@ transform 1 0 604 0 1 9
 box 0 0 100 100
 use Library/magic/L500_SIGNATURE_gnd  L500_SIGNATURE_gnd_0
 timestamp 1538544897
-transform 1 0 720 0 1 86
+transform 1 0 740 0 1 30
 box 0 0 52 18
 use Library/magic/L500_SIGNATURE_vdd  L500_SIGNATURE_vdd_0
 timestamp 1538544897
-transform 1 0 740 0 1 30
+transform 1 0 720 0 1 85
 box 0 0 52 18
 use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
 timestamp 1537343441
