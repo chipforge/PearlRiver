@@ -1,39 +1,39 @@
 magic
 tech scmos
 timestamp 1538805410
-use Layout/magic/L500_NMOS_table  L500_NMOS_table_0 Layout/magic
+use Layout/magic/nmos_table  nmos_table_0
 timestamp 1538710394
 transform 1 0 750 0 1 850
 box 0 0 2260 2260
-use Layout/magic/L500_METAL3_rsquare  L500_METAL3_rsquare_0 Layout/magic
+use Layout/magic/metal3_rsquare  metal3_rsquare_0
 timestamp 1538319530
 transform 0 1 2900 1 0 850
 box 0 0 2440 400
-use Layout/magic/L500_PMOS_table  L500_PMOS_table_0 Layout/magic
+use Layout/magic/pmos_table  pmos_table_0
 timestamp 1538710394
 transform 1 0 3900 0 1 450
 box 0 0 2280 2280
-use L500_PAD_measure  L500_PAD_measure_0
+use Layout/magic/pad_measure  pad_measure_0
 timestamp 1538711675
 transform 0 1 0 -1 0 504
 box 0 0 504 250
-use Layout/magic/L500_METAL1_rsquare  L500_METAL1_rsquare_0
+use Layout/magic/metal1_rsquare  metal1_rsquare_0
 timestamp 1538240070
 transform 0 1 2500 1 0 850
 box 0 0 2440 400
-use Layout/magic/L500_METAL2_rsquare  L500_METAL2_rsquare_0
+use Layout/magic/metal2_rsquare  metal2_rsquare_0
 timestamp 1538710199
 transform 1 0 3400 0 1 0
 box 0 0 2440 400
-use L500_RPOLY_rsquare  L500_RPOLY_rsquare_0
+use Layout/magic/rpoly_rsquare  rpoly_rsquare_0
 timestamp 1538711167
 transform 1 0 300 0 1 400
 box 0 0 2478 400
-use Layout/magic/ringoscillator_stripe  ringoscillator_stripe_0 Layout/magic
+use Layout/magic/ringoscillator_stripe  ringoscillator_stripe_0
 timestamp 1538569292
 transform 0 1 3360 1 0 450
 box 0 0 3815 440
-use Layout/magic/L500_POLYSI_rsquare  L500_POLYSI_rsquare_0 Layout/magic
+use Layout/magic/polysi_rsquare  polysi_rsquare_0
 timestamp 1538710199
 transform 1 0 300 0 1 0
 box 0 0 2478 400
