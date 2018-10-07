@@ -1,88 +1,90 @@
 magic
 tech scmos
-timestamp 1534793986
+timestamp 1538879572
 << pwell >>
-rect 173 161 201 198
+rect 143 132 173 167
 << polysilicon >>
-rect 171 177 175 182
-rect 185 177 187 182
+rect 142 147 145 152
+rect 155 147 158 152
 << ndiffusion >>
-rect 175 182 185 186
-rect 175 173 185 177
+rect 145 152 155 155
+rect 145 144 155 147
 << metal1 >>
-rect 90 224 100 248
-rect 260 224 270 248
-rect 90 214 146 224
-rect 136 182 146 214
-rect 175 214 270 224
-rect 175 196 185 214
-rect 136 177 161 182
-rect 175 146 185 163
-rect 90 136 185 146
-rect 189 146 199 163
-rect 189 136 270 146
-rect 90 112 100 136
-rect 260 112 270 136
+rect 100 200 142 210
+rect 132 152 142 200
+rect 200 165 210 200
+rect 155 155 210 165
+rect 90 134 145 144
+rect 90 100 100 134
+rect 161 100 171 134
+rect 161 90 200 100
 << ntransistor >>
-rect 175 177 185 182
+rect 145 147 155 152
 << polycontact >>
-rect 161 177 171 182
+rect 132 147 142 152
 << ndcontact >>
-rect 175 186 185 196
-rect 175 163 185 173
+rect 145 155 155 165
+rect 145 134 155 144
 << psubstratepcontact >>
-rect 189 163 199 196
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2 Library/magic
-timestamp 1531942424
-transform 1 0 0 0 1 240
-box 0 0 120 120
-use Library/magic/L500_CHAR_g  L500_CHAR_g_0 Library/magic
+rect 161 134 171 152
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_2
+timestamp 1537343441
+transform 1 0 0 0 1 200
+box 0 0 100 100
+use Library/magic/L500_CHAR_g  L500_CHAR_g_0
 timestamp 1534322005
-transform 1 0 120 0 1 230
+transform 1 0 101 0 1 178
 box 0 0 12 18
-use Library/magic/L500_CHAR_d  L500_CHAR_d_0 Library/magic
+use Library/magic/L500_CHAR_d  L500_CHAR_d_0
 timestamp 1534321738
-transform 1 0 228 0 1 230
+transform 1 0 184 0 1 187
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_3
-timestamp 1531942424
-transform 1 0 240 0 1 240
-box 0 0 120 120
-use Library/magic/L500_CHAR_1  L500_CHAR_1_0 Library/magic
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 200 0 1 200
+box 0 0 100 100
+use Library/magic/L500_CHAR_n  L500_CHAR_n_0
+timestamp 1534323117
+transform 1 0 215 0 1 140
+box 0 0 12 18
+use Library/magic/L500_CHAR_w  L500_CHAR_w_0
+timestamp 1534324213
+transform 1 0 235 0 1 152
+box 0 0 16 18
+use Library/magic/L500_CHAR_1  L500_CHAR_1_0
 timestamp 1534326485
-transform 1 0 203 0 1 171
+transform 1 0 255 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_0  L500_CHAR_0_0 Library/magic
+use Library/magic/L500_CHAR_0  L500_CHAR_0_0
 timestamp 1534325425
-transform 1 0 219 0 1 171
+transform 1 0 271 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0 Library/magic
+use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0
 timestamp 1534532558
-transform 1 0 235 0 1 171
+transform 1 0 287 0 1 152
 box 0 0 8 18
-use Library/magic/L500_CHAR_5  L500_CHAR_5_1 Library/magic
-timestamp 1534324893
-transform 1 0 247 0 1 171
+use Library/magic/L500_CHAR_l  L500_CHAR_l_0
+timestamp 1534225390
+transform 1 0 239 0 1 130
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_0
-timestamp 1531942424
+use Library/magic/L500_CHAR_5  L500_CHAR_5_1
+timestamp 1534326485
+transform 1 0 255 0 1 130
+box 0 0 12 18
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
 transform 1 0 0 0 1 0
-box 0 0 120 120
-use Library/magic/L500_CHAR_s  L500_CHAR_s_0 Library/magic
+box 0 0 100 100
+use Library/magic/L500_CHAR_s  L500_CHAR_s_0
 timestamp 1534323853
-transform 1 0 120 0 1 112
+transform 1 0 104 0 1 95
 box 0 0 12 18
-use Library/magic/L500_CHAR_b  L500_CHAR_b_0 Library/magic
+use Library/magic/L500_CHAR_b  L500_CHAR_b_0
 timestamp 1534321628
-transform 1 0 228 0 1 112
+transform 1 0 190 0 1 104
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_1
-timestamp 1531942424
-transform 1 0 240 0 1 0
-box 0 0 120 120
-<< labels >>
-rlabel space 20 260 100 340 1 gate
-rlabel space 20 20 100 100 1 source
-rlabel space 260 20 340 100 1 bulk
-rlabel space 260 260 340 340 1 drain
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 200 0 1 0
+box 0 0 100 100
 << end >>
