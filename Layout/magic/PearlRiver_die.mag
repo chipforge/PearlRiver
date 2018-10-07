@@ -1,20 +1,56 @@
 magic
 tech scmos
-timestamp 1538814797
+timestamp 1538902430
 use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_2
-timestamp 1538814797
+timestamp 1538902430
 transform -1 0 7000 0 -1 8000
-box 0 0 5900 3290
+box 0 0 5840 3290
 use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_3
-timestamp 1538814797
+timestamp 1538902430
 transform 0 1 2 -1 0 7000
-box 0 0 5900 3290
+box 0 0 5840 3290
 use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_1
-timestamp 1538814797
+timestamp 1538902430
 transform 0 -1 8000 1 0 1000
-box 0 0 5900 3290
+box 0 0 5840 3290
+use Library/magic/L500_CHAR_0  L500_CHAR_0_0
+timestamp 1534325425
+transform 1 0 -3 0 1 42
+box 0 0 12 18
 use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_0
-timestamp 1538814797
-transform 1 0 1000 0 1 0
-box 0 0 5900 3290
+timestamp 1538902430
+transform 1 0 1000 0 1 50
+box 0 0 5840 3290
+use Library/magic/L500_CHAR_1  L500_CHAR_1_0
+timestamp 1534326485
+transform 1 0 1997 0 1 44
+box 0 0 12 18
+use Library/magic/L500_CHAR_2  L500_CHAR_2_0
+timestamp 1534324708
+transform 1 0 3997 0 1 44
+box 0 0 12 18
+use Library/magic/L500_CHAR_3  L500_CHAR_3_0
+timestamp 1534324785
+transform 1 0 5997 0 1 44
+box 0 0 12 18
+use Library/magic/L500_CHAR_4  L500_CHAR_4_0
+timestamp 1534324830
+transform 1 0 7997 0 1 44
+box 0 0 12 18
+use Library/magic/L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_0
+timestamp 1538902430
+transform 1 0 3 0 1 0
+box -3 0 2003 40
+use Library/magic/L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_1
+timestamp 1538902430
+transform 1 0 2003 0 1 0
+box -3 0 2003 40
+use Library/magic/L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_3
+timestamp 1538902430
+transform 1 0 4003 0 1 0
+box -3 0 2003 40
+use Library/magic/L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_2
+timestamp 1538902430
+transform 1 0 6003 0 1 0
+box -3 0 2003 40
 << end >>
