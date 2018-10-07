@@ -1,36 +1,40 @@
 magic
 tech scmos
-timestamp 1534794778
-use Layout/magic/L500_NMOS_table  L500_NMOS_table_0
-timestamp 1534793986
-transform 1 0 720 0 1 960
-box 0 0 2280 2280
-use Layout/magic/L500_RINGOSCILLATOR_stripe  L500_RINGOSCILLATOR_stripe_0
-timestamp 1534793986
-transform 0 1 3204 -1 0 3944
-box 0 -114 2984 582
+timestamp 1538805410
+use Layout/magic/L500_NMOS_table  L500_NMOS_table_0 Layout/magic
+timestamp 1538710394
+transform 1 0 750 0 1 850
+box 0 0 2260 2260
+use Layout/magic/L500_METAL3_rsquare  L500_METAL3_rsquare_0 Layout/magic
+timestamp 1538319530
+transform 0 1 2900 1 0 850
+box 0 0 2440 400
 use Layout/magic/L500_PMOS_table  L500_PMOS_table_0 Layout/magic
-timestamp 1534782471
-transform 1 0 3880 0 1 960
+timestamp 1538710394
+transform 1 0 3900 0 1 450
 box 0 0 2280 2280
-use Layout/magic/L500_MOSFET_aligning  L500_MOSFET_aligning_0
-timestamp 1533916061
-transform 1 0 0 0 1 0
-box 0 0 600 600
+use L500_PAD_measure  L500_PAD_measure_0
+timestamp 1538711675
+transform 0 1 0 -1 0 504
+box 0 0 504 250
 use Layout/magic/L500_METAL1_rsquare  L500_METAL1_rsquare_0
-timestamp 1534793986
-transform 1 0 720 0 1 480
-box 0 0 2648 360
-use Layout/magic/L500_METAL3_rsquare  L500_METAL3_rsquare_0
-timestamp 1534793986
-transform 1 0 3488 0 1 480
-box 0 0 2532 360
+timestamp 1538240070
+transform 0 1 2500 1 0 850
+box 0 0 2440 400
 use Layout/magic/L500_METAL2_rsquare  L500_METAL2_rsquare_0
-timestamp 1534793986
-transform 1 0 720 0 1 0
-box 0 0 2648 360
-use Layout/magic/L500_POLYSI_rsquare  L500_POLYSI_rsquare_0
-timestamp 1534793986
-transform 1 0 3488 0 1 0
-box 0 0 2648 360
+timestamp 1538710199
+transform 1 0 3400 0 1 0
+box 0 0 2440 400
+use L500_RPOLY_rsquare  L500_RPOLY_rsquare_0
+timestamp 1538711167
+transform 1 0 300 0 1 400
+box 0 0 2478 400
+use Layout/magic/ringoscillator_stripe  ringoscillator_stripe_0 Layout/magic
+timestamp 1538569292
+transform 0 1 3360 1 0 450
+box 0 0 3815 440
+use Layout/magic/L500_POLYSI_rsquare  L500_POLYSI_rsquare_0 Layout/magic
+timestamp 1538710199
+transform 1 0 300 0 1 0
+box 0 0 2478 400
 << end >>
