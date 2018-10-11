@@ -1,8 +1,6 @@
 magic
 tech scmos
 timestamp 1534326416
-<< error_s >>
-rect 192 18 197 19
 use Library/magic/L500_CHAR_p  L500_CHAR_p_0 Library/magic
 timestamp 1534323210
 transform 1 0 0 0 1 0
