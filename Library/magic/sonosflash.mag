@@ -1,25 +1,32 @@
 magic
 tech scmos
-timestamp 1538580929
+timestamp 1539444003
 << nwell >>
-rect -5 -1 31 27
-<< polysilicon >>
-rect 10 15 17 17
-rect 10 -1 17 10
-<< metal1 >>
-rect -5 10 10 15
-rect 17 10 31 15
+rect -6 -10 43 28
+<< pbasepolysilicon >>
+rect 16 18 20 22
+rect 16 8 20 10
 << sonostransistor >>
-rect 10 10 17 15
-<< emitter >>
-rect 6 10 10 15
-rect 17 10 21 15
+rect 16 10 20 18
 << pbase >>
-rect 1 17 25 21
-rect 1 15 10 17
-rect 17 15 25 17
-rect 1 10 6 15
-rect 21 10 25 15
-rect 1 5 10 10
-rect 17 5 25 10
+rect 0 18 16 22
+rect 20 18 37 22
+rect 0 10 4 18
+rect 32 10 37 18
+rect 0 8 16 10
+rect 20 8 37 10
+rect 0 4 37 8
+rect 0 0 4 4
+rect 32 0 37 4
+rect 0 -4 37 0
+<< polycontact >>
+rect 16 22 20 26
+<< pbasendiffusion >>
+rect 12 10 16 18
+rect 20 10 24 18
+<< pbasendiffcontact >>
+rect 4 10 12 18
+rect 24 10 32 18
+<< pbasepdiffcontact >>
+rect 4 0 32 4
 << end >>
