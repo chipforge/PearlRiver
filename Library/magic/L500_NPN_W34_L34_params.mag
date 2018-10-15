@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1539608411
+timestamp 1539615672
 << nwell >>
 rect 116 172 184 184
 rect 116 128 128 172
@@ -71,7 +71,7 @@ rect 174 120 176 124
 rect 180 120 182 124
 rect 174 118 182 120
 rect 162 80 200 90
-<< pbase >>
+<< nwpbase >>
 rect 128 160 172 172
 rect 128 140 140 160
 rect 160 140 172 160
@@ -81,10 +81,13 @@ rect 140 140 160 160
 << pbasepdiffcontact >>
 rect 132 164 136 168
 rect 140 164 144 168
+rect 148 164 152 168
 rect 156 164 160 168
 rect 164 164 168 168
 rect 132 156 136 160
 rect 164 156 168 160
+rect 132 148 136 152
+rect 164 148 168 152
 rect 132 140 136 144
 rect 164 140 168 144
 rect 132 132 136 136
@@ -94,7 +97,7 @@ rect 144 152 148 156
 rect 152 152 156 156
 rect 144 144 148 148
 rect 152 144 156 148
-<< pdcontact >>
+<< ndcontact >>
 rect 120 176 124 180
 rect 128 176 132 180
 rect 136 176 140 180
@@ -137,7 +140,7 @@ use L500_CHAR_p  L500_CHAR_p_0
 timestamp 1534323210
 transform 1 0 221 0 1 136
 box 0 0 12 18
-use L500_CHAR_n  L500_CHAR_n_0
+use L500_CHAR_n  L500_CHAR_n_1
 timestamp 1534323117
 transform 1 0 234 0 1 136
 box 0 0 12 18
