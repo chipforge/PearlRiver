@@ -1,0 +1,35 @@
+magic
+tech scmos
+timestamp 1539791706
+<< polysilicon >>
+rect 130 175 170 185
+rect 130 115 170 125
+<< metal1 >>
+rect 100 225 200 265
+rect 100 35 200 75
+<< rndiffusion >>
+rect 130 155 170 175
+<< rpdiffusion >>
+rect 130 125 170 145
+<< rpoly >>
+rect 130 145 170 155
+<< polycontact >>
+rect 130 185 170 225
+rect 130 75 170 115
+use L500_TPAD_blank  L500_TPAD_blank_2 ./Library/magic
+timestamp 1537343441
+transform 1 0 0 0 1 200
+box 0 0 100 100
+use L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 200 0 1 200
+box 0 0 100 100
+use L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
+transform 1 0 0 0 1 0
+box 0 0 100 100
+use L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 200 0 1 0
+box 0 0 100 100
+<< end >>
