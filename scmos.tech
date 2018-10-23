@@ -597,7 +597,7 @@ connect
 
     ndiff,ndc/a cwell
 
-    pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+    pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
     m2,m2c/m2,m3c/m2,pad m2,m2c/m2,m3c/m2,pad
     m3,m3c/m3 m3,m3c/m3
 
@@ -625,7 +625,7 @@ connect
     gc poly,pc/a,nfet,pfet,wcap,snfet,spfet,pbpoly,nbpoly
     gc poly2,ec/a,enfet,epfet,cap,capc/a,nffet,pffet,hnfet,hpfet
 
-    pad pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+    pad pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
     pad m2,m2c/m2,m3c/m2,pad
     pad m3,m3c/m3
 
@@ -666,7 +666,7 @@ style lambda=1.0(gen)
  calma 51 1
     layer CMF pad
  grow 100
- or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+ or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
  labels pdc,ndc,psc,nsc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,hpsc,hnsc,pc,ec,capc,nbdc,m1,m2c,gc
  calma 49 1
     layer CPG cap,cc
@@ -820,7 +820,7 @@ style lambda=1.0(nwell)
  calma 51 1
     layer CMF pad
  grow 100
- or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+ or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
  labels pdc,ndc,psc,nsc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,hpsc,hnsc,pc,ec,capc,nbdc,m1,m2c,gc
  calma 49 1
     layer CPG cap,cc
@@ -956,7 +956,7 @@ style lambda=1.0(pwell)
  calma 51 1
     layer CMF pad
  grow 100
- or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+ or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
  labels pdc,ndc,psc,nsc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,hpsc,hnsc,pc,ec,capc,nbdc,m1,m2c,gc
  calma 49 1
     layer CPG cap,cc
@@ -1096,7 +1096,7 @@ style lambda=0.8(gen)
  calma 51 1
     layer CMF pad
  grow 80
- or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+ or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
  labels pdc,ndc,psc,nsc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,hpsc,hnsc,pc,ec,capc,nbdc,m1,m2c,gc
  calma 49 1
     layer CPG cap,cc
@@ -1266,7 +1266,7 @@ style lambda=0.6(gen)
  calma 51 1
     layer CMF pad
  grow 60
- or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+ or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
  labels pdc,ndc,psc,nsc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,hpsc,hnsc,pc,ec,capc,nbdc,m1,m2c,gc
  calma 49 1
     layer CPG cap,cc
@@ -1420,7 +1420,7 @@ style lambda=0.6(nwell)
  calma 51 1
     layer CMF pad
  grow 60
- or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+ or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
  labels pdc,ndc,psc,nsc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,hpsc,hnsc,pc,ec,capc,nbdc,m1,m2c,gc
  calma 49 1
     layer CPG cap,cc
@@ -1556,7 +1556,7 @@ style lambda=0.6(pwell)
  calma 51 1
     layer CMF pad
  grow 60
- or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc
+ or pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc
  labels pdc,ndc,psc,nsc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,hpsc,hnsc,pc,ec,capc,nbdc,m1,m2c,gc
  calma 49 1
     layer CPG cap,cc
@@ -1665,11 +1665,13 @@ style lambda=0.5(libresilicon)
  scalefactor 50 50
 
  templayer poly_parts polysilicon,polycontact,nfet,pfet,rpoly,polypdiff,polyndiff,ndpolycontact,pdpolycontact,rpdiffusion,rndiffusion,nbsfet,pbsfet,spfet,snfet,pbpoly,nbpoly
- templayer rpoly_parts rpoly,rpdiffusion,rndiffusion
+ templayer silicide_stop rpoly,rpdiffusion,rndiffusion
  templayer nimplant ndiff,nfet,ndc,nnd,nnc,pbnc,pbnd,nbnc,nbnd,snfet,pbsfet
  templayer nimplant_only rnd,plndiff,ndpc
+  grow 100
  templayer pimplant pdiff,pfet,pdc,ppd,ppc,pbpc,pbpd,nbpc,nbpd,spfet,nbsfet
  templayer pimplant_only rpd,plpdiff,pdpc
+  grow 100
  templayer contacts pc,pdc,ndc,ppc,nnc,pbc,ndpc,pdpc,pbnc,pbpc,nbnc,nbpc
  templayer first_metal m1,pc,pdc,ndc,ppc,nnc,m2c,pbc
  templayer first_via m2c
@@ -1681,14 +1683,16 @@ style lambda=0.5(libresilicon)
  templayer sonos_parts snfet,spfet,nbsfet,pbsfet
  templayer nwell_parts nwell,pnbase,nwpnbase,nwpbase
  templayer pwell_parts pwell
+ templayer implant_stop_parts rpoly
+  grow 100
+
+ templayer fox_selects nimplant,pimplant
 
  templayer fox_nimplant nimplant
   grow 100
 
  templayer fox_pimplant pimplant
   grow 100
-
- templayer fox_selects nimplant,pimplant
 
  templayer sti_wells nwell_parts,pwell_parts
   shrink 100
@@ -1718,36 +1722,39 @@ style lambda=0.5(libresilicon)
  layer CPG poly_parts
   calma 9 0
 
- layer CSN fox_nimplant,nimplant_only
+ layer CPG implant_stop_parts
   calma 10 0
 
- layer CSP fox_pimplant,pimplant_only
+ layer CSN fox_nimplant,nimplant_only
   calma 11 0
 
- layer CRG rpoly_parts
-  grow 100
+ layer CSP fox_pimplant,pimplant_only
   calma 12 0
 
- layer CCA contacts
+ layer CRG silicide_stop
+  grow 100
   calma 13 0
 
- layer CMF first_metal
+ layer CCA contacts
   calma 14 0
 
- layer CVA first_via
+ layer CMF first_metal
   calma 15 0
 
- layer CMS second_metal
+ layer CVA first_via
   calma 16 0
 
- layer CVS second_via
+ layer CMS second_metal
   calma 17 0
 
- layer CMT third_metal
+ layer CVS second_via
   calma 18 0
 
- layer COG glass
+ layer CMT third_metal
   calma 19 0
+
+ layer COG glass
+  calma 20 0
 # 1009 "scmos.tech.out" 2
 # 1023 "scmos.tech.out"
 style plot
@@ -4949,13 +4956,13 @@ drc
 
 
 
-    width pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc,pad/m1 3 \
+    width pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc,pad/m1 3 \
  "First-level metal width must be at least 3 (MOSIS rule #7.1)"
 
 
 
 
-    spacing pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc,pad/m1 pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc,pad/m1 3 touching_ok \
+    spacing pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc,pad/m1 pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc,pad/m1 3 touching_ok \
  "First-level metal spacing must be at least 3 (MOSIS rule #7.2)"
 # 1475 "scmos.tech.out"
     width m2c 4 \
@@ -5144,7 +5151,7 @@ drc
     width pbase,pbc/a 2 \
  "Pbase width must be at least 2 (MOSIS extension rule)"
 
-    spacing pbase,pbc/a pbase,pbc/a 2 touching_ok \
+    spacing pbase,pbc/a pbase,pbc/a 2 surround_ok \
  "Pbase spacing must be at least 2 (MOSIS extension rule)"
 # 1794 "scmos.tech.out"
     width cwell 10 \
@@ -6025,7 +6032,7 @@ wiring
 end
 
 router
-    layer1 metal1 3 pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc 3
+    layer1 metal1 3 pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc 3
     layer2 metal2 3 m2,m2c/m2,m3c/m2,pad 4 poly,pc/a,nfet,pfet,wcap,snfet,spfet,pbpoly,nbpoly,cap,capc/a,nffet,pffet,ndiff,ndc/a,pdiff,pdc/a 1
     contacts m2contact 4
     gridspacing 8
@@ -6240,7 +6247,7 @@ plot
      1414 8888 4141 A2A2
 
 
- pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc cyan \
+ pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc cyan \
      AAAA 0000 AAAA 0000 \
      AAAA 0000 AAAA 0000 \
      AAAA 0000 AAAA 0000 \
@@ -6477,7 +6484,7 @@ plot
      8080 0040 2020 1010
 
 
- pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc \
+ pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc \
      8080 0000 0000 0000 \
      0808 0000 0000 0000 \
      8080 0000 0000 0000 \
@@ -6543,7 +6550,7 @@ plot
  pwell 15
  nwell 16
  poly,pc/a,nfet,pfet,wcap,snfet,spfet,pbpoly,nbpoly,cap,capc/a,nffet,pffet 19
- pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,pbpc,pbnc,nbpc,nbnc,nbdc/m1,m1,m2c/m1,gc 22
+ pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc 22
  pad,glass 23
  nsd,nsc 24
  m2,m2c/m2,m3c/m2,pad 28

@@ -10,26 +10,38 @@ orig_box_spacing=10.
 layer_mapping = {
 	'pwell' : [2],
 	'nwell' : [3],
-	'sti' : [4],
-	'fox' : [5],
-	'gate' : [6],
-	'nimplant' : [7],
-	'pimplant' : [8],
-	'silicide' : [9],
-	'contact' : [10],
-	'metal1' : [11],
-	'via1' : [12],
-	'metal2' : [13],
-	'via2' : [14],
-	'metal3' : [15],
+	'pbase' : [4],
+	'nbase' : [5],
+	'sti' : [6],
+	'fox' : [7],
+	'sonos' : [8],
+	'gate' : [9],
+	'implant_stop' : [10],
+	'nimplant' : [11],
+	'pimplant' : [12],
+	'silicide_block' : [13],
+	'contact' : [14],
+	'metal1' : [15],
+	'via1' : [16],
+	'metal2' : [17],
+	'via2' : [18],
+	'metal3' : [19],
 }
 
-layout_path='Layout'
-#layout_path='Library'
+#layout_path='Layout'
+layout_path='Library'
 
 #cellname='L500_MOSFET_aligning'
-cellname='T10_RO51_NAND3'
+#cellname='T10_RO51_NAND3'
 #cellname='T6_INV'
+#cellname='PearlRiver_die'
+#cellname='L500_ZENER_W20_L1'
+#cellname='L500_NPN_W34_L34_params'
+#cellname='L500_PNP_W34_L34_params'
+#cellname='L500_SONOS_PMOS_W3_L2_params'
+#cellname='L500_SONOS_NMOS_W3_L2_params'
+#cellname='L500_ZENER_W5_L2'
+cellname='L500_ZENER_W5_L3'
 
 magic_script="\n"
 magic_script+="drc off"
@@ -41,7 +53,7 @@ magic_script+="tech load scmos"
 #magic_script+="tech load scmos-tm"
 #magic_script+="tech load scmos-ls"
 magic_script+="\n"
-magic_script+="cif ostyle lambda=1.0(libresilicon)"
+magic_script+="cif ostyle lambda=0.5(libresilicon)"
 magic_script+="\n"
 magic_script+="load "+layout_path+"/magic/"+cellname+".mag"
 magic_script+="\n"
