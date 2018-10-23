@@ -1716,7 +1716,7 @@ style lambda=0.5(libresilicon)
   calma 7 0
 
  layer CPG sonos_parts
-  grow 100
+  grow 50
   calma 8 0
 
  layer CPG poly_parts
