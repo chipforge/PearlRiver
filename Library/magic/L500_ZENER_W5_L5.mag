@@ -1,24 +1,32 @@
 magic
 tech scmos
-timestamp 1540534569
+timestamp 1540533394
 << polysilicon >>
-rect 140 160 160 169
-rect 140 131 160 140
+rect 147 165 152 171
+rect 147 130 152 136
 << metal1 >>
-rect 100 208 200 228
-rect 140 189 160 208
-rect 140 92 160 111
-rect 100 72 200 92
+rect 90 181 100 200
+rect 200 181 210 200
+rect 90 171 145 181
+rect 155 171 210 181
+rect 90 120 145 130
+rect 155 120 210 130
+rect 90 100 100 120
+rect 200 100 210 120
 << rndiffusion >>
-rect 140 151 160 160
+rect 147 153 152 159
 << rpdiffusion >>
-rect 140 140 160 149
+rect 147 142 152 148
 << rpoly >>
-rect 140 149 160 151
+rect 147 148 152 153
 << polycontact >>
-rect 140 169 160 189
-rect 140 111 160 131
-use L500_TPAD_blank  L500_TPAD_blank_1 ./Library/magic
+rect 145 171 155 181
+rect 145 120 155 130
+<< polyndiff >>
+rect 147 159 152 165
+<< polypdiff >>
+rect 147 136 152 142
+use L500_TPAD_blank  L500_TPAD_blank_1
 timestamp 1537343441
 transform 1 0 0 0 1 200
 box 0 0 100 100
