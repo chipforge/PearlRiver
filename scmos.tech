@@ -1677,7 +1677,7 @@ style lambda=0.5(libresilicon)
  templayer first_via m2c
  templayer second_metal m2,m2c,m3c
  templayer second_via m3c
- templayer third_metal m3,m3c,pad
+ templayer third_metal m3,m3c,pad,silk
  templayer pbase_parts pb,pbnc,pbpc,pbnd,pbpd,pbpoly,pbsfet,nwpnbase,nwpbase,pnbase,pbase
  templayer nbase_parts nb,nbnc,nbpc,nbnd,nbpd,nbpoly,nbsfet,nwpnbase,pnbase,nbase
  templayer sonos_parts snfet,spfet,nbsfet,pbsfet
