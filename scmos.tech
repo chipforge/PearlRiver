@@ -1673,13 +1673,13 @@ style lambda=0.5(libresilicon)
  templayer pimplant_only rpd,plpdiff,pdpc
   grow 100
  templayer contacts pc,pdc,ndc,ppc,nnc,pbc,ndpc,pdpc,pbnc,pbpc,nbnc,nbpc
-  shrink 100
+  shrink 50
  templayer first_metal m1,pc,pdc,ndc,ppc,nnc,m2c,pbc
  templayer first_via m2c
-  shrink 100
+  shrink 50
  templayer second_metal m2,m2c,m3c
  templayer second_via m3c
-  shrink 100
+  shrink 50
  templayer third_metal m3,m3c,pad,silk
  templayer pbase_parts pb,pbnc,pbpc,pbnd,pbpd,pbpoly,pbsfet,nwpnbase,nwpbase,pnbase,pbase
  templayer nbase_parts nb,nbnc,nbpc,nbnd,nbpd,nbpoly,nbsfet,nwpnbase,pnbase,nbase
@@ -1757,7 +1757,7 @@ style lambda=0.5(libresilicon)
   calma 19 0
 
  layer COG glass
-  shrink lambda_l
+  shrink 50
   calma 20 0
 # 1009 "scmos.tech.out" 2
 # 1023 "scmos.tech.out"
