@@ -39,3 +39,6 @@ All LaTeX files are stored inside
 Please read the documentation carefully.
 
 If you do not understand, what the hack we are doing here, please sit back with a good textbook about CMOS or ASIC technology development and learn. Please come back later.
+
+This branch was created to add the high-voltage NMOS device.
+

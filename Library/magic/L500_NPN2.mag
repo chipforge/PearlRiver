@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1539615672
+timestamp 1540647865
 << nwell >>
 rect 116 172 184 184
 rect 116 128 128 172
@@ -12,8 +12,7 @@ rect 145 182 155 208
 rect 118 180 182 182
 rect 118 176 120 180
 rect 124 176 128 180
-rect 132 176 136 180
-rect 140 176 144 180
+rect 132 176 144 180
 rect 148 176 152 180
 rect 156 176 160 180
 rect 164 176 168 180
@@ -97,7 +96,7 @@ rect 144 152 148 156
 rect 152 152 156 156
 rect 144 144 148 148
 rect 152 144 156 148
-<< ndcontact >>
+<< nsubstratencontact >>
 rect 120 176 124 180
 rect 128 176 132 180
 rect 136 176 140 180
@@ -126,7 +125,7 @@ transform 1 0 0 0 1 200
 box 0 0 100 100
 use L500_CHAR_c  L500_CHAR_c_0
 timestamp 1534321654
-transform 1 0 146 0 1 218
+transform 1 0 146 0 1 230
 box 0 0 12 18
 use L500_TPAD_blank  L500_TPAD_blank_3
 timestamp 1537343441
@@ -138,11 +137,15 @@ transform 1 0 208 0 1 136
 box 0 0 12 18
 use L500_CHAR_p  L500_CHAR_p_0
 timestamp 1534323210
-transform 1 0 221 0 1 136
+transform 1 0 224 0 1 136
 box 0 0 12 18
 use L500_CHAR_n  L500_CHAR_n_1
 timestamp 1534323117
-transform 1 0 234 0 1 136
+transform 1 0 240 0 1 136
+box 0 0 12 18
+use L500_CHAR_2  L500_CHAR_2_0
+timestamp 1534324708
+transform 1 0 256 0 1 136
 box 0 0 12 18
 use L500_TPAD_blank  L500_TPAD_blank_0
 timestamp 1537343441
@@ -150,11 +153,11 @@ transform 1 0 0 0 1 0
 box 0 0 100 100
 use L500_CHAR_e  L500_CHAR_e_0
 timestamp 1534321786
-transform 1 0 114 0 1 57
+transform 1 0 114 0 1 50
 box 0 0 12 18
 use L500_CHAR_b  L500_CHAR_b_0
 timestamp 1534321628
-transform 1 0 173 0 1 63
+transform 1 0 173 0 1 50
 box 0 0 12 18
 use L500_TPAD_blank  L500_TPAD_blank_1
 timestamp 1537343441

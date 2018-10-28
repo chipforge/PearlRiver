@@ -1,0 +1,140 @@
+magic
+tech scmos
+timestamp 1540647731
+<< nwell >>
+rect 120 168 180 180
+rect 120 140 132 168
+rect 168 140 180 168
+rect 120 129 180 140
+<< metal1 >>
+rect 100 208 200 218
+rect 145 178 155 208
+rect 122 176 178 178
+rect 122 172 124 176
+rect 128 172 132 176
+rect 136 172 140 176
+rect 144 172 148 176
+rect 152 172 156 176
+rect 160 172 164 176
+rect 168 172 172 176
+rect 176 172 178 176
+rect 122 170 178 172
+rect 122 168 130 170
+rect 122 164 124 168
+rect 128 164 130 168
+rect 170 168 178 170
+rect 122 160 130 164
+rect 122 156 124 160
+rect 128 156 130 160
+rect 122 152 130 156
+rect 122 148 124 152
+rect 128 148 130 152
+rect 122 144 130 148
+rect 122 140 124 144
+rect 128 140 130 144
+rect 134 158 166 166
+rect 134 142 142 158
+rect 122 136 130 140
+rect 122 132 124 136
+rect 128 132 130 136
+rect 122 130 130 132
+rect 146 85 154 154
+rect 100 75 154 85
+rect 158 90 166 158
+rect 170 164 172 168
+rect 176 164 178 168
+rect 170 160 178 164
+rect 170 156 172 160
+rect 176 156 178 160
+rect 170 152 178 156
+rect 170 148 172 152
+rect 176 148 178 152
+rect 170 144 178 148
+rect 170 140 172 144
+rect 176 140 178 144
+rect 170 136 178 140
+rect 170 132 172 136
+rect 176 132 178 136
+rect 170 130 178 132
+rect 158 80 200 90
+<< nwpbase >>
+rect 132 156 168 168
+rect 132 144 144 156
+rect 156 144 168 156
+rect 132 140 168 144
+<< nwpnbase >>
+rect 144 144 156 156
+<< pbasepdiffcontact >>
+rect 136 160 140 164
+rect 144 160 148 164
+rect 152 160 156 164
+rect 160 160 164 164
+rect 136 152 140 156
+rect 160 152 164 156
+rect 136 144 140 148
+rect 160 144 164 148
+<< nbasendiffcontact >>
+rect 148 148 152 152
+<< nsubstratencontact >>
+rect 124 172 128 176
+rect 132 172 136 176
+rect 140 172 144 176
+rect 148 172 152 176
+rect 156 172 160 176
+rect 164 172 168 176
+rect 172 172 176 176
+rect 124 164 128 168
+rect 172 164 176 168
+rect 124 156 128 160
+rect 172 156 176 160
+rect 124 148 128 152
+rect 172 148 176 152
+rect 124 140 128 144
+rect 172 140 176 144
+rect 124 132 128 136
+rect 172 132 176 136
+use L500_TPAD_blank  L500_TPAD_blank_2
+timestamp 1537343441
+transform 1 0 0 0 1 200
+box 0 0 100 100
+use L500_CHAR_c  L500_CHAR_c_0
+timestamp 1534321654
+transform 1 0 146 0 1 230
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 200 0 1 200
+box 0 0 100 100
+use L500_CHAR_n  L500_CHAR_n_0
+timestamp 1534323117
+transform 1 0 208 0 1 136
+box 0 0 12 18
+use L500_CHAR_p  L500_CHAR_p_0
+timestamp 1534323210
+transform 1 0 224 0 1 136
+box 0 0 12 18
+use L500_CHAR_n  L500_CHAR_n_1
+timestamp 1534323117
+transform 1 0 240 0 1 136
+box 0 0 12 18
+use L500_CHAR_1  L500_CHAR_1_0
+timestamp 1534326485
+transform 1 0 256 0 1 136
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
+transform 1 0 0 0 1 0
+box 0 0 100 100
+use L500_CHAR_e  L500_CHAR_e_0
+timestamp 1534321786
+transform 1 0 114 0 1 50
+box 0 0 12 18
+use L500_CHAR_b  L500_CHAR_b_0
+timestamp 1534321628
+transform 1 0 173 0 1 50
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 200 0 1 0
+box 0 0 100 100
+<< end >>
