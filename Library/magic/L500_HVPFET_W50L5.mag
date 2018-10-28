@@ -1,0 +1,54 @@
+magic
+tech scmos
+timestamp 1540755344
+<< error_p >>
+rect 7 124 8 129
+rect 22 124 31 129
+rect 26 25 31 124
+rect 22 24 31 25
+<< nwell >>
+rect 0 136 114 148
+rect 0 12 60 136
+rect 102 12 114 136
+rect 0 0 114 12
+<< polysilicon >>
+rect 50 124 72 128
+rect 66 24 72 124
+rect 50 20 72 24
+<< ndiffusion >>
+rect 12 122 26 124
+rect 12 26 14 122
+rect 24 26 26 122
+rect 12 24 26 26
+<< pdiffusion >>
+rect 36 122 50 124
+rect 36 26 38 122
+rect 48 26 50 122
+rect 36 24 50 26
+rect 76 122 90 124
+rect 76 26 78 122
+rect 88 26 90 122
+rect 76 24 90 26
+<< metal1 >>
+rect 12 122 26 124
+rect 12 26 14 122
+rect 24 26 26 122
+rect 12 24 26 26
+rect 36 122 50 124
+rect 36 26 38 122
+rect 48 26 50 122
+rect 36 24 50 26
+rect 76 122 90 124
+rect 76 26 78 122
+rect 88 26 90 122
+rect 76 24 90 26
+<< ptransistor >>
+rect 50 24 66 124
+<< nwpbase >>
+rect 60 12 102 136
+<< ndcontact >>
+rect 14 26 24 122
+<< pdcontact >>
+rect 38 26 48 122
+rect 78 26 88 122
+<< end >>
