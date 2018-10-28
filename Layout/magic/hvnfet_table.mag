@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1540683310
+timestamp 1540729197
 << error_s >>
 rect 116 127 140 132
 rect 142 127 153 132
@@ -27,77 +27,87 @@ rect 141 150 149 154
 rect 141 146 143 150
 rect 147 146 149 150
 rect 141 144 149 146
+rect 165 213 197 227
+rect 165 127 179 213
 rect 98 27 121 99
-rect 197 27 213 199
+rect 197 27 233 127
 << polycontact >>
 rect 143 154 147 158
 rect 143 146 147 150
-use L500_TPAD_blank  L500_TPAD_blank_1 ../../Library/magic
+use L500_TPAD_blank  L500_TPAD_blank_1 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1537343441
 transform 1 0 -3 0 1 199
 box 0 0 100 100
-use L500_CHAR_g  L500_CHAR_g_0 ../../Library/magic
+use L500_CHAR_g  L500_CHAR_g_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534322005
 transform 1 0 107 0 1 252
 box 0 0 12 18
-use L500_CHAR_s  L500_CHAR_s_0 ../../Library/magic
+use L500_CHAR_s  L500_CHAR_s_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534323853
 transform 1 0 177 0 1 254
 box 0 0 12 18
-use L500_TPAD_blank  L500_TPAD_blank_2 ../../Library/magic
+use L500_TPAD_blank  L500_TPAD_blank_2
 timestamp 1537343441
 transform 1 0 197 0 1 199
 box 0 0 100 100
-use L500_CHAR_h  L500_CHAR_h_0 ../../Library/magic
+use L500_CHAR_h  L500_CHAR_h_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534224731
 transform 1 0 -1 0 1 165
 box 0 0 12 18
-use L500_CHAR_v  L500_CHAR_v_0 ../../Library/magic
+use L500_CHAR_v  L500_CHAR_v_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534326655
 transform 1 0 13 0 1 165
 box 0 0 12 18
-use L500_CHAR_n  L500_CHAR_n_0 ../../Library/magic
+use L500_CHAR_n  L500_CHAR_n_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534323117
 transform 1 0 28 0 1 165
 box 0 0 12 18
-use L500_CHAR_f  L500_CHAR_f_0 ../../Library/magic
+use L500_CHAR_f  L500_CHAR_f_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534344057
 transform 1 0 42 0 1 165
 box 0 0 12 18
-use L500_CHAR_e  L500_CHAR_e_0 ../../Library/magic
+use L500_CHAR_e  L500_CHAR_e_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534321786
 transform 1 0 57 0 1 165
 box 0 0 12 18
-use L500_CHAR_t  L500_CHAR_t_0 ../../Library/magic
+use L500_CHAR_t  L500_CHAR_t_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534318840
 transform 1 0 71 0 1 165
 box 0 0 12 18
-use L500_CHAR_5  L500_CHAR_5_0 ../../Library/magic
+use L500_CHAR_5  L500_CHAR_5_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534324893
 transform 1 0 -1 0 1 144
 box 0 0 12 18
-use L500_CHAR_0  L500_CHAR_0_0 ../../Library/magic
+use L500_CHAR_0  L500_CHAR_0_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534325425
 transform 1 0 13 0 1 144
 box 0 0 12 18
-use L500_CHAR_slash  L500_CHAR_slash_0 ../../Library/magic
+use L500_CHAR_slash  L500_CHAR_slash_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534532558
 transform 1 0 30 0 1 144
 box 0 0 8 18
-use L500_CHAR_5  L500_CHAR_5_1 ../../Library/magic
+use L500_CHAR_5  L500_CHAR_5_1
 timestamp 1534324893
 transform 1 0 42 0 1 144
 box 0 0 12 18
-use L500_CHAR_d  L500_CHAR_d_0 ../../Library/magic
+use L500_CHAR_d  L500_CHAR_d_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1534321738
 transform 1 0 15 0 1 103
 box 0 0 12 18
-use L500_TPAD_blank  L500_TPAD_blank_0 ../../Library/magic
+use L500_TPAD_blank  L500_TPAD_blank_0
 timestamp 1537343441
 transform 1 0 -2 0 1 -1
 box 0 0 100 100
-use L500_HVNFET_W50L5  L500_HVNFET_W50L5_0 ../../Library/magic
-timestamp 1540677881
+use L500_HVNFET_W50L5  L500_HVNFET_W50L5_0 ~/IC/github/PearlRiver/Library/magic
+timestamp 1540728715
 transform 1 0 157 0 1 35
 box -48 -32 70 116
+use L500_CHAR_b  L500_CHAR_b_0 ~/IC/github/PearlRiver/Library/magic
+timestamp 1534321628
+transform 1 0 259 0 1 132
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 233 0 1 27
+box 0 0 100 100
 << end >>
