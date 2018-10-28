@@ -22,7 +22,7 @@ View Layout files with
 
     magic -T scmos.tech Layout/magic/PearlRiver_quarter.mag
 
-for the quaters, or
+for the quarters, or
 
     magic -T scmos.tech Layout/magic/PearlRiver_die.mag
 
