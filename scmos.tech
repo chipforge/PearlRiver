@@ -1698,7 +1698,7 @@ style lambda=0.5(libresilicon)
   grow 100
 
  templayer sti_wells nwell_parts,pwell_parts
-  shrink 100
+  shrink 50
 
  layer CWN nwell_parts
   calma 2 0
