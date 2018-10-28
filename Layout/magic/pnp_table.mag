@@ -7,6 +7,6 @@ transform 1 0 0 0 1 0
 box 0 0 300 300
 use L500_PNP2  L500_PNP2 ../../Library/magic
 timestamp 1539615672
-transform 1 0 350 0 1 0
+transform 1 0 0 0 1 350
 box 0 0 300 300
 << end >>
