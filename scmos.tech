@@ -1664,17 +1664,17 @@ style lambda=0.6(pwell)
 style lambda=0.5(libresilicon)
  scalefactor 50 50
 
- templayer poly_parts polysilicon,polycontact,nfet,pfet,rpoly,polypdiff,polyndiff,ndpolycontact,pdpolycontact,rpdiffusion,rndiffusion,nbsfet,pbsfet,spfet,snfet,pbpoly,nbpoly
+ templayer poly_parts polysilicon,polycontact,nfet,pfet,rpoly,polypdiff,polyndiff,ndpolycontact,pdpolycontact,rpdiffusion,rndiffusion,nbsfet,pbsfet,spfet,snfet,pbpoly,nbpoly,hnfet,hpfet
  templayer silicide_stop rpoly,rpdiffusion,rndiffusion
- templayer nimplant ndiff,nfet,ndc,nnd,nnc,pbnc,pbnd,nbnc,nbnd,snfet,pbsfet
+ templayer nimplant ndiff,nfet,ndc,nnd,nnc,pbnc,pbnd,nbnc,nbnd,snfet,pbsfet,hnfet,hndc,hndiff
  templayer nimplant_only rnd,plndiff,ndpc
   grow 100
- templayer pimplant pdiff,pfet,pdc,ppd,ppc,pbpc,pbpd,nbpc,nbpd,spfet,nbsfet
+ templayer pimplant pdiff,pfet,pdc,ppd,ppc,pbpc,pbpd,nbpc,nbpd,spfet,nbsfet,hpfet,hpdc,hpdiff
  templayer pimplant_only rpd,plpdiff,pdpc
   grow 100
- templayer contacts pc,pdc,ndc,ppc,nnc,pbc,ndpc,pdpc,pbnc,pbpc,nbnc,nbpc
+ templayer contacts pc,pdc,ndc,ppc,nnc,pbc,ndpc,pdpc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc
   shrink 50
- templayer first_metal m1,pc,pdc,ndc,ppc,nnc,m2c,pbc
+ templayer first_metal m1,pc,pdc,ndc,ppc,nnc,m2c,pbc,hpdc,hndc
  templayer first_via m2c
   shrink 50
  templayer second_metal m2,m2c,m3c
@@ -1757,7 +1757,6 @@ style lambda=0.5(libresilicon)
   calma 19 0
 
  layer COG glass
-  shrink 50
   calma 20 0
 # 1009 "scmos.tech.out" 2
 # 1023 "scmos.tech.out"
