@@ -1,0 +1,202 @@
+magic
+tech scmos
+timestamp 1540932764
+<< error_s >>
+rect 401 676 511 681
+rect 406 663 407 676
+rect 506 663 511 676
+rect 406 662 511 663
+rect 113 324 137 329
+rect 139 324 150 329
+rect 118 225 119 324
+rect 132 225 137 324
+rect 118 224 137 225
+rect 144 225 145 324
+rect 150 225 155 324
+rect 144 224 155 225
+<< polysilicon >>
+rect 362 636 402 638
+rect 362 626 364 636
+rect 374 626 402 636
+rect 362 624 402 626
+rect 138 181 152 220
+rect 138 171 140 181
+rect 150 171 152 181
+rect 138 169 152 171
+<< metal1 >>
+rect 97 634 200 648
+rect 99 415 176 429
+rect 162 324 176 415
+rect 186 324 200 634
+rect 257 638 271 703
+rect 406 676 500 700
+rect 607 652 621 700
+rect 506 638 621 652
+rect 257 636 376 638
+rect 257 626 364 636
+rect 374 626 376 636
+rect 257 624 376 626
+rect 813 612 827 700
+rect 506 598 827 612
+rect 100 224 118 300
+rect 138 181 152 183
+rect 138 171 140 181
+rect 150 171 152 181
+rect 138 91 152 171
+rect 98 77 152 91
+<< polycontact >>
+rect 364 626 374 636
+rect 140 171 150 181
+use L500_TPAD_blank  L500_TPAD_blank_4 ../../Library/magic
+timestamp 1537343441
+transform 1 0 200 0 1 700
+box 0 0 100 100
+use L500_CHAR_h  L500_CHAR_h_1 ../../Library/magic
+timestamp 1534224731
+transform 1 0 313 0 1 775
+box 0 0 12 18
+use L500_CHAR_v  L500_CHAR_v_1 ../../Library/magic
+timestamp 1534326655
+transform 1 0 326 0 1 775
+box 0 0 12 18
+use L500_CHAR_p  L500_CHAR_p_0 ../../Library/magic
+timestamp 1534323210
+transform 1 0 339 0 1 775
+box 0 0 12 18
+use L500_CHAR_f  L500_CHAR_f_1 ../../Library/magic
+timestamp 1534344057
+transform 1 0 352 0 1 775
+box 0 0 12 18
+use L500_CHAR_e  L500_CHAR_e_1 ../../Library/magic
+timestamp 1534321786
+transform 1 0 365 0 1 775
+box 0 0 12 18
+use L500_CHAR_t  L500_CHAR_t_1 ../../Library/magic
+timestamp 1534318840
+transform 1 0 378 0 1 775
+box 0 0 12 18
+use L500_CHAR_5  L500_CHAR_5_2 ../../Library/magic
+timestamp 1534324893
+transform 1 0 313 0 1 755
+box 0 0 12 18
+use L500_CHAR_0  L500_CHAR_0_1 ../../Library/magic
+timestamp 1534325425
+transform 1 0 326 0 1 755
+box 0 0 12 18
+use L500_CHAR_slash  L500_CHAR_slash_1 ../../Library/magic
+timestamp 1534532558
+transform 1 0 339 0 1 755
+box 0 0 8 18
+use L500_CHAR_5  L500_CHAR_5_3
+timestamp 1534324893
+transform 1 0 348 0 1 755
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_5
+timestamp 1537343441
+transform 1 0 400 0 1 700
+box 0 0 100 100
+use L500_CHAR_b  L500_CHAR_b_1 ../../Library/magic
+timestamp 1534321628
+transform 1 0 502 0 1 742
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_6
+timestamp 1537343441
+transform 1 0 600 0 1 700
+box 0 0 100 100
+use L500_TPAD_blank  L500_TPAD_blank_7
+timestamp 1537343441
+transform 1 0 800 0 1 700
+box 0 0 100 100
+use L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 0 0 1 600
+box 0 0 100 100
+use L500_CHAR_g  L500_CHAR_g_1 ../../Library/magic
+timestamp 1534322005
+transform 1 0 275 0 1 680
+box 0 0 12 18
+use L500_CHAR_b  L500_CHAR_b_0
+timestamp 1534321628
+transform 1 0 102 0 1 661
+box 0 0 12 18
+use L500_HVPFET_W50L5  L500_HVPFET_W50L5_1 ../../Library/magic
+timestamp 1540755344
+transform 0 1 382 -1 0 688
+box 0 0 114 148
+use L500_CHAR_s  L500_CHAR_s_1 ../../Library/magic
+timestamp 1534323853
+transform 1 0 627 0 1 677
+box 0 0 12 18
+use L500_CHAR_d  L500_CHAR_d_1 ../../Library/magic
+timestamp 1534321738
+transform 1 0 831 0 1 679
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_2
+timestamp 1537343441
+transform 1 0 0 0 1 400
+box 0 0 100 100
+use L500_CHAR_s  L500_CHAR_s_0
+timestamp 1534323853
+transform 1 0 102 0 1 443
+box 0 0 12 18
+use L500_CHAR_h  L500_CHAR_h_0
+timestamp 1534224731
+transform 1 0 10 0 1 365
+box 0 0 12 18
+use L500_CHAR_v  L500_CHAR_v_0
+timestamp 1534326655
+transform 1 0 23 0 1 365
+box 0 0 12 18
+use L500_CHAR_n  L500_CHAR_n_0 ../../Library/magic
+timestamp 1534323117
+transform 1 0 36 0 1 365
+box 0 0 12 18
+use L500_CHAR_f  L500_CHAR_f_0
+timestamp 1534344057
+transform 1 0 49 0 1 365
+box 0 0 12 18
+use L500_CHAR_e  L500_CHAR_e_0
+timestamp 1534321786
+transform 1 0 62 0 1 365
+box 0 0 12 18
+use L500_CHAR_t  L500_CHAR_t_0
+timestamp 1534318840
+transform 1 0 75 0 1 365
+box 0 0 12 18
+use L500_CHAR_5  L500_CHAR_5_0
+timestamp 1534324893
+transform 1 0 10 0 1 346
+box 0 0 12 18
+use L500_CHAR_0  L500_CHAR_0_0
+timestamp 1534325425
+transform 1 0 23 0 1 346
+box 0 0 12 18
+use L500_CHAR_slash  L500_CHAR_slash_0
+timestamp 1534532558
+transform 1 0 36 0 1 346
+box 0 0 8 18
+use L500_CHAR_5  L500_CHAR_5_1
+timestamp 1534324893
+transform 1 0 45 0 1 346
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 0 0 1 200
+box 0 0 100 100
+use L500_HVNFET_W50L5  L500_HVNFET_W50L5_0 ../../Library/magic
+timestamp 1540728715
+transform 1 0 154 0 1 232
+box -48 -32 70 116
+use L500_CHAR_d  L500_CHAR_d_0
+timestamp 1534321738
+transform 1 0 28 0 1 180
+box 0 0 12 18
+use L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
+transform 1 0 0 0 1 0
+box 0 0 100 100
+use L500_CHAR_g  L500_CHAR_g_0
+timestamp 1534322005
+transform 1 0 102 0 1 27
+box 0 0 12 18
+<< end >>
