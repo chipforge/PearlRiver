@@ -53,15 +53,15 @@ transform 1 0 -999 0 1 132
 box 0 0 900 800
 use sonos_table  sonos_table_0
 timestamp 1540933990
-transform 1 0 -700 0 1 0
+transform 1 0 -650 0 1 0
 box 0 0 650 650
 use Layout/magic/pad_measure  pad_measure_0 Layout/magic
 timestamp 1540933990
-transform 0 1 0 -1 0 504
+transform 0 1 50 -1 0 504
 box 0 0 504 250
 use Layout/magic/rpoly_rsquare  rpoly_rsquare_0 Layout/magic
 timestamp 1540933990
-transform 1 0 300 0 1 400
+transform 1 0 350 0 1 400
 box 0 0 2478 400
 use Layout/magic/ringoscillator_stripe  ringoscillator_stripe_0 Layout/magic
 timestamp 1540933990
@@ -77,14 +77,14 @@ transform 1 0 3900 0 1 450
 box 0 0 2050 2072
 use Layout/magic/polysi_rsquare  polysi_rsquare_0 Layout/magic
 timestamp 1540933990
-transform 1 0 300 0 1 0
+transform 1 0 350 0 1 0
 box 0 0 2478 400
 use npn_table  npn_table_0
 timestamp 1540933990
-transform 1 0 2828 0 1 10
+transform 1 0 2928 0 1 30
 box 0 0 650 300
 use Layout/magic/metal2_rsquare  metal2_rsquare_0 Layout/magic
 timestamp 1538710199
-transform 1 0 3528 0 1 0
+transform 1 0 3628 0 1 0
 box 0 0 2440 400
 << end >>
