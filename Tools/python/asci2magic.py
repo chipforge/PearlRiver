@@ -23,7 +23,7 @@ with open("Library/magic/KALLISTI.mag", "w") as out:
 	out.write("magic\n")
 	out.write("tech scmos\n")
 	out.write("timestamp 1533657739\n")
-	out.write("<< metal3 >>\n")
+	out.write("<< silk >>\n")
 	for line in outar:
 		out.write(line+"\n")
 	out.write("<< end >>\n")
