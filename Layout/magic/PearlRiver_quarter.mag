@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1541060627
+timestamp 1541109953
 << error_s >>
 rect 3252 2790 3254 3190
 rect 3252 1364 3254 1370
@@ -59,6 +59,7 @@ rect -161 880 -158 881
 rect -59 880 -55 881
 rect -160 879 -157 880
 rect -61 879 -56 880
+rect -396 874 -382 879
 rect -159 878 -156 879
 rect -62 878 -57 879
 rect -158 877 -154 878
@@ -69,6 +70,19 @@ rect -155 875 -152 876
 rect -66 875 -61 876
 rect -154 874 -151 875
 rect -67 874 -62 875
+rect -445 870 -444 871
+rect -406 870 -405 871
+rect -446 869 -404 870
+rect -445 866 -405 869
+rect -445 834 -441 866
+rect -435 856 -415 860
+rect -435 844 -431 856
+rect -419 844 -415 856
+rect -435 840 -415 844
+rect -409 834 -405 866
+rect -445 830 -405 834
+rect -391 827 -390 874
+rect -387 827 -382 874
 rect -152 873 -149 874
 rect -104 873 -96 874
 rect -69 873 -63 874
@@ -96,6 +110,9 @@ rect -82 863 -75 864
 rect -84 862 -77 863
 rect -84 861 -82 862
 rect -86 860 -84 861
+rect -391 826 -382 827
+rect -448 822 -397 824
+rect -448 812 -387 814
 rect 663 775 667 776
 rect 665 774 666 775
 rect 589 762 609 763
@@ -295,11 +312,11 @@ rect 549 711 554 712
 rect 619 711 623 713
 rect 624 711 625 714
 rect 630 711 634 719
-rect 657 714 684 715
-rect 653 713 686 714
+rect 657 714 672 715
+rect 653 713 672 714
 rect 636 712 637 713
 rect 649 712 669 713
-rect 671 712 688 713
+rect 671 712 672 713
 rect 520 710 528 711
 rect 549 710 553 711
 rect 519 709 525 710
@@ -307,8 +324,6 @@ rect 548 709 550 710
 rect 517 708 523 709
 rect 547 708 550 709
 rect 635 708 637 712
-rect 685 711 689 712
-rect 689 710 690 711
 rect 638 708 641 709
 rect 514 707 521 708
 rect 512 706 521 707
@@ -376,8 +391,6 @@ rect 499 676 501 677
 rect 501 675 503 676
 rect 520 675 525 677
 rect 530 675 531 678
-rect 709 677 710 684
-rect 709 676 711 677
 rect 502 674 504 675
 rect 520 674 524 675
 rect 503 673 507 674
@@ -387,7 +400,6 @@ rect 505 671 511 672
 rect 518 671 523 673
 rect 525 671 542 675
 rect 543 671 555 675
-rect 710 673 711 676
 rect 506 670 513 671
 rect 518 670 522 671
 rect 526 670 528 671
@@ -412,7 +424,6 @@ rect 548 664 550 665
 rect 522 661 524 662
 rect 535 661 542 664
 rect 547 662 548 664
-rect 680 662 692 666
 rect 515 659 516 660
 rect 515 656 517 659
 rect 515 655 518 656
@@ -449,25 +460,22 @@ rect 545 647 547 648
 rect 552 647 553 648
 rect 554 647 559 649
 rect 566 647 568 649
-rect 703 647 706 653
-rect 710 647 712 673
 rect 521 641 524 644
 rect 540 643 541 644
 rect 544 644 547 647
 rect 553 646 559 647
 rect 554 645 559 646
 rect 567 645 569 647
-rect 673 645 680 646
 rect 555 644 559 645
 rect 544 642 545 644
 rect 551 641 556 644
 rect 561 643 565 645
 rect 560 641 564 643
 rect 567 642 570 645
-rect 655 644 681 645
-rect 654 643 682 644
+rect 655 644 672 645
+rect 654 643 672 644
 rect 568 641 570 642
-rect 653 642 682 643
+rect 653 642 672 643
 rect 653 641 656 642
 rect 521 639 523 641
 rect 556 640 562 641
@@ -484,10 +492,6 @@ rect 559 636 563 637
 rect 570 636 572 638
 rect 652 638 656 641
 rect 660 639 665 642
-rect 680 641 682 642
-rect 683 641 684 646
-rect 709 642 711 647
-rect 679 639 684 641
 rect 652 636 655 638
 rect 660 637 662 639
 rect 549 634 554 636
@@ -567,38 +571,9 @@ rect 646 616 649 617
 rect 647 615 649 616
 rect 661 616 665 619
 rect 670 619 671 639
-rect 673 638 675 639
-rect 676 638 684 639
-rect 673 635 684 638
-rect 689 635 694 639
-rect 702 638 704 642
-rect 701 636 704 638
-rect 709 636 710 642
-rect 701 635 703 636
-rect 675 634 676 635
-rect 679 634 683 635
-rect 675 633 680 634
-rect 692 633 694 635
-rect 681 632 685 633
-rect 686 632 690 633
-rect 691 632 694 633
-rect 700 634 703 635
-rect 708 634 709 636
-rect 700 632 702 634
-rect 699 631 702 632
-rect 707 631 708 632
-rect 699 629 701 631
-rect 699 627 700 629
-rect 698 626 700 627
-rect 698 625 699 626
-rect 697 623 699 625
-rect 696 622 698 623
-rect 696 621 697 622
-rect 670 616 674 619
-rect 695 618 696 620
-rect 694 616 695 617
+rect 670 616 672 619
 rect 661 615 664 616
-rect 671 615 674 616
+rect 671 615 672 616
 rect 608 613 611 614
 rect 584 611 587 613
 rect 594 612 599 613
@@ -664,44 +639,29 @@ rect 628 594 629 615
 rect 638 613 643 615
 rect 637 611 643 613
 rect 648 612 649 615
-rect 691 612 692 613
 rect 647 611 649 612
 rect 635 609 642 611
 rect 646 609 648 611
-rect 690 610 691 611
-rect 689 609 690 610
 rect 634 608 640 609
 rect 644 608 646 609
-rect 688 608 689 609
 rect 634 606 639 608
 rect 644 607 645 608
 rect 643 606 645 607
 rect 649 606 654 607
 rect 656 606 660 607
-rect 687 606 688 607
 rect 634 605 638 606
 rect 640 605 644 606
 rect 634 603 637 605
 rect 640 603 643 605
 rect 649 604 653 606
 rect 656 604 659 606
-rect 686 605 687 606
-rect 684 604 686 605
 rect 648 603 652 604
 rect 656 603 658 604
-rect 684 603 685 604
 rect 632 601 635 603
 rect 640 602 651 603
 rect 656 602 657 603
-rect 683 601 684 603
 rect 632 600 634 601
 rect 632 599 633 600
-rect 680 599 681 600
-rect 679 598 680 599
-rect 678 597 680 598
-rect 677 596 678 597
-rect 676 595 677 596
-rect 675 594 676 595
 rect 539 593 542 594
 rect 596 593 603 594
 rect 611 593 618 594
@@ -775,86 +735,107 @@ rect 632 561 639 562
 rect 630 560 637 561
 rect 630 559 632 560
 rect 628 558 630 559
+rect -400 520 -386 525
+rect -441 516 -440 517
+rect -410 516 -409 517
+rect -442 515 -408 516
+rect -441 512 -409 515
+rect -441 488 -437 512
+rect -431 502 -419 506
+rect -431 498 -427 502
+rect -423 498 -419 502
+rect -431 494 -419 498
+rect -413 488 -409 512
+rect -441 484 -409 488
+rect -395 481 -394 520
+rect -391 481 -386 520
+rect -395 480 -386 481
+rect -448 476 -401 478
+rect -448 466 -391 468
 rect -426 198 -425 200
 rect -421 102 -420 198
+use contact_meas  contact_meas_0
+timestamp 1541109680
+transform 1 0 250 0 1 1200
+box 0 0 1300 1500
 use pnp_table  pnp_table_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 -575 0 1 350
 box 0 0 300 650
-use L500_SIGNATURE_kallisti_big  L500_SIGNATURE_kallisti_big_1 ../../Library/magic
+use L500_SIGNATURE_kallisti_big  L500_SIGNATURE_kallisti_big_1 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1533657739
 transform 1 0 -235 0 1 843
 box 9 8 231 235
 use nmos_table  nmos_table_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 750 0 1 850
 box 0 0 1700 1700
 use metal1_rsquare  metal1_rsquare_0
-timestamp 1541060627
+timestamp 1541109953
 transform 0 1 2500 1 0 850
 box 0 0 2440 400
 use diode_table  diode_table_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 50 0 1 850
 box 0 0 3104 2800
 use metal3_rsquare  metal3_rsquare_0
-timestamp 1541060627
+timestamp 1541109953
 transform 0 1 2900 1 0 850
 box 0 0 2440 400
-use L500_SIGNATURE_kallisti  L500_SIGNATURE_kallisti_0 ../../Library/magic
+use L500_SIGNATURE_kallisti  L500_SIGNATURE_kallisti_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
 timestamp 1533657739
 transform 1 0 -229 0 1 696
 box 4 4 116 118
-use L500_SIGNATURE_kallisti  L500_SIGNATURE_kallisti_1 ../../Library/magic
+use L500_SIGNATURE_kallisti  L500_SIGNATURE_kallisti_1
 timestamp 1533657739
 transform 1 0 -112 0 1 696
 box 4 4 116 118
-use L500_SIGNATURE_kallisti  L500_SIGNATURE_kallisti_2 ../../Library/magic
+use L500_SIGNATURE_kallisti  L500_SIGNATURE_kallisti_2
 timestamp 1533657739
 transform 1 0 4 0 1 696
 box 4 4 116 118
 use hvfet_table  hvfet_table_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 -925 0 1 0
 box 0 0 650 300
 use sonos_table  sonos_table_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 -225 0 1 0
 box 0 0 650 650
-use L500_SIGNATURE_kallisti_big  L500_SIGNATURE_kallisti_big_0 ../../Library/magic
+use L500_SIGNATURE_kallisti_big  L500_SIGNATURE_kallisti_big_0
 timestamp 1533657739
 transform 1 0 479 0 1 541
 box 9 8 231 235
 use pad_measure  pad_measure_0
-timestamp 1541060627
+timestamp 1541109953
 transform 0 1 475 -1 0 504
 box 0 0 504 250
 use rpoly_rsquare  rpoly_rsquare_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 775 0 1 400
 box 0 0 2478 400
 use ringoscillator_stripe  ringoscillator_stripe_0
-timestamp 1541060627
+timestamp 1541109953
 transform 0 1 3360 1 0 450
 box 0 0 2704 440
 use pmos_table  pmos_table_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 3848 0 1 450
 box 0 0 1700 1700
 use caps_table  caps_table_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 3848 0 1 450
 box 0 0 2050 2072
 use polysi_rsquare  polysi_rsquare_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 775 0 1 0
 box 0 0 2478 400
 use npn_table  npn_table_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 3303 0 1 30
 box 0 0 650 300
 use metal2_rsquare  metal2_rsquare_0
-timestamp 1541060627
+timestamp 1541109953
 transform 1 0 4003 0 1 0
 box 0 0 2440 400
 << end >>
