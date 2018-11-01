@@ -1,40 +1,21 @@
 magic
 tech scmos
-timestamp 1534793986
+timestamp 1538561069
 << metal1 >>
-rect -352 168 0 172
-rect 824 168 1176 172
-rect -352 138 -328 168
-rect -316 138 -304 168
-rect -294 138 -284 168
-rect -276 138 -268 168
-rect -262 138 -256 168
-rect -252 138 -248 168
-rect 1072 138 1076 168
-rect 1080 138 1086 168
-rect 1092 138 1100 168
-rect 1108 138 1118 168
-rect 1128 138 1140 168
-rect 1152 138 1176 168
-rect -8 88 0 92
-rect 824 88 832 92
-rect -8 80 0 84
-rect 824 80 832 84
-rect -352 4 -348 34
-rect -344 4 -338 34
-rect -332 4 -324 34
-rect -316 4 -306 34
-rect -296 4 -284 34
-rect -272 4 -248 34
-rect 1072 4 1076 34
-rect 1080 4 1086 34
-rect 1092 4 1100 34
-rect 1108 4 1118 34
-rect 1128 4 1140 34
-rect 1152 4 1176 34
-rect -352 0 0 4
-rect 824 0 1176 4
+rect -310 168 0 172
+rect 824 168 1126 172
+rect -310 136 -210 168
+rect 1026 136 1126 168
+rect -10 88 0 92
+rect 824 88 826 92
+rect -10 80 0 84
+rect 824 80 826 84
+rect -310 4 -210 36
+rect 1026 4 1126 36
+rect -310 0 0 4
+rect 824 0 1126 4
 << metal2 >>
+rect -6 28 -2 180
 rect 34 148 38 156
 rect 66 148 70 156
 rect 98 148 102 156
@@ -161,11 +142,12 @@ rect 786 128 790 136
 rect 802 124 806 136
 rect 810 128 814 180
 rect 818 124 822 148
-rect 2 24 6 124
+rect 2 52 6 124
 rect 802 120 822 124
+rect 2 48 22 52
 rect 818 48 822 120
-rect 10 40 30 44
-rect 26 36 30 40
+rect 10 28 14 44
+rect 18 32 22 48
 rect 34 36 38 44
 rect 66 36 70 44
 rect 98 36 102 44
@@ -191,7 +173,6 @@ rect 706 36 710 44
 rect 738 36 742 44
 rect 770 36 774 44
 rect 802 36 806 44
-rect 18 -8 22 36
 rect 26 32 46 36
 rect 58 32 78 36
 rect 90 32 110 36
@@ -217,7 +198,7 @@ rect 698 32 718 36
 rect 730 32 750 36
 rect 762 32 782 36
 rect 794 32 814 36
-rect 26 24 30 32
+rect 26 28 30 32
 rect 58 28 62 32
 rect 90 28 94 32
 rect 122 28 126 32
@@ -242,6 +223,8 @@ rect 698 28 702 32
 rect 730 28 734 32
 rect 762 28 766 32
 rect 794 28 798 32
+rect -6 24 6 28
+rect 10 24 30 28
 rect 50 24 62 28
 rect 82 24 94 28
 rect 114 24 126 28
@@ -290,23 +273,59 @@ rect 690 16 694 24
 rect 722 16 726 24
 rect 754 16 758 24
 rect 786 16 790 24
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_1 Library/magic
-timestamp 1531942424
-transform 1 0 -360 0 1 26
-box 0 0 120 120
-use Library/magic/L500_SIGNATURE_vdd  L500_SIGNATURE_vdd_0 Library/magic
-timestamp 1534327146
+use Library/magic/L500_CHAR_r  L500_CHAR_r_0
+timestamp 1534323573
+transform 1 0 0 0 1 178
+box 0 0 12 18
+use Library/magic/L500_CHAR_o  L500_CHAR_o_0
+timestamp 1534323159
+transform 1 0 16 0 1 178
+box 0 0 12 18
+use Library/magic/L500_CHAR_5  L500_CHAR_5_0
+timestamp 1534324893
+transform 1 0 32 0 1 178
+box 0 0 12 18
+use Library/magic/L500_CHAR_1  L500_CHAR_1_0
+timestamp 1534326485
+transform 1 0 48 0 1 178
+box 0 0 12 18
+use Library/magic/L500_CHAR_under  L500_CHAR_under_0
+timestamp 1534325915
+transform 1 0 64 0 1 178
+box 0 0 12 4
+use Library/magic/L500_CHAR_n  L500_CHAR_n_0
+timestamp 1534323117
+transform 1 0 80 0 1 178
+box 0 0 12 18
+use Library/magic/L500_CHAR_o  L500_CHAR_o_1
+timestamp 1534323159
+transform 1 0 96 0 1 178
+box 0 0 12 18
+use Library/magic/L500_CHAR_r  L500_CHAR_r_1
+timestamp 1534323573
+transform 1 0 112 0 1 178
+box 0 0 12 18
+use Library/magic/L500_CHAR_3  L500_CHAR_3_0
+timestamp 1534324785
+transform 1 0 128 0 1 178
+box 0 0 12 18
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
+transform 1 0 -310 0 1 36
+box 0 0 100 100
+use Library/magic/L500_SIGNATURE_vdd  L500_SIGNATURE_vdd_0
+timestamp 1538544897
 transform 1 0 -172 0 1 108
 box 0 0 52 18
-use Library/magic/L500_SIGNATURE_gnd  L500_SIGNATURE_gnd_0 Library/magic
-timestamp 1534327291
-transform 1 0 -240 0 1 46
+use Library/magic/L500_SIGNATURE_gnd  L500_SIGNATURE_gnd_0
+timestamp 1538544897
+transform 1 0 -200 0 1 46
 box 0 0 52 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_0
-timestamp 1531942424
-transform 1 0 -120 0 1 26
-box 0 0 120 120
-use Library/magic/T11_NOR3  T11_NOR3_49 Library/magic
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 -110 0 1 36
+box 0 0 100 100
+use Library/magic/T11_NOR3  T11_NOR3_49
 timestamp 1533654861
 transform -1 0 32 0 -1 174
 box 0 0 32 88
@@ -406,46 +425,10 @@ use Library/magic/T11_NOR3  T11_NOR3_25
 timestamp 1533654861
 transform -1 0 800 0 -1 174
 box 0 0 32 88
-use Library/magic/T11_NOR2  T11_NOR2_1 Library/magic
+use Library/magic/T11_NOR2  T11_NOR2_1
 timestamp 1533654819
 transform -1 0 824 0 -1 174
 box 0 0 24 88
-use Library/magic/L500_CHAR_r  L500_CHAR_r_0 Library/magic
-timestamp 1534323573
-transform 1 0 -240 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_o  L500_CHAR_o_0 Library/magic
-timestamp 1534323159
-transform 1 0 -224 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_5  L500_CHAR_5_0 Library/magic
-timestamp 1534324893
-transform 1 0 -208 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_1  L500_CHAR_1_0 Library/magic
-timestamp 1534326485
-transform 1 0 -192 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_under  L500_CHAR_under_0 Library/magic
-timestamp 1534325915
-transform 1 0 -176 0 1 8
-box 0 0 12 4
-use Library/magic/L500_CHAR_n  L500_CHAR_n_0 Library/magic
-timestamp 1534323117
-transform 1 0 -160 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_o  L500_CHAR_o_1
-timestamp 1534323159
-transform 1 0 -144 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_r  L500_CHAR_r_1
-timestamp 1534323573
-transform 1 0 -128 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_3  L500_CHAR_3_0 Library/magic
-timestamp 1534324785
-transform 1 0 -112 0 1 8
-box 0 0 12 18
 use Library/magic/T11_NOR2  T11_NOR2_0
 timestamp 1533654819
 transform 1 0 0 0 1 -2
@@ -550,63 +533,20 @@ use Library/magic/T11_NOR3  T11_NOR3_24
 timestamp 1533654861
 transform 1 0 792 0 1 -2
 box 0 0 32 88
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2
-timestamp 1531942424
-transform 1 0 824 0 1 26
-box 0 0 120 120
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_2
+timestamp 1537343441
+transform 1 0 826 0 1 36
+box 0 0 100 100
 use Library/magic/L500_SIGNATURE_vdd  L500_SIGNATURE_vdd_1
-timestamp 1534327146
-transform 1 0 944 0 1 108
+timestamp 1538544897
+transform 1 0 934 0 1 108
 box 0 0 52 18
 use Library/magic/L500_SIGNATURE_gnd  L500_SIGNATURE_gnd_1
-timestamp 1534327291
-transform 1 0 1012 0 1 46
+timestamp 1538544897
+transform 1 0 966 0 1 46
 box 0 0 52 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_3
-timestamp 1531942424
-transform 1 0 1064 0 1 26
-box 0 0 120 120
-use Library/magic/L500_CHAR_r  L500_CHAR_r_2
-timestamp 1534323573
-transform 1 0 924 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_o  L500_CHAR_o_2
-timestamp 1534323159
-transform 1 0 940 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_5  L500_CHAR_5_1
-timestamp 1534324893
-transform 1 0 956 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_1  L500_CHAR_1_1
-timestamp 1534326485
-transform 1 0 972 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_under  L500_CHAR_under_1
-timestamp 1534325915
-transform 1 0 988 0 1 8
-box 0 0 12 4
-use Library/magic/L500_CHAR_n  L500_CHAR_n_1
-timestamp 1534323117
-transform 1 0 1004 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_o  L500_CHAR_o_3
-timestamp 1534323159
-transform 1 0 1020 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_r  L500_CHAR_r_3
-timestamp 1534323573
-transform 1 0 1036 0 1 8
-box 0 0 12 18
-use Library/magic/L500_CHAR_3  Library/magic/L500_CHAR_3_0
-timestamp 1534324785
-transform 1 0 1052 0 1 8
-box 0 0 12 18
-<< labels >>
-rlabel space -100 46 -20 126 1 vdd!
-rlabel space -340 46 -260 126 1 gnd!
-rlabel space 844 46 924 126 1 vdd!
-rlabel space 1084 46 1164 126 1 gnd!
-rlabel metal2 18 -8 22 -4 1 en
-rlabel metal2 810 176 814 180 5 out
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 1026 0 1 36
+box 0 0 100 100
 << end >>

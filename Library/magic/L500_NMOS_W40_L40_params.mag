@@ -1,89 +1,94 @@
 magic
 tech scmos
-timestamp 1534793986
+timestamp 1538755647
 << pwell >>
-rect 158 214 202 216
-rect 158 144 218 214
+rect 128 115 188 185
 << polysilicon >>
-rect 156 160 160 200
-rect 200 160 202 200
+rect 127 130 130 170
+rect 170 130 173 170
 << ndiffusion >>
-rect 160 200 200 204
-rect 160 156 200 160
+rect 130 170 170 173
+rect 130 127 170 130
 << metal1 >>
-rect 90 224 100 248
-rect 260 224 270 248
-rect 90 214 146 224
-rect 136 160 146 214
-rect 160 214 270 224
-rect 90 136 200 146
-rect 204 136 270 146
-rect 90 112 100 136
-rect 260 112 270 136
+rect 100 200 127 210
+rect 117 170 127 200
+rect 200 183 210 200
+rect 170 173 210 183
+rect 90 117 130 127
+rect 90 100 100 117
+rect 176 100 186 117
+rect 176 90 200 100
 << ntransistor >>
-rect 160 160 200 200
+rect 130 130 170 170
 << polycontact >>
-rect 146 160 156 200
+rect 117 130 127 170
 << ndcontact >>
-rect 160 204 200 214
-rect 160 146 200 156
+rect 130 173 170 183
+rect 130 117 170 127
 << psubstratepcontact >>
-rect 204 146 216 210
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_2 Library/magic
-timestamp 1531942424
-transform 1 0 0 0 1 240
-box 0 0 120 120
-use Library/magic/L500_CHAR_g  L500_CHAR_g_0 Library/magic
+rect 176 117 186 170
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_2
+timestamp 1537343441
+transform 1 0 0 0 1 200
+box 0 0 100 100
+use Library/magic/L500_CHAR_g  L500_CHAR_g_0
 timestamp 1534322005
-transform 1 0 120 0 1 230
+transform 1 0 101 0 1 178
 box 0 0 12 18
-use Library/magic/L500_CHAR_d  L500_CHAR_d_0 Library/magic
+use Library/magic/L500_CHAR_d  L500_CHAR_d_0
 timestamp 1534321738
-transform 1 0 228 0 1 230
+transform 1 0 184 0 1 187
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_3
-timestamp 1531942424
-transform 1 0 240 0 1 240
-box 0 0 120 120
-use Library/magic/L500_CHAR_4  L500_CHAR_4_0 Library/magic
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 200 0 1 200
+box 0 0 100 100
+use Library/magic/L500_CHAR_n  L500_CHAR_n_0
+timestamp 1534323117
+transform 1 0 215 0 1 140
+box 0 0 12 18
+use Library/magic/L500_CHAR_w  L500_CHAR_w_0
+timestamp 1534324213
+transform 1 0 235 0 1 152
+box 0 0 16 18
+use Library/magic/L500_CHAR_4  L500_CHAR_4_0
 timestamp 1534324830
-transform 1 0 220 0 1 171
+transform 1 0 255 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_0  L500_CHAR_0_0 Library/magic
+use Library/magic/L500_CHAR_0  L500_CHAR_0_0
 timestamp 1534325425
-transform 1 0 236 0 1 171
+transform 1 0 271 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0 Library/magic
+use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0
 timestamp 1534532558
-transform 1 0 252 0 1 171
+transform 1 0 287 0 1 152
 box 0 0 8 18
+use Library/magic/L500_CHAR_l  L500_CHAR_l_0
+timestamp 1534225390
+transform 1 0 239 0 1 130
+box 0 0 12 18
 use Library/magic/L500_CHAR_4  L500_CHAR_4_1
 timestamp 1534324830
-transform 1 0 264 0 1 171
+transform 1 0 255 0 1 130
 box 0 0 12 18
 use Library/magic/L500_CHAR_0  L500_CHAR_0_1
 timestamp 1534325425
-transform 1 0 280 0 1 171
+transform 1 0 271 0 1 130
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_0
-timestamp 1531942424
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
 transform 1 0 0 0 1 0
-box 0 0 120 120
-use Library/magic/L500_CHAR_s  L500_CHAR_s_0 Library/magic
+box 0 0 100 100
+use Library/magic/L500_CHAR_s  L500_CHAR_s_0
 timestamp 1534323853
-transform 1 0 120 0 1 112
+transform 1 0 104 0 1 95
 box 0 0 12 18
-use Library/magic/L500_CHAR_b  L500_CHAR_b_0 Library/magic
+use Library/magic/L500_CHAR_b  L500_CHAR_b_0
 timestamp 1534321628
-transform 1 0 228 0 1 112
+transform 1 0 190 0 1 104
 box 0 0 12 18
-use Library/magic/L500_TPM1_blank  L500_TPM1_blank_1
-timestamp 1531942424
-transform 1 0 240 0 1 0
-box 0 0 120 120
-<< labels >>
-rlabel space 20 260 100 340 1 gate
-rlabel space 20 20 100 100 1 source
-rlabel space 260 20 340 100 1 bulk
-rlabel space 260 260 340 340 1 drain
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 200 0 1 0
+box 0 0 100 100
 << end >>

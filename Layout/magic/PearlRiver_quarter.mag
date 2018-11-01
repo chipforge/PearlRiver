@@ -1,36 +1,90 @@
 magic
 tech scmos
-timestamp 1534794778
-use Layout/magic/L500_NMOS_table  L500_NMOS_table_0
-timestamp 1534793986
-transform 1 0 720 0 1 960
-box 0 0 2280 2280
-use Layout/magic/L500_RINGOSCILLATOR_stripe  L500_RINGOSCILLATOR_stripe_0
-timestamp 1534793986
-transform 0 1 3204 -1 0 3944
-box 0 -114 2984 582
-use Layout/magic/L500_PMOS_table  L500_PMOS_table_0 Layout/magic
-timestamp 1534782471
-transform 1 0 3880 0 1 960
-box 0 0 2280 2280
-use Layout/magic/L500_MOSFET_aligning  L500_MOSFET_aligning_0
-timestamp 1533916061
-transform 1 0 0 0 1 0
-box 0 0 600 600
-use Layout/magic/L500_METAL1_rsquare  L500_METAL1_rsquare_0
-timestamp 1534793986
-transform 1 0 720 0 1 480
-box 0 0 2648 360
-use Layout/magic/L500_METAL3_rsquare  L500_METAL3_rsquare_0
-timestamp 1534793986
-transform 1 0 3488 0 1 480
-box 0 0 2532 360
-use Layout/magic/L500_METAL2_rsquare  L500_METAL2_rsquare_0
-timestamp 1534793986
-transform 1 0 720 0 1 0
-box 0 0 2648 360
-use Layout/magic/L500_POLYSI_rsquare  L500_POLYSI_rsquare_0
-timestamp 1534793986
-transform 1 0 3488 0 1 0
-box 0 0 2648 360
+timestamp 1540933990
+<< error_s >>
+rect 3252 2790 3254 3190
+rect 3252 1364 3254 1370
+rect 3252 1362 3274 1364
+rect 3226 1322 3268 1324
+rect 3272 1322 3274 1362
+rect 3226 1318 3228 1322
+rect 3232 1284 3234 1318
+rect 3232 1282 3274 1284
+rect 3226 1242 3268 1244
+rect 3272 1242 3274 1282
+rect 3226 1238 3228 1242
+rect 3232 1204 3234 1238
+rect 3232 1202 3274 1204
+rect 3246 1162 3268 1164
+rect 3272 1162 3274 1202
+rect 3246 1158 3248 1162
+rect 3252 1150 3254 1158
+rect -598 808 -488 813
+rect -593 795 -592 808
+rect -493 795 -488 808
+rect -593 794 -488 795
+rect -886 456 -862 461
+rect -860 456 -849 461
+rect -881 357 -880 456
+rect -867 357 -862 456
+rect -881 356 -862 357
+rect -855 357 -854 456
+rect -849 357 -844 456
+rect -855 356 -844 357
+use Layout/magic/nmos_table  nmos_table_0 Layout/magic
+timestamp 1540933990
+transform 1 0 750 0 1 850
+box 0 0 1700 1700
+use Layout/magic/metal1_rsquare  metal1_rsquare_0 Layout/magic
+timestamp 1540933990
+transform 0 1 2500 1 0 850
+box 0 0 2440 400
+use diode_table  diode_table_0
+timestamp 1540933990
+transform 1 0 50 0 1 850
+box 0 0 3104 2800
+use Layout/magic/metal3_rsquare  metal3_rsquare_0 Layout/magic
+timestamp 1540933990
+transform 0 1 2900 1 0 850
+box 0 0 2440 400
+use hvfet_table  hvfet_table_0
+timestamp 1540932764
+transform 1 0 -999 0 1 132
+box 0 0 900 800
+use sonos_table  sonos_table_0
+timestamp 1540933990
+transform 1 0 -650 0 1 0
+box 0 0 650 650
+use Layout/magic/pad_measure  pad_measure_0 Layout/magic
+timestamp 1540933990
+transform 0 1 50 -1 0 504
+box 0 0 504 250
+use Layout/magic/rpoly_rsquare  rpoly_rsquare_0 Layout/magic
+timestamp 1540933990
+transform 1 0 350 0 1 400
+box 0 0 2478 400
+use Layout/magic/ringoscillator_stripe  ringoscillator_stripe_0 Layout/magic
+timestamp 1540933990
+transform 0 1 3360 1 0 450
+box 0 0 2704 440
+use Layout/magic/pmos_table  pmos_table_0 Layout/magic
+timestamp 1540933990
+transform 1 0 3900 0 1 450
+box 0 0 1700 1700
+use Layout/magic/caps_table  caps_table_0 Layout/magic
+timestamp 1540933990
+transform 1 0 3900 0 1 450
+box 0 0 2050 2072
+use Layout/magic/polysi_rsquare  polysi_rsquare_0 Layout/magic
+timestamp 1540933990
+transform 1 0 350 0 1 0
+box 0 0 2478 400
+use npn_table  npn_table_0
+timestamp 1540933990
+transform 1 0 2928 0 1 30
+box 0 0 650 300
+use Layout/magic/metal2_rsquare  metal2_rsquare_0 Layout/magic
+timestamp 1538710199
+transform 1 0 3628 0 1 0
+box 0 0 2440 400
 << end >>
