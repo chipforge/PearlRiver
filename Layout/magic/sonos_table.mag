@@ -1,12 +1,12 @@
 magic
 tech scmos
-timestamp 1540629143
+timestamp 1541045636
 use L500_SONOS_PMOS_W3_L2_params  L500_SONOS_PMOS_W3_L2_params_0 ../../Library/magic
 timestamp 1540537366
 transform 1 0 0 0 1 350
 box 0 0 300 300
 use L500_SONOS_PMOS_W40_L20_params  L500_SONOS_PMOS_W40_L20_params_0 ../../Library/magic
-timestamp 1540535959
+timestamp 1540649553
 transform 1 0 350 0 1 350
 box 0 0 300 300
 use L500_SONOS_NMOS_W3_L2_params  L500_SONOS_NMOS_W3_L2_params_0 ../../Library/magic
@@ -14,7 +14,7 @@ timestamp 1540537538
 transform 1 0 0 0 1 0
 box 0 0 300 300
 use L500_SONOS_NMOS_W40_L20_params  L500_SONOS_NMOS_W40_L20_params_0 ../../Library/magic
-timestamp 1540536192
+timestamp 1540649454
 transform 1 0 350 0 1 0
 box 0 0 300 300
 << end >>
