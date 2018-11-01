@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1541002503
+timestamp 1541077021
 << nwell >>
 rect 97 198 212 210
 rect 97 74 158 198
@@ -60,6 +60,30 @@ use L500_TPAD_blank  L500_TPAD_blank_3
 timestamp 1537343441
 transform 1 0 200 0 1 200
 box 0 0 100 100
+use L500_CHAR_h  L500_CHAR_h_0 ./Library/magic
+timestamp 1534224731
+transform 1 0 205 0 1 133
+box 0 0 12 18
+use L500_CHAR_v  L500_CHAR_v_0 ./Library/magic
+timestamp 1534326655
+transform 1 0 221 0 1 133
+box 0 0 12 18
+use L500_CHAR_p  L500_CHAR_p_0 ./Library/magic
+timestamp 1534323210
+transform 1 0 237 0 1 133
+box 0 0 12 18
+use L500_CHAR_f  L500_CHAR_f_0 ./Library/magic
+timestamp 1534344057
+transform 1 0 253 0 1 133
+box 0 0 12 18
+use L500_CHAR_e  L500_CHAR_e_0 ./Library/magic
+timestamp 1534321786
+transform 1 0 269 0 1 133
+box 0 0 12 18
+use L500_CHAR_t  L500_CHAR_t_0 ./Library/magic
+timestamp 1534318840
+transform 1 0 285 0 1 133
+box 0 0 12 18
 use L500_TPAD_blank  L500_TPAD_blank_0
 timestamp 1537343441
 transform 1 0 0 0 1 0
