@@ -762,7 +762,7 @@ use pnp_table  pnp_table_0
 timestamp 1541109953
 transform 1 0 -575 0 1 350
 box 0 0 300 650
-use L500_SIGNATURE_kallisti_big  L500_SIGNATURE_kallisti_big_1 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
+use L500_SIGNATURE_kallisti_big  L500_SIGNATURE_kallisti_big_1 ../../Library/magic
 timestamp 1533657739
 transform 1 0 -235 0 1 843
 box 9 8 231 235
@@ -782,7 +782,7 @@ use metal3_rsquare  metal3_rsquare_0
 timestamp 1541109953
 transform 0 1 2900 1 0 850
 box 0 0 2440 400
-use L500_SIGNATURE_kallisti  L500_SIGNATURE_kallisti_0 ~/IC/github/PearlRiver/Layout/magic/../../Library/magic
+use L500_SIGNATURE_kallisti  L500_SIGNATURE_kallisti_0 ../../Library/magic
 timestamp 1533657739
 transform 1 0 -229 0 1 696
 box 4 4 116 118

@@ -85,23 +85,23 @@ rect 1170 1408 1182 1416
 rect 104 342 108 346
 << m3contact >>
 rect 454 692 458 696
-use L500_CHAR_plus  L500_CHAR_plus_0 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_plus  L500_CHAR_plus_0 ../../Library/magic
 timestamp 1534325833
 transform 1 0 1095 0 1 1498
 box 0 4 12 16
-use L500_CHAR_minus  L500_CHAR_minus_0 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_minus  L500_CHAR_minus_0 ../../Library/magic
 timestamp 1534325869
 transform 1 0 1244 0 1 1495
 box 0 8 12 12
-use L500_TPAD_blank  L500_TPAD_blank_8 ~/IC/github/PearlRiver/Library/magic
+use L500_TPAD_blank  L500_TPAD_blank_8 ../../Library/magic
 timestamp 1537343441
 transform 1 0 1050 0 1 1400
 box 0 0 100 100
-use L500_CHAR_n  L500_CHAR_n_0 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_n  L500_CHAR_n_0 ../../Library/magic
 timestamp 1534323117
 transform 1 0 1153 0 1 1480
 box 0 0 12 18
-use L500_CHAR_d  L500_CHAR_d_0 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_d  L500_CHAR_d_0 ../../Library/magic
 timestamp 1534321738
 transform 1 0 1168 0 1 1480
 box 0 0 12 18
@@ -109,11 +109,11 @@ use L500_TPAD_blank  L500_TPAD_blank_9
 timestamp 1537343441
 transform 1 0 1200 0 1 1400
 box 0 0 100 100
-use L500_CHAR_m  L500_CHAR_m_9 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_m  L500_CHAR_m_9 ../../Library/magic
 timestamp 1534323034
 transform 1 0 1070 0 1 1353
 box 0 0 16 18
-use L500_CHAR_1  L500_CHAR_1_5 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_1  L500_CHAR_1_5 ../../Library/magic
 timestamp 1534326485
 transform 1 0 1089 0 1 1353
 box 0 0 12 18
@@ -133,15 +133,15 @@ use L500_TPAD_blank  L500_TPAD_blank_11
 timestamp 1537343441
 transform 1 0 700 0 1 1050
 box 0 0 100 100
-use L500_CHAR_p  L500_CHAR_p_0 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_p  L500_CHAR_p_0 ../../Library/magic
 timestamp 1534323210
 transform 1 0 803 0 1 1096
 box 0 0 12 18
-use L500_CHAR_o  L500_CHAR_o_0 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_o  L500_CHAR_o_0 ../../Library/magic
 timestamp 1534323159
 transform 1 0 817 0 1 1096
 box 0 0 12 18
-use L500_CHAR_l  L500_CHAR_l_0 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_l  L500_CHAR_l_0 ../../Library/magic
 timestamp 1534225390
 transform 1 0 831 0 1 1096
 box 0 0 12 18
@@ -181,7 +181,7 @@ use L500_CHAR_m  L500_CHAR_m_5
 timestamp 1534323034
 transform 1 0 461 0 1 750
 box 0 0 16 18
-use L500_CHAR_3  L500_CHAR_3_0 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_3  L500_CHAR_3_0 ../../Library/magic
 timestamp 1534324785
 transform 1 0 479 0 1 750
 box 0 0 12 18
@@ -197,7 +197,7 @@ use L500_CHAR_m  L500_CHAR_m_4
 timestamp 1534323034
 transform 1 0 365 0 1 653
 box 0 0 16 18
-use L500_CHAR_2  L500_CHAR_2_2 ~/IC/github/PearlRiver/Library/magic
+use L500_CHAR_2  L500_CHAR_2_2 ../../Library/magic
 timestamp 1534324708
 transform 1 0 383 0 1 653
 box 0 0 12 18
