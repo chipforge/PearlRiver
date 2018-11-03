@@ -1672,9 +1672,8 @@ style lambda=0.5(libresilicon)
  templayer pimplant pdiff,pfet,pdc,ppd,ppc,pbpc,pbpd,nbpc,nbpd,spfet,nbsfet,hpfet,hpdc,hpdiff
  templayer pimplant_only rpd,plpdiff,pdpc
   grow 100
- templayer contacts pc,pdc,ndc,ppc,nnc,pbc,ndpc,pdpc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc
-  shrink 50
- templayer first_metal m1,pc,pdc,ndc,ppc,nnc,m2c,pbc,hpdc,hndc
+ templayer contacts pc,pdc,ndc,ppc,nnc,pbc,ndpc,pdpc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,pc,pdc,ndc,ppc,nnc,m2c,pbc,hpdc,hndc
+ templayer first_metal m1,contacts
  templayer first_via m2c
   shrink 50
  templayer second_metal m2,m2c,m3c
@@ -1739,6 +1738,7 @@ style lambda=0.5(libresilicon)
   calma 13 0
 
  layer CCA contacts
+  shrink 50
   calma 14 0
 
  layer CMF first_metal
