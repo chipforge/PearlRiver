@@ -1,147 +1,80 @@
 magic
 tech scmos
-timestamp 1541066865
-<< error_s >>
-rect 7425 7802 7426 7900
-rect 102 7425 202 7426
-rect 3726 6842 3748 6844
-rect 3752 6842 3754 6850
-rect 3726 6838 3728 6842
-rect 3732 6804 3734 6838
-rect 3732 6802 3774 6804
-rect 3726 6762 3768 6764
-rect 3772 6762 3774 6802
-rect 3726 6758 3728 6762
-rect 3732 6724 3734 6758
-rect 3732 6722 3774 6724
-rect 3726 6682 3768 6684
-rect 3772 6682 3774 6722
-rect 3726 6678 3728 6682
-rect 3732 6644 3734 6678
-rect 3732 6642 3754 6644
-rect 3752 6630 3754 6642
-rect 3377 5336 3378 5344
-rect 3752 4810 3754 5210
-rect 5336 4676 5340 4677
-rect 6636 4322 6684 4324
-rect 6636 4318 6638 4322
-rect 4810 4302 5210 4304
-rect 6630 4302 6638 4304
-rect 6642 4302 6644 4318
-rect 6682 4284 6684 4322
-rect 6716 4322 6764 4324
-rect 6716 4318 6718 4322
-rect 6682 4282 6718 4284
-rect 6722 4282 6724 4318
-rect 6762 4284 6764 4322
-rect 6796 4322 6844 4324
-rect 6796 4318 6798 4322
-rect 6762 4282 6798 4284
-rect 6802 4282 6804 4318
-rect 6842 4304 6844 4322
-rect 6842 4302 6850 4304
-rect 1198 3772 1246 3774
-rect 1198 3768 1200 3772
-rect 1152 3752 1166 3754
-rect 1164 3734 1166 3752
-rect 1164 3732 1200 3734
-rect 1204 3732 1206 3768
-rect 1244 3734 1246 3772
-rect 1278 3772 1326 3774
-rect 1278 3768 1280 3772
-rect 1244 3732 1280 3734
-rect 1284 3732 1286 3768
-rect 1324 3734 1326 3772
-rect 1358 3752 1372 3754
-rect 2792 3752 3192 3754
-rect 1358 3748 1360 3752
-rect 1324 3732 1360 3734
-rect 1364 3732 1366 3748
-rect 2658 3377 2670 3378
-rect 4252 2840 4254 3240
-rect 4622 2714 4623 2718
-rect 4626 2710 4627 2714
-rect 4252 1414 4254 1420
-rect 4252 1412 4274 1414
-rect 4226 1372 4268 1374
-rect 4272 1372 4274 1412
-rect 4226 1368 4228 1372
-rect 4232 1334 4234 1368
-rect 4232 1332 4274 1334
-rect 4226 1292 4268 1294
-rect 4272 1292 4274 1332
-rect 4226 1288 4228 1292
-rect 4232 1254 4234 1288
-rect 4232 1252 4274 1254
-rect 4246 1212 4268 1214
-rect 4272 1212 4274 1252
-rect 4246 1208 4248 1212
-rect 4252 1200 4254 1208
-rect 7802 629 7898 630
-rect 574 248 575 250
-rect 579 152 580 248
-rect 4001 58 4009 62
-rect 4005 55 4009 58
-rect 4001 52 4009 55
-rect 4001 51 4008 52
-use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_2
-timestamp 1541066865
-transform -1 0 7000 0 -1 8000
-box -925 0 6443 3650
-use L500_SIGNATURE_kallisti_huge  L500_SIGNATURE_kallisti_huge_0 ../../Library/magic
+timestamp 1541382103
+use Library/magic/L500_PBASE_W14_2000rsquare  L500_PBASE_W14_2000rsquare_t
+timestamp 1541382052
+transform -1 0 8600 0 -1 8600
+box 0 0 7325 250
+use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_t
+timestamp 1541382103
+transform -1 0 8100 0 -1 8600
+box -28 0 7778 4050
+use Library/magic/L500_SIGNATURE_kallisti_huge  L500_SIGNATURE_kallisti_huge_0
 timestamp 1533657739
 transform 1 0 3722 0 1 3763
 box 21 17 539 547
-use L500_SIGNATURE_pearlriver  L500_SIGNATURE_pearlriver_0 ../../Library/magic
-timestamp 1541066865
+use Library/magic/L500_SIGNATURE_pearlriver  L500_SIGNATURE_pearlriver_0
+timestamp 1541382052
 transform 1 0 3897 0 1 3740
 box 0 0 202 18
-use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_3
-timestamp 1541066865
-transform 0 1 2 -1 0 7000
-box -925 0 6443 3650
-use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_1
-timestamp 1541066865
-transform 0 -1 8000 1 0 1050
-box -925 0 6443 3650
-use Library/magic/L500_CHAR_0  L500_CHAR_0_0 Library/magic
+use Library/magic/L500_NBASE_W14_2000rsquare  L500_NBASE_W14_2000rsquare_w
+timestamp 1541382052
+transform 0 1 0 -1 0 8600
+box 0 0 0 8600
+use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_w
+timestamp 1541382103
+transform 0 1 0 -1 0 8150
+box -28 0 7778 4050
+use Library/magic/L500_PWELL_W14_2000rsquare  L500_PWELL_W14_2000rsquare_e
+timestamp 1541382052
+transform 0 -1 8600 1 0 50
+box 0 0 7324 250
+use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_e
+timestamp 1541382103
+transform 0 -1 8600 1 0 500
+box -28 0 7778 4050
+use Library/magic/L500_CHAR_0  L500_CHAR_0_0
 timestamp 1534325425
 transform 1 0 -3 0 1 42
 box 0 0 12 18
-use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_0
-timestamp 1541066865
-transform 1 0 1000 0 1 50
-box -925 0 6443 3650
-use Library/magic/L500_CHAR_1  L500_CHAR_1_0 Library/magic
+use Library/magic/L500_NWELL_W14_2000rsquare  L500_NWELL_W14_2000rsquare_b
+timestamp 1541382052
+transform 1 0 50 0 1 50
+box 0 0 7324 250
+use Layout/magic/PearlRiver_quarter  PearlRiver_quarter_b
+timestamp 1541382103
+transform 1 0 500 0 1 50
+box -28 0 7778 4050
+use Library/magic/L500_CHAR_1  L500_CHAR_1_0
 timestamp 1534326485
 transform 1 0 1997 0 1 44
 box 0 0 12 18
-use Library/magic/L500_CHAR_2  L500_CHAR_2_0 Library/magic
+use Library/magic/L500_CHAR_2  L500_CHAR_2_0
 timestamp 1534324708
 transform 1 0 3997 0 1 44
 box 0 0 12 18
-use Library/magic/L500_CHAR_3  L500_CHAR_3_0 Library/magic
+use Library/magic/L500_CHAR_3  L500_CHAR_3_0
 timestamp 1534324785
 transform 1 0 5997 0 1 44
 box 0 0 12 18
-use Library/magic/L500_CHAR_4  L500_CHAR_4_0 Library/magic
+use Library/magic/L500_CHAR_4  L500_CHAR_4_0
 timestamp 1534324830
 transform 1 0 7997 0 1 44
 box 0 0 12 18
-use L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_0 ../../Library/magic
-timestamp 1541066865
+use Library/magic/L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_0
+timestamp 1541382052
 transform 1 0 3 0 1 0
 box -3 0 2003 40
-use L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_1
-timestamp 1541066865
+use Library/magic/L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_1
+timestamp 1541382052
 transform 1 0 2003 0 1 0
 box -3 0 2003 40
-use L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_3
-timestamp 1541066865
+use Library/magic/L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_3
+timestamp 1541382052
 transform 1 0 4003 0 1 0
 box -3 0 2003 40
-use L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_2
-timestamp 1541066865
+use Library/magic/L500_SIGNATURE_ruler  L500_SIGNATURE_ruler_2
+timestamp 1541382052
 transform 1 0 6003 0 1 0
 box -3 0 2003 40
 << end >>

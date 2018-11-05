@@ -1,21 +1,23 @@
 magic
 tech scmos
-timestamp 1541128918
+timestamp 1541398015
 << nwell >>
-rect 300 244 7347 254
+rect 300 244 7334 254
 rect 300 230 310 244
 rect 300 174 7310 230
 rect 300 76 352 174
-rect 7324 160 7347 244
-rect 366 90 7347 160
+rect 7324 160 7334 244
+rect 366 150 7334 160
+rect 366 90 7347 150
 rect 300 20 7310 76
+rect 7324 50 7347 90
 rect 300 6 310 20
-rect 7324 6 7347 90
-rect 300 -4 7347 6
+rect 7324 6 7334 50
+rect 300 -4 7334 6
 << metal1 >>
 rect 300 230 303 244
+rect 7347 50 7350 150
 rect 300 6 303 20
-rect 7347 -4 7350 254
 << nwpbase >>
 rect 310 230 7324 244
 rect 7310 174 7324 230
@@ -26,8 +28,8 @@ rect 7310 20 7324 76
 rect 310 6 7324 20
 << nsubstratencontact >>
 rect 303 230 317 244
+rect 7332 50 7347 150
 rect 303 6 317 20
-rect 7332 -4 7347 254
 use Library/magic/L500_METAL1_W100_1rsquare  L500_METAL1_W100_1rsquare_1
 timestamp 1537367970
 transform 0 1 0 -1 0 250
@@ -120,8 +122,8 @@ use Library/magic/L500_METAL1_W100_1rsquare  L500_METAL1_W100_1rsquare_0
 timestamp 1537367970
 transform 0 1 0 -1 0 100
 box 0 0 100 300
-use L500_METAL1_W100_1rsquare  L500_METAL1_W100_1rsquare_2
+use Library/magic/L500_METAL1_W100_1rsquare  L500_METAL1_W100_1rsquare_2
 timestamp 1537367970
-transform 0 1 7350 -1 0 96
+transform 1 0 7350 0 1 50
 box 0 0 100 300
 << end >>
