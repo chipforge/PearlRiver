@@ -1673,7 +1673,7 @@ style lambda=0.5(libresilicon)
  templayer pimplant_only rpd,plpdiff,pdpc
   grow 100
  templayer contacts pc,pdc,ndc,ppc,nnc,pbc,ndpc,pdpc,pbnc,pbpc,nbnc,nbpc,hpdc,hndc,pc,pdc,ndc,ppc,nnc,pbc,hpdc,hndc
- templayer first_metal m1,contacts
+ templayer first_metal m1,contacts,m2c
  templayer first_via m2c
   shrink 50
  templayer second_metal m2,m2c,m3c
