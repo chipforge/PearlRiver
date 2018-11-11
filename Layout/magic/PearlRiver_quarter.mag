@@ -1,24 +1,6 @@
 magic
 tech scmos
 timestamp 1541744917
-<< error_s >>
-rect 306 742 354 744
-rect 306 738 308 742
-rect 300 722 308 724
-rect 312 722 314 738
-rect 352 704 354 742
-rect 386 742 434 744
-rect 386 738 388 742
-rect 352 702 388 704
-rect 392 702 394 738
-rect 432 704 434 742
-rect 466 742 514 744
-rect 466 738 468 742
-rect 432 702 468 704
-rect 472 702 474 738
-rect 512 724 514 742
-rect 512 722 520 724
-rect 1940 722 2340 724
 use Layout/magic/contact_table  contact_table_0
 timestamp 1541744917
 transform 1 0 2500 0 1 1250
