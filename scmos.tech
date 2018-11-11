@@ -33,6 +33,7 @@ planes
 
 
     metal3,m3
+    metal4,m4
     oxide,ox
 end
 
@@ -57,6 +58,7 @@ types
     metal1 metal1,m1,blue
     metal2 metal2,m2,purple
     metal3 metal3,m3,cyan
+    metal4 metcap,mcap
 
 
 
@@ -311,6 +313,7 @@ styles
     metal1 20
     metal2 21
     metal3 22
+    metcap 23
 
     gc 19
 
@@ -533,7 +536,7 @@ compose
     paint ndiff hnwell hpdiff
     paint psd hnwell hnsd
     paint psc hnwell hnsc
-# 896 "scmos.tech.out"
+# 899 "scmos.tech.out"
     paint nfet cwell wcap
     paint poly wcap wcap
     paint ndiff wcap wcap
@@ -630,7 +633,7 @@ connect
     pad m3,m3c/m3
 
 end
-# 1001 "scmos.tech.out"
+# 1004 "scmos.tech.out"
 cifoutput
 
 
@@ -1760,8 +1763,8 @@ style lambda=0.5(libresilicon)
 
  layer COG glass
   calma 20 0
-# 1009 "scmos.tech.out" 2
-# 1023 "scmos.tech.out"
+# 1012 "scmos.tech.out" 2
+# 1026 "scmos.tech.out"
 style plot
     scalefactor 100 50
     layer CM2 m2,m2c/m2,pad/m2
@@ -1794,7 +1797,7 @@ style plot
 
 
 end
-# 1066 "scmos.tech.out"
+# 1069 "scmos.tech.out"
 cifinput
 
 
@@ -4727,8 +4730,8 @@ style lambda=1.0(cmosn)
     calma NVA 11 *
     calma NMS 12 *
     calma NOG 13 *
-# 1070 "scmos.tech.out" 2
-# 1084 "scmos.tech.out"
+# 1073 "scmos.tech.out" 2
+# 1087 "scmos.tech.out"
 end
 
 mzrouter
@@ -4748,17 +4751,17 @@ end
 
 
 drc
-# 1116 "scmos.tech.out"
+# 1119 "scmos.tech.out"
     edge4way (~nwell)/w nwell 10 nwell nwell 10\
  "N-Well width must be at least 10 (MOSIS rule #1.1)"
     edge4way (~pwell)/w pwell 10 pwell pwell 10\
  "P-Well width must be at least 10 (MOSIS rule #1.1)"
-# 1136 "scmos.tech.out"
+# 1139 "scmos.tech.out"
     edge4way nwell (~nwell)/w 9 (~nwell)/w (~nwell)/w 9\
         "N-Well spacing must be at least 9 (MOSIS rule #1.2)"
     edge4way pwell (~pwell)/w 9 (~pwell)/w (~pwell)/w 9\
         "P-Well spacing must be at least 9 (MOSIS rule #1.2)"
-# 1174 "scmos.tech.out"
+# 1177 "scmos.tech.out"
     width ndiff,ndc/a,nfet,enfet,nffet,wcap 3 \
  "N-type Diffusion width must be at least 3 (MOSIS rule #2.1a)"
     width pdiff,pdc/a,pfet,epfet,pffet 3 \
@@ -4783,7 +4786,7 @@ drc
 
     spacing ndiff,ndc/a pdiff,pdc/a 10 touching_illegal \
  "P-type diffusion must be 10 away from N-type diffusion (MOSIS rule #2.3a)"
-# 1207 "scmos.tech.out"
+# 1210 "scmos.tech.out"
     spacing ndiff,ndc/a nsd,nsc/a 8 touching_illegal \
  "N-type diffusion must be 8 away from N-substrate contact (MOSIS rule #2.3a,4a)"
     spacing pdiff,pdc/a psd,psc/a 8 touching_illegal \
@@ -4793,7 +4796,7 @@ drc
 
     spacing nsd,nsc/a psd,psc/a 6 touching_illegal \
  "Opposite well contacts must be separated by 6 (MOSIS rule #2.4)"
-# 1224 "scmos.tech.out"
+# 1227 "scmos.tech.out"
     spacing ndiff,ndc/a,nfet,enfet,nffet,wcap nwell 5 touching_illegal \
  "N-diffusion and N-well must be separated by 5 (MOSIS rule #2.3a)"
     spacing pdiff,pdc/a,pfet,epfet,pffet pwell 5 touching_illegal \
@@ -4860,7 +4863,7 @@ drc
         "Poly and diffusion must be separated by at least 1 (MOSIS rule #3.5)"
     edge nsd,nsc/a,psd,psc/a,ndiff,ndc/a,pdiff,pdc/a space/a 1 space/a space/a 1 \
         "Poly and diffusion must be separated by at least 1 (MOSIS rule #3.5)"
-# 1313 "scmos.tech.out"
+# 1316 "scmos.tech.out"
     spacing pfet,epfet,pffet nsd,nsc/a 3 touching_illegal \
  "Transistors must be separated from substrate contacts by 3 (MOSIS rule #4.1.a)"
     spacing nfet,enfet,nffet psd,psc/a 3 touching_illegal \
@@ -4884,7 +4887,7 @@ drc
  "Backedge of diffusion must be 4 from substrate diff (MOSIS rule #4.2.a)"
     edge4way ~(ndiff,ndc/a,nfet,enfet,nffet,wcap)/act ndiff,ndc,nfet 4 ~(psd,psc/a)/act ndiff,ndc/a,nfet,enfet,nffet,wcap 2 \
  "Backedge of diffusion must be 4 from substrate diff (MOSIS rule #4.2.b)"
-# 1347 "scmos.tech.out"
+# 1350 "scmos.tech.out"
     width pc 4 \
  "Poly contact width must be at least 4 (MOSIS rule #5B.1,2,3)"
 
@@ -4903,12 +4906,12 @@ drc
 
     spacing pc ndiff,ndc/a,nfet,enfet,nffet,wcap,pdiff,pdc/a,pfet,epfet,pffet,nsd,nsc/a,psd,psc/a 1 touching_illegal \
  "Poly contact must be 1 unit from diffusion (MOSIS rule #5B.6)"
-# 1373 "scmos.tech.out"
+# 1376 "scmos.tech.out"
     width ndc,pdc 4 \
  "Diffusion contact width must be at least 4 (MOSIS rule #6B.1,2,3)"
     width nsc,psc 4 \
  "Substrate contact width must be at least 4 (MOSIS rule #6B.1,2,3)"
-# 1397 "scmos.tech.out"
+# 1400 "scmos.tech.out"
     edge4way ndiff,ndc/a,nfet,enfet,nffet,wcap,pdiff,pdc/a,pfet,epfet,pffet,nsd,nsc/a,psd,psc/a ~(ndiff,ndc/a,nfet,enfet,nffet,wcap,pdiff,pdc/a,pfet,epfet,pffet,nsd,nsc/a,psd,psc/a)/act 4 ~(ndc,pdc,nsc,psc)/act \
  ~(ndiff,ndc/a,nfet,enfet,nffet,wcap,pdiff,pdc/a,pfet,epfet,pffet,nsd,nsc/a,psd,psc/a)/act 4 \
         "Diffusion contacts must be 4 from other diffusions (MOSIS rule #6B.4,5)"
@@ -4926,7 +4929,7 @@ drc
 
     spacing pdc,ndc,psc,nsc,pbnc,pbpc,nbnc,nbpc pc/act 2 touching_illegal \
  "Poly contacts must be 2 away from diffusion contacts (MOSIS rule #6B.9)"
-# 1422 "scmos.tech.out"
+# 1425 "scmos.tech.out"
     edge4way m3c/m3 ~m3c/m3 1 ~m3c/m3 (~m3c,m3c)/m3 1 \
  "Metal3 contacts must be rectangular (Magic rules)"
     edge4way m2c/m2 ~m2c/m2 1 ~m2c/m2 (~m2c,m2c)/m2 1 \
@@ -4969,7 +4972,7 @@ drc
 
     spacing pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc,pad/m1 pdc/m1,ndc/m1,psc/m1,nsc/m1,hpdc/m1,hndc/m1,hpsc/m1,hnsc/m1,pc/m1,ec/m1,capc/m1,clc/m1,emc/m1,nbdc/m1,m1,m2c/m1,gc,pad/m1 3 touching_ok \
  "First-level metal spacing must be at least 3 (MOSIS rule #7.2)"
-# 1475 "scmos.tech.out"
+# 1478 "scmos.tech.out"
     width m2c 4 \
  "Contact width must be at least 4 (MOSIS rule #8.1,2,3)"
 
@@ -5001,10 +5004,10 @@ drc
 
     width m2,m2c/m2,m3c/m2,pad 3 \
  "Second-level metal width must be at least 3 (MOSIS rule #9.1)"
-# 1516 "scmos.tech.out"
+# 1519 "scmos.tech.out"
     spacing m2,m2c/m2,m3c/m2,pad m2,m2c/m2,m3c/m2,pad 4 touching_ok \
  "Second-level metal spacing must be at least 4 (MOSIS rule #9.2a)"
-# 1574 "scmos.tech.out"
+# 1577 "scmos.tech.out"
     width cap,capc/a 2 \
  "Electrode capacitor width must be at least 3 (MOSIS rule #11.1)"
 
@@ -5027,7 +5030,7 @@ drc
  "Cap must be on a flat surface (MOSIS rule #11.4)" active
     edge4way cap ~(cap)/a 2 nfet,enfet,nffet,pfet,epfet,pffet,poly,poly2,space/a,cc/a \
  ndiff,ndc/a,pdiff,pdc/a,poly 2 "Cap must be on a flat surface (MOSIS rule #11.4)" active
-# 1605 "scmos.tech.out"
+# 1608 "scmos.tech.out"
     width poly2,ec/a,enfet,epfet,cap,capc/a,nffet,pffet,hnfet,hpfet 2 \
  "Electrode width must be at least 2 (MOSIS rule #12.1)"
 
@@ -5053,7 +5056,7 @@ drc
 
     spacing poly2,ec/a,enfet,epfet,cap,capc/a,nffet,pffet,hnfet,hpfet pc,ndc,pdc 2 touching_illegal \
  "Poly2 spacing to poly or diffusion contact must be at least 3 (MOSIS rule #12.6)"
-# 1646 "scmos.tech.out"
+# 1649 "scmos.tech.out"
     width ec,capc 4 \
  "Electrode contact width must be at least 4 (MOSIS rule #13.1)"
 
@@ -5078,7 +5081,7 @@ drc
 
     width m3c 4 \
         "Third-level metal contact width must be at least 4 (MOSIS rule #14.1,2,3)"
-# 1684 "scmos.tech.out"
+# 1687 "scmos.tech.out"
     width m3,m3c/m3 6 \
        "Third-level metal width must be at least 6 (MOSIS rule #15.1a)"
 
@@ -5095,10 +5098,10 @@ drc
 
     edge4way m3c/m3 ~m3c/m3 1 m3 m3 1 \
  "Mimimum metal3 overlap of via must be at least 1 (MOSIS rule #15.3)"
-# 1708 "scmos.tech.out"
+# 1711 "scmos.tech.out"
     width clc,pbc,emc 4 \
  "Transistor contact width must be at least 4 (MOSIS rule #16.1)"
-# 1719 "scmos.tech.out"
+# 1722 "scmos.tech.out"
     edge4way emc/a,emit pbase 4 pbase pbase 4 \
  "Pbase overlap of emitter must be at least 4 (MOSIS rule #16.3)"
 
@@ -5113,7 +5116,7 @@ drc
 
     edge4way pbc (~pbc)/a 3 pb,pbc/a pb,pbc/a 3 \
  "Pbase overlap of base contact must be at least 3 (MOSIS rule #16.5)"
-# 1741 "scmos.tech.out"
+# 1744 "scmos.tech.out"
     width col,clc/a 6 \
  "Collector width must be at least 6 (MOSIS rule #16.6)"
 
@@ -5158,7 +5161,7 @@ drc
 
     spacing pbase,pbc/a pbase,pbc/a 2 surround_ok \
  "Pbase spacing must be at least 2 (MOSIS extension rule)"
-# 1794 "scmos.tech.out"
+# 1797 "scmos.tech.out"
     width cwell 10 \
  "Cap-well width must be at least 10 (MOSIS rule #17.1)"
 
@@ -5180,7 +5183,7 @@ drc
 
     edge4way space cwell 3 (space,poly,pc)/a 0 0 \
  "Cap-well overlap of diffusion must be at least 3 (MOSIS rule #17.4)" active
-# 1824 "scmos.tech.out"
+# 1827 "scmos.tech.out"
     width wcap 3 \
  "Well-capacitor must be at least 3 (MOSIS rule #18.1)"
 
@@ -5216,7 +5219,7 @@ drc
  "CCD channel width must be at least 4 (MOSIS rule #19.1)"
     width nbdc 4 \
  "CCD contact width must be at least 4 (MOSIS rule #19.1)"
-# 1869 "scmos.tech.out"
+# 1872 "scmos.tech.out"
     edge4way nbd,nbdc ~(bd,nbd,nbdc)/a 4 (bd,space)/i 0 0 \
  "CCD channel spacing must be at least 4 (MOSIS rule #19.2)" implant
     edge4way nbd,nbdc ~(poly,nbd,nbdc)/a 4 ~(poly,nbd,nbdc)/a ~(poly,nbd,nbdc)/a 4 \
@@ -5237,7 +5240,7 @@ drc
  "CCD-diffusion contact spacing to poly must be at least 1 (MOSIS CCD rule)"
     edge4way nbd poly,el 1 bd 0 0 \
  "Missing Buried CCD Difussion layer (MOSIS CCD rule)" implant
-# 1901 "scmos.tech.out"
+# 1904 "scmos.tech.out"
     edge (~hnwell)/w hnwell 10 hnwell hnwell 10\
         "High-Voltage N-Well width must be at least 10 (MOSIS rule #1.1)"
     edge (~hpwell)/w hpwell 10 hpwell hpwell 10\
@@ -5284,7 +5287,7 @@ drc
         "N-substrate diffusion and HVP-well must be separated by 3 (MOSIS rule #2.4+20.3)"
     spacing psd,psc/a hnwell 3 touching_illegal \
         "P-substrate diffusion and HVN-well must be separated by 3 (MOSIS rule #2.4+20.3)"
-# 1955 "scmos.tech.out"
+# 1958 "scmos.tech.out"
     edge (~hndc)/a hndc/a 6 hndc/a hndc/a 6\
         "High-Voltage Diffusion contact width must be at least 6 (MOSIS rule #20.5)"
     edge (~hpdc)/a hpdc/a 6 hpdc/a hpdc/a 6\
@@ -6022,8 +6025,8 @@ style check_nsubstr
 
     noplaneordering
 # 97 "./extract_template/scmosExt.tech.in" 2
-# 1987 "scmos.tech.out" 2
-# 2792 "scmos.tech.out"
+# 1990 "scmos.tech.out" 2
+# 2795 "scmos.tech.out"
 end
 
 
