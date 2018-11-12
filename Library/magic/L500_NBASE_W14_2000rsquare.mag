@@ -30,10 +30,11 @@ rect 352 90 366 160
 rect 352 76 7324 90
 rect 7310 20 7324 76
 rect 310 6 7324 20
-<< pbasepdiffcontact >>
+<< pbasendiffcontact >>
 rect 303 230 317 244
-rect 7334 50 7344 150
 rect 303 6 317 20
+<< pbasepdiffcontact >>
+rect 7334 50 7344 150
 << nsubstratencontact >>
 rect 7364 50 7374 150
 use Library/magic/L500_METAL1_W100_1rsquare  L500_METAL1_W100_1rsquare_1
