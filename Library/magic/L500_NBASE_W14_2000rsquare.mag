@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1541403068
+timestamp 1541993952
 << nwell >>
 rect 290 254 7384 264
 rect 290 -4 300 254
@@ -14,18 +14,18 @@ rect 300 6 303 20
 << nwpbase >>
 rect 300 244 7354 254
 rect 300 230 310 244
-rect 7300 230 7354 244
-rect 300 174 7354 230
+rect 300 174 7310 230
 rect 300 76 352 174
-rect 7300 160 7354 174
+rect 7324 160 7354 244
 rect 366 90 7354 160
 rect 300 20 7310 76
 rect 300 6 310 20
 rect 7324 6 7354 90
 rect 300 -4 7354 6
 << nwpnbase >>
-rect 310 230 7300 244
-rect 352 160 7300 174
+rect 310 230 7324 244
+rect 7310 174 7324 230
+rect 352 160 7324 174
 rect 352 90 366 160
 rect 352 76 7324 90
 rect 7310 20 7324 76
@@ -101,7 +101,7 @@ use Library/magic/L500_CHAR_r  L500_CHAR_r_0
 timestamp 1534323573
 transform 1 0 232 0 1 116
 box 0 0 12 18
-use Library/magic/L500_CHAR_s  Library/magic/L500_CHAR_s_0
+use Library/magic/L500_CHAR_s  L500_CHAR_s_0
 timestamp 1534323853
 transform 1 0 248 0 1 116
 box 0 0 12 18
@@ -113,7 +113,7 @@ use Library/magic/L500_CHAR_u  L500_CHAR_u_0
 timestamp 1534323899
 transform 1 0 280 0 1 116
 box 0 0 12 18
-use Library/magic/L500_CHAR_a  Library/magic/L500_CHAR_a_0
+use Library/magic/L500_CHAR_a  L500_CHAR_a_0
 timestamp 1534325357
 transform 1 0 296 0 1 116
 box 0 0 12 18
