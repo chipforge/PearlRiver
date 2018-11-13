@@ -1,48 +1,26 @@
 magic
 tech scmos
-timestamp 1541939920
+timestamp 1542092493
 << error_s >>
-rect 144 1566 146 1568
-rect 144 1564 162 1566
-rect 143 1542 163 1543
-rect 144 1538 162 1540
-rect 142 1215 144 1217
-rect 142 1213 148 1215
-rect 141 1203 149 1204
-rect 142 1199 148 1201
-rect 131 860 133 863
-rect 141 862 143 864
-rect 141 860 147 862
-rect 140 855 148 856
-rect 141 851 147 853
-rect 142 517 144 519
-rect 142 515 146 517
-rect 144 505 147 506
-rect 150 505 153 507
-rect 145 501 149 503
-rect 157 135 159 137
-rect 157 133 161 135
-rect 159 128 162 129
-rect 165 128 168 130
-rect 160 124 164 126
-use L500_ISON_W10_L10_params  L500_ISON_W10_L10_params_0 ~/IC/github/PearlRiver/Library/magic
-timestamp 1541939539
-transform 1 0 120 0 1 1497
-box -120 -97 180 203
-use L500_ISON_W4_L4_params  L500_ISON_W4_L4_params_0 ~/IC/github/PearlRiver/Library/magic
-timestamp 1541938952
-transform 1 0 120 0 1 1147
-box -120 -97 180 203
-use L500_ISON_W4_L1P5_params  L500_ISON_W4_L1P5_params_0 ~/IC/github/PearlRiver/Library/magic
-timestamp 1541937549
-transform 1 0 120 0 1 797
-box -120 -97 180 203
-use L500_ISON_W1P5_L4_params  L500_ISON_W1P5_L4_params_0 ~/IC/github/PearlRiver/Library/magic
-timestamp 1541936287
-transform 1 0 120 0 1 447
-box -120 -97 180 203
-use L500_ISON_W1P5_L1P5_params  L500_ISON_W1P5_L1P5_params_0 ~/IC/github/PearlRiver/Library/magic
-timestamp 1541934660
-transform 1 0 120 0 1 97
-box -120 -97 180 203
+rect 148 151 151 152
+use Library/magic/L500_NMOSi_W40_L40_params  L500_NMOSi_W40_L40_params_0
+timestamp 1542090445
+transform 1 0 0 0 1 1400
+box 0 0 300 300
+use Library/magic/L500_NMOSi_W20_L20_params  L500_NMOSi_W20_L20_params_0
+timestamp 1542090445
+transform 1 0 0 0 1 1050
+box 0 0 300 300
+use Library/magic/L500_NMOSi_W10_L10_params  L500_NMOSi_W10_L10_params_0
+timestamp 1542090445
+transform 1 0 0 0 1 700
+box 0 0 300 300
+use Library/magic/L500_NMOSi_W5_L5_params  L500_NMOSi_W5_L5_params_0
+timestamp 1542090445
+transform 1 0 0 0 1 350
+box 0 0 300 300
+use Library/magic/L500_NMOSi_W3_L2_params  L500_NMOSi_W3_L2_params_0
+timestamp 1542090651
+transform 1 0 0 0 1 0
+box 0 0 300 300
 << end >>
