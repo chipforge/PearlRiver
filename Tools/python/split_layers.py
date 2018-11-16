@@ -105,8 +105,8 @@ if '-n' in sys.argv:
 			if '-s' in sys.argv:
 				gdspy.LayoutViewer()
 
-		except:
-			print("Can't do this")
+		except Exception,e:
+			print("Can't do this:"+e)
 	else:
 		print("No cell name given. Use -n!")
 else:
