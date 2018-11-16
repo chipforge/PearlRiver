@@ -79,6 +79,9 @@ if '-n' in sys.argv:
 		cell=cell.flatten()
 		bb=cell.get_bounding_box()
 
+		if '-st' in sys.argv:
+			gdspy.LayoutViewer(cells=cellname)
+
 		try:
 			p11=bb[0]-[orig_box_width,orig_box_width]-[orig_box_spacing,orig_box_spacing]
 			p12=bb[0]-[orig_box_spacing,orig_box_spacing]
