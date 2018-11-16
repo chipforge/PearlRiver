@@ -22,7 +22,7 @@ rect 90 136 147 146
 rect 90 100 100 136
 rect 157 100 167 136
 rect 157 90 200 100
-<< ptransistor >>
+<< ntransistor >>
 rect 148 149 151 151
 << nwpbase >>
 rect 146 134 169 167

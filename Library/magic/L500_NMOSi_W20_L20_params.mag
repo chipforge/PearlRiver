@@ -20,7 +20,7 @@ rect 90 127 140 137
 rect 90 100 100 127
 rect 166 100 176 127
 rect 166 90 200 100
-<< ptransistor >>
+<< ntransistor >>
 rect 140 140 160 160
 << nwpbase >>
 rect 138 125 178 175
