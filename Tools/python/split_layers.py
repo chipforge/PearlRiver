@@ -71,7 +71,7 @@ if '-n' in sys.argv:
 			layout_path='Layout'
 
 		print(os.popen("mkdir -p "+layout_path+"/gds").read())
-		print(os.popen("magic -dnull -noconsole << EOF"+get_magic_script(layout_path,cellname)+"EOF").read())
+		print(os.popen("magic -Tscmos.tech -dnull -noconsole << EOF"+get_magic_script(layout_path,cellname)+"EOF").read())
 
 		gdsii=gdspy.GdsLibrary()
 		gdsii.read_gds(layout_path+"/gds/"+cellname+".gds")
