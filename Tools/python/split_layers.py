@@ -102,11 +102,12 @@ if '-n' in sys.argv:
 				newgdsii.add(ncell)
 				newgdsii.write_gds(layout_path+"/gds/mask_"+layername+".gds")
 
-			if '-s' in sys.argv:
-				gdspy.LayoutViewer()
-
 		except Exception as e:
 			print("Can't do this:"+e)
+
+		if '-s' in sys.argv:
+			gdspy.LayoutViewer()
+
 	else:
 		print("No cell name given. Use -n!")
 else:
