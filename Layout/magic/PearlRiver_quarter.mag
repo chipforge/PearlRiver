@@ -19,7 +19,7 @@ transform 1 0 -28 0 1 740
 box 0 0 2478 400
 use Layout/magic/npn_table  npn_table_0 Layout/magic
 timestamp 1541940149
-transform 1 0 2500 0 1 550
+transform 1 0 3200 0 1 1500
 box 0 0 300 650
 use ison_table  ison_table_0
 timestamp 1541939920
