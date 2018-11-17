@@ -1,0 +1,71 @@
+magic
+tech scmos
+timestamp 1542445978
+<< nwell >>
+rect 114 176 186 186
+rect 114 143 125 176
+rect 176 143 186 176
+rect 114 131 186 143
+<< metal1 >>
+rect 100 200 139 210
+rect 129 173 139 200
+rect 161 200 200 210
+rect 161 173 171 200
+rect 129 165 171 173
+rect 129 147 135 165
+rect 165 163 171 165
+rect 138 156 162 162
+rect 138 100 144 156
+rect 147 152 153 153
+rect 147 148 148 152
+rect 152 148 153 152
+rect 147 100 153 148
+rect 156 147 162 156
+rect 165 148 166 163
+rect 170 148 171 163
+rect 165 147 171 148
+rect 100 90 143 100
+rect 147 90 200 100
+<< nwpbase >>
+rect 125 173 176 176
+rect 125 146 128 173
+rect 136 154 164 164
+rect 136 146 146 154
+rect 154 146 164 154
+rect 172 146 176 173
+rect 125 145 147 146
+rect 153 145 176 146
+rect 125 143 176 145
+<< nwpnbase >>
+rect 128 164 172 173
+rect 128 146 136 164
+rect 146 146 154 154
+rect 164 146 172 164
+rect 147 145 153 146
+<< pbasepdiffcontact >>
+rect 139 157 161 161
+rect 139 148 143 157
+rect 157 148 161 157
+<< nbasendiffcontact >>
+rect 130 167 170 171
+rect 130 148 134 163
+<< ndcontact >>
+rect 148 148 152 152
+rect 166 148 170 163
+use L500_TPAD_blank  L500_TPAD_blank_1
+timestamp 1537343441
+transform 1 0 0 0 1 200
+box 0 0 100 100
+use L500_TPAD_blank  L500_TPAD_blank_3
+timestamp 1537343441
+transform 1 0 200 0 1 200
+box 0 0 100 100
+use L500_TPAD_blank  L500_TPAD_blank_0
+timestamp 1537343441
+transform 1 0 0 0 1 0
+box 0 0 100 100
+use L500_TPAD_blank  L500_TPAD_blank_2
+timestamp 1537343441
+transform 1 0 200 0 1 0
+box 0 0 100 100
+<< end >>
