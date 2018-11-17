@@ -1,8 +1,6 @@
 magic
 tech scmos
-timestamp 1538763620
-<< pwell >>
-rect 176 106 186 125
+timestamp 1542429172
 << nwell >>
 rect 128 125 188 175
 << polysilicon >>
@@ -29,67 +27,67 @@ rect 130 163 170 173
 rect 130 127 170 137
 << nsubstratencontact >>
 rect 176 128 186 160
-use Library/magic/L500_TPAD_blank  L500_TPAD_blank_2
+use L500_TPAD_blank  L500_TPAD_blank_2
 timestamp 1537343441
 transform 1 0 0 0 1 200
 box 0 0 100 100
-use Library/magic/L500_CHAR_g  L500_CHAR_g_0
+use L500_CHAR_g  L500_CHAR_g_0
 timestamp 1534322005
 transform 1 0 101 0 1 178
 box 0 0 12 18
-use Library/magic/L500_CHAR_d  L500_CHAR_d_0
+use L500_CHAR_d  L500_CHAR_d_0 
 timestamp 1534321738
 transform 1 0 184 0 1 187
 box 0 0 12 18
-use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
+use L500_TPAD_blank  L500_TPAD_blank_3
 timestamp 1537343441
 transform 1 0 200 0 1 200
 box 0 0 100 100
-use Library/magic/L500_CHAR_p  L500_CHAR_p_0
+use L500_CHAR_p  L500_CHAR_p_0
 timestamp 1534323210
 transform 1 0 215 0 1 140
 box 0 0 12 18
-use Library/magic/L500_CHAR_w  L500_CHAR_w_0
+use L500_CHAR_w  L500_CHAR_w_0 
 timestamp 1534324213
 transform 1 0 235 0 1 152
 box 0 0 16 18
-use Library/magic/L500_CHAR_4  L500_CHAR_4_0
+use L500_CHAR_4  L500_CHAR_4_0 
 timestamp 1534324830
 transform 1 0 255 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_0  L500_CHAR_0_0
+use L500_CHAR_0  L500_CHAR_0_0 
 timestamp 1534325425
 transform 1 0 271 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0
+use L500_CHAR_slash  L500_CHAR_slash_0 
 timestamp 1534532558
 transform 1 0 287 0 1 152
 box 0 0 8 18
-use Library/magic/L500_CHAR_l  L500_CHAR_l_0
+use L500_CHAR_l  L500_CHAR_l_0 
 timestamp 1534225390
 transform 1 0 239 0 1 130
 box 0 0 12 18
-use Library/magic/L500_CHAR_2  L500_CHAR_2_1
+use L500_CHAR_2  L500_CHAR_2_1 
 timestamp 1534324708
 transform 1 0 255 0 1 130
 box 0 0 12 18
-use Library/magic/L500_CHAR_0  L500_CHAR_0_1
+use L500_CHAR_0  L500_CHAR_0_1
 timestamp 1534325425
 transform 1 0 271 0 1 130
 box 0 0 12 18
-use Library/magic/L500_TPAD_blank  L500_TPAD_blank_0
+use L500_TPAD_blank  L500_TPAD_blank_0
 timestamp 1537343441
 transform 1 0 0 0 1 0
 box 0 0 100 100
-use Library/magic/L500_CHAR_s  L500_CHAR_s_0
+use L500_CHAR_s  L500_CHAR_s_0
 timestamp 1534323853
 transform 1 0 104 0 1 95
 box 0 0 12 18
-use Library/magic/L500_CHAR_b  L500_CHAR_b_0
+use L500_CHAR_b  L500_CHAR_b_0
 timestamp 1534321628
 transform 1 0 190 0 1 104
 box 0 0 12 18
-use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
+use L500_TPAD_blank  L500_TPAD_blank_1
 timestamp 1537343441
 transform 1 0 200 0 1 0
 box 0 0 100 100
