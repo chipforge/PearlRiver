@@ -1,19 +1,17 @@
 magic
 tech scmos
-timestamp 1542089775
+timestamp 1542441308
 << nwell >>
-rect 118 185 198 195
-rect 118 115 128 185
-rect 188 115 198 185
-rect 118 105 198 115
-<< polysilicon >>
-rect 127 130 128 170
+rect 115 188 198 198
+rect 115 112 125 188
+rect 188 112 198 188
+rect 115 102 198 112
 << pbasepolysilicon >>
-rect 128 130 130 170
+rect 125 130 130 170
 rect 170 130 173 170
 << metal1 >>
-rect 100 200 127 210
-rect 117 170 127 200
+rect 100 200 125 210
+rect 115 170 125 200
 rect 200 183 210 200
 rect 170 173 210 183
 rect 90 117 130 127
@@ -23,7 +21,7 @@ rect 176 90 200 100
 << ntransistor >>
 rect 130 130 170 170
 << nwpbase >>
-rect 128 115 188 185
+rect 125 112 188 188
 << pbasendiffusion >>
 rect 130 170 170 173
 rect 130 127 170 130
@@ -33,7 +31,7 @@ rect 130 117 170 127
 << pbasepdiffcontact >>
 rect 176 117 186 170
 << polycontact >>
-rect 117 130 127 170
+rect 115 130 125 170
 use Library/magic/L500_TPAD_blank  L500_TPAD_blank_2
 timestamp 1537343441
 transform 1 0 0 0 1 200
