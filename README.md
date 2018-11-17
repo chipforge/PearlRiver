@@ -20,11 +20,15 @@ For evaluating relevant parameters, we are using test structures which are place
 
 View Layout files with
 
-    magic -T scmos.tech Layout/magic/PearlRiver_quarter.mag
+```
+magic -T scmos.tech Layout/magic/PearlRiver_quarter.mag
+```
 
 for the quarters, or
 
-    magic -T scmos.tech Layout/magic/PearlRiver_die.mag
+```
+magic -T scmos.tech Layout/magic/PearlRiver_die.mag
+```
 
 for the whole die.
 
