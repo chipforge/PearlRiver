@@ -9,7 +9,7 @@ rect 911 46 914 54
 << polycontact >>
 rect 103 46 111 54
 rect 903 46 911 54
-use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1 Library/magic
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
 timestamp 1537343441
 transform 1 0 0 0 1 0
 box 0 0 100 100
