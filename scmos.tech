@@ -1703,6 +1703,7 @@ style lambda=0.5(libresilicon)
   shrink 50
 
  templayer sti_contacts psc,nsc
+  grow 50
 
  layer CWN nwell_parts
   calma 2 0
