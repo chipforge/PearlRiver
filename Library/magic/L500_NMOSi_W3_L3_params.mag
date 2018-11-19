@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1542623529
+timestamp 1542657696
 << nwell >>
 rect 133 169 179 179
 rect 133 130 143 169
@@ -21,10 +21,7 @@ rect 157 90 200 100
 << ntransistor >>
 rect 148 148 151 151
 << nwpbase >>
-rect 143 146 169 169
-rect 148 145 151 146
-rect 152 145 169 146
-rect 143 130 169 145
+rect 143 130 169 169
 << pbasendiffusion >>
 rect 148 151 151 154
 rect 148 145 151 148
@@ -88,7 +85,7 @@ timestamp 1534225390
 transform 1 0 239 0 1 130
 box 0 0 12 18
 use L500_CHAR_3  L500_CHAR_3_2
-timestamp 1534324708
+timestamp 1534324785
 transform 1 0 255 0 1 130
 box 0 0 12 18
 use L500_TPAD_blank  L500_TPAD_blank_1
