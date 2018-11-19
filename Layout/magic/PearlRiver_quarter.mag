@@ -3,7 +3,7 @@ tech scmos
 timestamp 1541940149
 use Layout/magic/contact_table  contact_table_0 Layout/magic
 timestamp 1541940149
-transform 1 0 2500 0 1 1250
+transform 1 0 2500 0 1 550
 box 0 0 312 1700
 use Layout/magic/diode_table  diode_table_0 Layout/magic
 timestamp 1541940149
