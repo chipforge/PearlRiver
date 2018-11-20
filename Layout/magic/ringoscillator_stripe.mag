@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1538802810
+timestamp 1542693000
 << metal2 >>
 rect 1765 311 1773 314
 rect 1786 295 1790 310
@@ -10,7 +10,7 @@ rect 2214 291 2233 295
 rect 300 274 308 278
 rect 1120 274 1136 278
 rect 300 178 308 182
-rect 1120 178 1136 182
+rect 1036 178 1124 182
 use Layout/magic/T10_RO51_NAND3  T10_RO51_NAND3_0
 timestamp 1538561894
 transform 1 0 310 0 -1 438
@@ -26,6 +26,10 @@ box 0 0 100 100
 use Library/magic/L500_TPAD_blank  L500_TPAD_blank_0
 timestamp 1537343441
 transform 1 0 200 0 1 178
+box 0 0 100 100
+use Library/magic/L500_TPAD_blank  L500_TPAD_blank_4
+timestamp 1537343441
+transform 1 0 936 0 1 178
 box 0 0 100 100
 use Library/magic/L500_TPAD_blank  L500_TPAD_blank_1
 timestamp 1537343441
