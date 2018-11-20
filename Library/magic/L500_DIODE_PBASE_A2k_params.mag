@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1541945167
+timestamp 1542691327
 << nwell >>
 rect 101 170 199 194
 rect 101 130 125 170
@@ -19,7 +19,6 @@ rect 182 123 192 130
 rect 132 100 168 126
 << nwpbase >>
 rect 125 130 175 170
-rect 132 126 168 130
 << pdcontact >>
 rect 132 137 168 163
 << m2contact >>

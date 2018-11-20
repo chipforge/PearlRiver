@@ -1,13 +1,11 @@
 magic
 tech scmos
-timestamp 1541995960
+timestamp 1542691027
 << nwell >>
 rect 26 175 274 199
 rect 26 125 50 175
 rect 250 125 274 175
-rect 26 121 57 125
-rect 107 121 274 125
-rect 26 101 274 121
+rect 26 101 274 125
 << metal1 >>
 rect 33 192 267 200
 rect 33 175 43 182
@@ -19,7 +17,6 @@ rect 257 118 267 125
 rect 57 100 243 121
 << nwpbase >>
 rect 50 125 250 175
-rect 57 121 107 125
 << pdcontact >>
 rect 57 132 243 168
 << m2contact >>
@@ -101,7 +98,7 @@ use Library/magic/L500_CHAR_a  L500_CHAR_a_1
 timestamp 1534325357
 transform 1 0 13 0 1 104
 box 0 0 12 18
-use Library/magic/L500_CHAR_k  Library/magic/L500_CHAR_k_0
+use Library/magic/L500_CHAR_k  L500_CHAR_k_0
 timestamp 1534322894
 transform 1 0 281 0 1 119
 box 0 0 12 18
