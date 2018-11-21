@@ -26,6 +26,7 @@ layer_mapping = {
 	'metal2' : [17],
 	'via2' : [18],
 	'metal3' : [19],
+	'glass' : [20],
 }
 
 def get_magic_script(layout_path,cellname):
