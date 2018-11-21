@@ -43,27 +43,27 @@ use Library/magic/L500_TPAD_blank  L500_TPAD_blank_3
 timestamp 1537343441
 transform 1 0 200 0 1 200
 box 0 0 100 100
-use Library/magic/L500_CHAR_n  L500_CHAR_n_0 Library/magic
+use Library/magic/L500_CHAR_n  L500_CHAR_n_0
 timestamp 1534323117
 transform 1 0 215 0 1 140
 box 0 0 12 18
-use Library/magic/L500_CHAR_w  L500_CHAR_w_0 Library/magic
+use Library/magic/L500_CHAR_w  L500_CHAR_w_0
 timestamp 1534324213
 transform 1 0 235 0 1 152
 box 0 0 16 18
-use Library/magic/L500_CHAR_3  L500_CHAR_3_0 Library/magic
+use Library/magic/L500_CHAR_3  L500_CHAR_3_0
 timestamp 1534324893
 transform 1 0 255 0 1 152
 box 0 0 12 18
-use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0 Library/magic
+use Library/magic/L500_CHAR_slash  L500_CHAR_slash_0
 timestamp 1534532558
 transform 1 0 271 0 1 152
 box 0 0 8 18
-use Library/magic/L500_CHAR_l  L500_CHAR_l_0 Library/magic
+use Library/magic/L500_CHAR_l  L500_CHAR_l_0
 timestamp 1534225390
 transform 1 0 239 0 1 130
 box 0 0 12 18
-use Library/magic/L500_CHAR_2  L500_CHAR_2_1 Library/magic
+use Library/magic/L500_CHAR_2  L500_CHAR_2_1
 timestamp 1534324708
 transform 1 0 255 0 1 130
 box 0 0 12 18
