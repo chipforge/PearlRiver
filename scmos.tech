@@ -638,8 +638,9 @@ cifoutput
 
 # 1 "cif_template/objs/LSACIFout" 1
 
-style lambda=0.5(libresilicon)
- scalefactor 50 50
+
+style lambda=0.5(gen)(libresilicon)
+ scalefactor 50 5
 
  templayer poly_parts polysilicon,polycontact,nfet,pfet,rpoly,polypdiff,polyndiff,ndpolycontact,pdpolycontact,rpdiffusion,rndiffusion,nbsfet,pbsfet,spfet,snfet,pbpoly,nbpoly,hnfet,hpfet
  templayer silicide_stop rpoly,rpdiffusion,rndiffusion
