@@ -2,6 +2,9 @@
 import gdspy
 import numpy
 
+spacing=1000
+frame_width=200
+
 darkfield_masks = [
 	["nwell","pwell","pbase","nbase"],
 	["fox","nimplant","pimplant","contact"],
@@ -32,9 +35,6 @@ def get_offset(idx):
 
 
 def get_frame(bb):
-	spacing=1000
-	frame_width=200
-
 	ret=[]
 	p1=bb[0]
 	p2=bb[1]
@@ -88,6 +88,7 @@ def make_masks(frame,mask_type,mask_mappings):
 						print("No polygons found")
 
 					bb=cell.get_bounding_box()
+					bb=bb*5
 					bb[0]=bb[0]+get_offset(idx)
 					bb[1]=bb[1]+get_offset(idx)
 
@@ -95,9 +96,17 @@ def make_masks(frame,mask_type,mask_mappings):
 						topcell.add(stripe)
 
 					for pg in pgs:
+						pg=5*pg
 						pg=pg+get_offset(idx)
 						if((idx>=0) and (idx<=3)):
 							topcell.add(gdspy.Polygon(pg))
+
+					tp=get_offset(idx)
+					fs=1000
+					tp[1]=tp[1]-spacing
+					tp[1]=tp[1]-fs*1.5
+					tp[1]=tp[1]-frame_width
+					topcell.add(gdspy.Text(cellname, fs, tp))
 
 			topcell=topcell.flatten(single_layer=1)
 			outgdsii.add(topcell)
