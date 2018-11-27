@@ -61,6 +61,15 @@ def get_frame(bb):
 
 	return ret
 
+def mirrored_polygons(cell):
+	bb=cell.get_bounding_box()
+	width=bb[1][0]-bb[0][0]
+	pgs=cell.get_polygons()
+	for pg in pgs:
+		for tp in pg:
+			tp[0]=width-tp[0]
+	return pgs
+
 def make_masks(frame,mask_type,mask_mappings):
 	i=1
 	for m in mask_mappings:
@@ -72,8 +81,22 @@ def make_masks(frame,mask_type,mask_mappings):
 		if(len(gdsii.top_level())==1):
 			for c in gdsii.top_level():
 				topcell=c.flatten(single_layer=1)
-	
+				toppgs=topcell.get_polygons()
 			#we have four tiles ready to be filled
+			for idx in range(4):
+				if(len(m)>idx):
+					cellname="mask_"+m[idx]
+					tp=get_offset(idx)
+					fs=2000
+					tp[1]=97800
+					if((idx==2)or(idx==3)):
+						tp[1]=16000
+					text=gdspy.Text(cellname, fs, tp)
+					#text=text.fillet(radius=45, points_per_2pi=256, max_points=199, precision=0.001)
+					toppgs=gdspy.fast_boolean(toppgs,text,"xor")
+			topcell=gdspy.Cell(mask_type+str(i))
+			topcell.add(toppgs)
+
 			for idx in range(4):
 				if(len(m)>idx):
 					cellname="mask_"+m[idx]
@@ -83,7 +106,7 @@ def make_masks(frame,mask_type,mask_mappings):
 					for c in ngdsii.top_level():
 						cell=c.flatten(single_layer=1)
 					try:
-						pgs = cell.get_polygons()
+						pgs = mirrored_polygons(cell)
 					except:
 						print("No polygons found")
 
@@ -100,13 +123,6 @@ def make_masks(frame,mask_type,mask_mappings):
 						pg=pg+get_offset(idx)
 						if((idx>=0) and (idx<=3)):
 							topcell.add(gdspy.Polygon(pg))
-
-					tp=get_offset(idx)
-					fs=1000
-					tp[1]=tp[1]-spacing
-					tp[1]=tp[1]-fs*1.5
-					tp[1]=tp[1]-frame_width
-					topcell.add(gdspy.Text(cellname, fs, tp))
 
 			topcell=topcell.flatten(single_layer=1)
 			outgdsii.add(topcell)
