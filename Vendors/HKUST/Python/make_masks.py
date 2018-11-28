@@ -2,10 +2,10 @@
 import gdspy
 import numpy
 
-#spacing=1000
-spacing=500
-frame_width=200
-square_middle=18750
+#spacing=0.0
+spacing=500.0
+frame_width=200.0
+square_middle=18750.0
 
 darkfield_masks = [
 	["nwell","pwell","pbase","nbase"],
@@ -19,10 +19,10 @@ brightfield_masks = [
 ]
 
 def get_offset(idx):
-	x0=20000
-	y0=20500
-	x1=95000
-	y1=95500
+	x0=20000.0
+	y0=20500.0
+	x1=95000.0
+	y1=95500.0
 
 	if(idx==0):
 		return [x0,y1]
@@ -33,13 +33,11 @@ def get_offset(idx):
 	elif(idx==3):
 		return [x1,y0]
 	else:
-		return [0,0]
+		return [0.0,0.0]
 
-def get_layer_location(idx,w,h):
+def get_layer_location(idx,sidelength):
 	ret=get_offset(idx)
-	#18750
-	ret[0]=ret[0]-w/2
-	ret[1]=ret[1]-h/2
+
 	if(idx==0):
 		ret[0]=ret[0]+square_middle
 		ret[1]=ret[1]-square_middle
@@ -53,6 +51,9 @@ def get_layer_location(idx,w,h):
 		ret[0]=ret[0]-square_middle
 		ret[1]=ret[1]+square_middle
 
+	ret[0]=ret[0]-sidelength/2
+	ret[1]=ret[1]-sidelength/2
+
 	return ret
 
 def get_frame(bb):
@@ -60,13 +61,13 @@ def get_frame(bb):
 	p1=bb[0]
 	p2=bb[1]
 
-	pp1=[p1[0]-spacing,p1[1]-(spacing+frame_width)]
-	pp2=[p1[0]-(spacing+frame_width),p2[1]+(spacing+frame_width)]
+	pp1=[p1[0]-spacing, p1[1]-(spacing+frame_width)]
+	pp2=[p1[0]-(spacing+frame_width), p2[1]+(spacing+frame_width)]
 	stripe=gdspy.Rectangle(pp1, pp2, layer=1, datatype=0)
 	ret.append(stripe)
 
-	pp1=[p2[0]+spacing,p1[1]-(spacing+frame_width)]
-	pp2=[p2[0]+(spacing+frame_width),p2[1]+(spacing+frame_width)]
+	pp1=[p2[0]+spacing, p1[1]-(spacing+frame_width)]
+	pp2=[p2[0]+(spacing+frame_width), p2[1]+(spacing+frame_width)]
 	stripe=gdspy.Rectangle(pp1, pp2, layer=1, datatype=0)
 	ret.append(stripe)
 
@@ -118,16 +119,14 @@ def make_masks(frame,mask_type,mask_mappings):
 		#we have four tiles ready to be filled
 		for idx in range(4):
 			if(len(m)>idx):
-				cellname="mask_"+m[idx]
 				tp=get_offset(idx)
-				fs=2000
-				tp[1]=97800
+				fs=2000.0
+				tp[1]=97800.0
 				if((idx==2)or(idx==3)):
-					tp[1]=16000
+					tp[1]=16000.0
 				if((idx==1)or(idx==3)):
-					tp[0]=tp[0]-(75000/2)
-
-				text=gdspy.Text(cellname, fs, tp)
+					tp[0]=tp[0]-(75000.0/2)
+				text=gdspy.Text(m[idx], fs, tp)
 				toppgs=gdspy.fast_boolean(toppgs,text,"xor", precision=0.001, max_points=800, layer=0)
 		topcell=gdspy.Cell(mask_type+str(i))
 		topcell.add(toppgs)
@@ -144,27 +143,40 @@ def make_masks(frame,mask_type,mask_mappings):
 				pgs = mirrored_polygons(cell)
 
 				bb=cell.get_bounding_box()
+				bb=bb*5
+
 				zeroing_offset=[0,0]
 				zeroing_offset[0]=bb[0][0]
 				zeroing_offset[1]=bb[0][1]
+
 				bb[0]=bb[0]-zeroing_offset
 				bb[1]=bb[1]-zeroing_offset
-				bb=bb*5
 
-				w=bb[1][0]-bb[0][0]
-				h=bb[1][1]-bb[0][1]
-				offset=get_layer_location(idx,w,h)
+				l=bb[1][0]
+				if(l<bb[1][1]):
+					l=bb[1][1]
+
+				offset=get_layer_location(idx,l)
 
 				for pg in pgs:
 					pg=pg*5
 					pg=pg+offset
 					topcell.add(gdspy.Polygon(pg))
 
+				bb[0][0]=0
+				bb[0][1]=0
+				bb[1][0]=l
+				bb[1][1]=l
 				bb[0]=bb[0]+offset
 				bb[1]=bb[1]+offset
 
 				for stripe in get_frame(bb):
 					topcell.add(stripe)
+
+		#polypath = gdspy.PolyPath([get_offset(0),get_offset(3)],width=2)
+		#topcell.add(polypath)
+		#polypath = gdspy.PolyPath([get_offset(1),get_offset(2)],width=2)
+		#topcell.add(polypath)
 
 		topcell=topcell.flatten(single_layer=1)
 		outgdsii.add(topcell)
