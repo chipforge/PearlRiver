@@ -2,10 +2,16 @@
 import gdspy
 import numpy
 
-#spacing=0.0
 spacing=500.0
 frame_width=200.0
 square_middle=18750.0
+mask_area_width=75000.0
+
+# offsets
+x0=20000.0
+y0=20500.0
+x1=95000.0
+y1=95500.0
 
 darkfield_masks = [
 	["nwell","pwell","pbase","nbase"],
@@ -19,11 +25,6 @@ brightfield_masks = [
 ]
 
 def get_offset(idx):
-	x0=20000.0
-	y0=20500.0
-	x1=95000.0
-	y1=95500.0
-
 	if(idx==0):
 		return [x0,y1]
 	elif(idx==1):
@@ -173,10 +174,33 @@ def make_masks(frame,mask_type,mask_mappings):
 				for stripe in get_frame(bb):
 					topcell.add(stripe)
 
-		#polypath = gdspy.PolyPath([get_offset(0),get_offset(3)],width=2)
-		#topcell.add(polypath)
-		#polypath = gdspy.PolyPath([get_offset(1),get_offset(2)],width=2)
-		#topcell.add(polypath)
+		'''
+		p1=get_offset(0)
+		p2=get_offset(3)
+		polypath = gdspy.PolyPath([p1,p2],width=2)
+		topcell.add(polypath)
+
+		p1=get_offset(1)
+		p2=get_offset(2)
+		polypath = gdspy.PolyPath([p1,p2],width=2)
+		topcell.add(polypath)
+
+		p1=[x0,y0+mask_area_width/2]
+		p2=[x0+mask_area_width/2,y0]
+		polypath = gdspy.PolyPath([p1,p2],width=2)
+		topcell.add(polypath)
+
+		p1=[x1,y0+mask_area_width/2]
+		p2=[x0+mask_area_width/2,y0]
+		polypath = gdspy.PolyPath([p1,p2],width=2)
+		topcell.add(polypath)
+
+		p1=[x0+square_middle,y0]
+		p2=[x0+square_middle,y1]
+		polypath = gdspy.PolyPath([p1,p2],width=2)
+		topcell.add(polypath)
+		'''
+
 
 		topcell=topcell.flatten(single_layer=1)
 		outgdsii.add(topcell)
