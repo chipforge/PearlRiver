@@ -32,22 +32,25 @@
 %%      See the Libre Silicon Public License for more details.
 %%
 %%  ///////////////////////////////////////////////////////////////////
-\documentclass[10pt,a4paper,twoside]{report}
-\usepackage[UTF8]{ctex}
+\documentclass[10pt,a4paper,twoside]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{CJK}
 %\usepackage{amsmath}
 %\usepackage{amsfonts}
 \usepackage{amssymb}
 %\usepackage{gensymb}
 %\usepackage{graphicx}
-\usepackage[digital,srcmeas]{circdia}
+\usepackage[digital,srcmeas,semicon]{circdia}
 % \usepackage[dvipsnames]{xcolor}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 
-\title{LibreSilicon's 1st Test Wafer\\(珠江芯片一号)}
+\title{LibreSilicon's 1st Test Wafer \begin{CJK}{UTF8}{gbsn}\\(珠江芯片一号) \end{CJK}}
 \author{Hagen Sankowski}
 \date{\today}
+
+\makeindex  % usefull for ToC
+\setlength{\parindent}{0pt} % get rid of annoying indents
 
 \begin{document}
 \maketitle
@@ -63,12 +66,14 @@ For further clarification consult the complete documentation of the process.
 \end{quote}
 \end{abstract}
 \input{revision.tex}
+
+\clearpage
+\tableofcontents
 \clearpage
 
 \pagestyle{headings}
 
-\chapter{Ring Oscillators}
+\input{considerations.tex}
 \input{ringoscillators.tex}
-\clearpage
 
 \end{document}
