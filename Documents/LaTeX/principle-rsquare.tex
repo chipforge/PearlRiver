@@ -37,16 +37,20 @@
     \begin{figure}[h]
         \begin{center}
             \begin{tikzpicture}[]
-            % front
-            \draw (0,0) -- (4,0) -- (4,1) -- (0,1) -- cycle;
-            % 1st top
-            \draw (0,1) -- (2,3) -- (6,3) -- (4,1) -- cycle;
-            % 1st boarder
-            \draw (4,0) -- (4,1) -- (6,3) -- (6,2) -- cycle;
-            % 2nd top
-            \draw (2,3) -- (4,5) -- (8,5) -- (6,3) -- cycle;
-            % 2nd boarder
-            \draw (6,3) -- (8,5) -- (8,4) -- (6,2) -- cycle;
+            \draw[thick] (0,0) -- (4,0) -- (4,1) -- (0,1) -- cycle; % front
+            \draw[thick] (0,1) -- (2,3) -- (6,3) -- (4,1) -- cycle; % 1st top
+            \draw[thick] (4,0) -- (4,1) -- (6,3) -- (6,2) -- cycle; % 1st boarder
+            \draw[thick] (2,3) -- (4,5) -- (8,5) -- (6,3) -- cycle; % 2nd top
+            \draw[thick] (6,3) -- (8,5) -- (8,4) -- (6,2) -- cycle; % 2nd boarder
+            % width
+            \node at (2,-0.75) {w};
+            \draw[|<->|] (0,-1) -- (4,-1);
+            % length
+            \node at (6.9,2) {l};
+            \draw[|<->|] (5,-0.3) -- (9,3.7);
+            % hight
+            \node at (8.75,4.5) {h};
+            \draw[|<->|] (9,4) -- (9,5);
             \end{tikzpicture}
         \end{center}
     \end{figure}
