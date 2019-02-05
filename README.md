@@ -36,13 +36,23 @@ for the whole die.
 
 For documentation we are using LaTeX.
 
-All LaTeX files are stored inside
+All original LaTeX files are stored inside
 
 * Documentation/LaTeX Folder
 
-Please read the documentation carefully.
+You can build the documentation out of the LaTeX sources just by using the Makefile
+
+```
+make doc
+```
+
+on top of the project directory.
+Please read the documentation with the PDF Viewer of your choise
+
+```
+$PDFVIEWER Documentation/PearlRiver.pdf
+```
+carefully.
 
 If you do not understand, what the hack we are doing here, please sit back with a good textbook about CMOS or ASIC technology development and learn. Please come back later.
-
-This branch was created to add the high-voltage NMOS device.
 
