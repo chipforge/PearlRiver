@@ -9,9 +9,9 @@
 %%                          www.chipforge.org
 %%                  there are projects from small cores up to PCBs, too.
 %%
-%%  File:           PearlRiver/Documents/LaTeX/schematic_invring.tex
+%%  File:           PearlRiver/Documents/LaTeX/picture_wafer_size.tex
 %%
-%%  Purpose:        Schematic File for Ring Oscillator with INV-Gates
+%%  Purpose:        Picture for Wafer Size compare and Flats
 %%
 %%  ************    LaTeX with circdia.sty package      ***************
 %%
@@ -33,28 +33,19 @@
 %%
 %%  ///////////////////////////////////////////////////////////////////
 \begin{center}
-    Schematic (Ring Oscillator with INV-Gates)
+    Picture - Wafer Size and Flats
     \begin{figure}[h]
         \begin{center}
-            \begin{circuitdiagram}{60}{9}
-            \pin{1}{7}{L}{EN} % pin EN, enable oscillation
-            \pin{59}{5}{R}{$f_{INV}$} % pin FINV,
-            \gate[\inputs{2}]{nand}{5}{5}{R}{}{}    % NAND gate -> right
-            \wire{9}{5}{12}{5}  % interconnect wire
-            \gate{not}{15}{5}{R}{}{} % INV gate -> right
-            \wire{18}{5}{22}{5}  % interconnect wire
-            \gate{not}{25}{5}{R}{}{} % INV gate -> right
-            \wire{28}{5}{32}{5}  % interconnect wire
-            \gate{not}{35}{5}{R}{}{} % INV gate -> right
-            \wire{38}{5}{42}{5}  % interconnect wire
-            \gate{not}{45}{5}{R}{}{} % INV gate -> right
-            \wire{48}{5}{52}{5}  % interconnect wire
-            \gate{not}{55}{5}{R}{}{} % INV gate -> right
-            \junct{51}{5}
-            \wire{51}{5}{51}{1}     % feedback wire
-            \wire{2}{1}{51}{1}  % interconnect wire
-            \wire{2}{1}{2}{3}     % feedback wire
-            \end{circuitdiagram}
+            \begin{tikzpicture}[]
+            \draw (0,0) arc (-60:240:5);
+            \draw (0,0) arc (-60:240:6.12);
+            \draw (0,0) arc (-60:240:7.5);
+            \draw (0,0) -- (-7.5,0);
+            \node at (-2,8) {4-inch Wafer};
+            \node at (-2.5,10.5) {5-inch Wafer};
+            \node at (-3,13) {6-inch Wafer};
+            \node at (-3.5,-0.5) {flats on South};
+            \end{tikzpicture}
         \end{center}
     \end{figure}
 \end{center}

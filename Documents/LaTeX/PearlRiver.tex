@@ -13,7 +13,7 @@
 %%
 %%  Purpose:        Top Level File for 1st Test Wafer Documentation
 %%
-%%  ************    LaTeX with circdia.sty package      ***************
+%%  ************    LuaLaTeX with circdia.sty package   ***************
 %%
 %%  ///////////////////////////////////////////////////////////////////
 %%
@@ -32,46 +32,61 @@
 %%      See the Libre Silicon Public License for more details.
 %%
 %%  ///////////////////////////////////////////////////////////////////
-\documentclass[10pt,a4paper,twoside]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{CJK}
-%\usepackage{amsmath}
-%\usepackage{amsfonts}
+\documentclass[a4paper,english,twoside]{article}
+\usepackage{fontspec}
 \usepackage{amssymb}
-%\usepackage{gensymb}
-%\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{babel}
+\usepackage{luatexja-fontspec}
 \usepackage[digital,srcmeas,semicon]{circdia}
-% \usepackage[dvipsnames]{xcolor}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[left=2cm,right=2cm,top=1.5cm,bottom=3cm]{geometry}
 
-\title{LibreSilicon's 1st Test Wafer \begin{CJK}{UTF8}{gbsn}\\(珠江芯片一号) \end{CJK}}
+\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{Linux Libertine 0}
+\setmainjfont{FandolSong}
+%\setsansfont{Kurier}
+%\setsansfont{Menlo}
+
+\title{PearlRiver -- LibreSilicon's 1st Test Wafer (珠江芯片一号)}
 \author{Hagen Sankowski}
 \date{\today}
 
 \makeindex  % usefull for ToC
-\setlength{\parindent}{0pt} % get rid of annoying indents
+\setlength{\parindent}{0em} % get rid of annoying indents
+\setlength{\parskip}{0.5em}
 
 \begin{document}
 \maketitle
+
 \begin{abstract}
 \begin{quote}
-Copyright \textcopyright  2018 CHIPFORGE.ORG. All rights reserved.
+Copyright \textcopyright  2018 CHIPFORGE.ORG. All rights reserved. \\
 
-This process is licensed under the Libre Silicon public license; you can redistribute it and/or modify it under the terms of the Libre Silicon public license as published by the Libre Silicon alliance either version 2 of the License, or (at your option) any later version.
+This process is licensed under the Libre Silicon public license; you can redistribute it and/or modify it under the terms of the Libre Silicon public license as published by the Libre Silicon alliance either version 1 of the License, or (at your option) any later version. \\
 
-This design is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the Libre Silicon Public License for more details.
+This design is distributed in the hope that it will be useful, but \textsc{WITHOUT ANY WARRANTY}; without even the implied warranty of \textsc{MERCHANTABILITY} or \textsc{FITNESS FOR A PARTICULAR PURPOSE}. See the Libre Silicon Public License for more details. \\
 
 For further clarification consult the complete documentation of the process.
 \end{quote}
 \end{abstract}
+\clearpage
 \input{revision.tex}
+
+PearlRiver is the first Test Wafer for the LibreSilicon 1 $ \mu m$ Technology.
+
+This Testwafer contains almost all test structures to evaulate and qualify the technology-depended parameters.
+On Wafer are placed structures to measure the sheet-resistance of all Poly and Metal Layer, as well Capacitors, NMOS and PMOS Transistors, Bipolar Junction Transistors, Diodes and Flash cells.
+There are even common cells like NANDs, NORs and Inverters forming ring oscillators.
+
+All parameters, measured from all test structures are used for Spice3f simulation models.
 
 \clearpage
 \tableofcontents
 \clearpage
 
 \pagestyle{headings}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\numberwithin{equation}{section}
 
 \input{considerations.tex}
 \input{ringoscillators.tex}

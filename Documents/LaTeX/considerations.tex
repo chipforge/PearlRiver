@@ -34,26 +34,61 @@
 %%  ///////////////////////////////////////////////////////////////////
 \section{Considerations}
 
-PearlRiver is the first Testwafer for the LibreSilicon 1 $ \mu m$ Technology.
-
-This Testwafer should contain almost all test structures to evaulate and qualify the technology-depended paramters. So on Wafer we placed structures to measure the sheet-resistance of all Poly- and Metallayer, as well capacitors, NMOS and PMOS transistors, bipolar junction transistors, diodes and flash cells. There are even gate cells like NAND3, NOR3 and some others used for ring oscillators.
-
-The parameter, measured from all test structures are used for the Spice3f and other models.
-
-
 \subsection{Orientation}
 
-There are to different systems to give orientation while talking about locations on the die. One systems use words like top (= upper side), right, buttion (= lower side) and left. The other systems uses cardinal directions like north, east, south and west to name the same. Both systems are very common, but here we use the cardinal directions, just as convention.
+There are two different systems to give orientation while talking about locations on the die.
+One system use words like Top (= upper side), Right, Bottom (= lower side) and Left.
+The other system uses cardinal directions like North, East, South and West to name the same.
+Both systems are very common, here the cardinal directions are prefered, just as convention.
 
-Wafers smaller than 8 inches, or 200 mm, have a flat side to give orientation and encode the crystal structure. Well, we like to call the side South with the notch or the flats.
+\input{picture-wafer_size.tex}
 
-All machines in the process flow has effects while dealing with the structures on the wafer. For instance etching is slightly more aggressiv on the eastern side of a structure than on the western side. To understand und measure this effects, all structures on the die are placed in a dedicated way. Structures are grouped together in a triangle. This triangle we call quarter, while placed four times on the same die, each rotated 90 degrees.
+Wafers smaller than 8 inches, or 200 mm, have a flat side to give orientation and encode the crystal structure (eg. \{100\}).
+In this document, the South side is the one with the flat.
 
-\input{principle_quarter.tex}
+\subsection{Process Variation}
+
+All machines in the process flow affects the quality of wafer processing.
+This results in Variations, regarding the location of the test structure on the wafer as well as the structures itself.
+
+For instance etching is slightly more aggressiv on one side of a structure than on the opposite side.
+One aim of the Test Wafer is also to understand und measure this effects.
+
+Therefor the wafer is divided into many small, repetative pieces, called dies, to get quantified values for the location.
+It is possible to measure structures always at the same die location over and over for many wafers.
+
+Also, every die itself is build from four triangles (representing one side) of the same test structures to measure how the process works from different directions.
+This means, that all structures are grouped together in four triangles, each rotated by 90 degrees, forming a square.
+
+\input{principle-quarter.tex}
+
+Quantifying the test structures, the location can be referenced by the die position and the quarter (North, East, South and West) on die where the test structures is measured.
+There is no recommandations about the metrics for the location.
 
 \subsection{Four-terminal Sensing}
 
-\input{schematic_4terminal.tex}
-\input{principle_rsquare.tex}
+The prefered measurement method for the test structures is the so-calld Four-terminal Sensing, or Kelvin sensing.
+This is an electrical impedance measuring technique that uses pairs of current-carrying and voltage-sensing probes to make accurate measurements.
+
+Four-terminal Sensing has advantage for precise measurement of low resistance values by eliminationg the lead and contact resistance for the measurement.
+Therefor almost all test structures here using four contact pads to place the probes on them.
+
+\input{schematic-4terminal.tex}
+
+Best results are given, when the sense wire probes are placed close to device-under-test (DUT) as the inside pair, while the force wire probes are the outside pair.
+Otherwise the accuracy can be affected, because more of the lead is included in the measurement.
+
+It is also recommended that every measurement starts with very low current, while voltages could break the test structures.
+The current respects the total resistance on the path and results in a voltage which can be measured on the sensing wire probes.
+Regarding Ohm's law
+
+\begin{equation}\label{1}
+    Resistance = \frac{Voltage}{Current}
+\end{equation}
+
+the Resistance can be calculated by driven Current and resulting Voltage.
+
+
+\input{principle-rsquare.tex}
 
 \clearpage

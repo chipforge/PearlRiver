@@ -33,10 +33,10 @@
 %%
 %%  ///////////////////////////////////////////////////////////////////
 \begin{center}
-    Schematic (Four-terminal Sensing)
+    Four-terminal Sensing with instrument, probes and device-under-test
     \begin{figure}[h]
         \begin{center}
-            \begin{circuitdiagram}{32}{25}
+            \begin{circuitdiagram}{42}{25}
             % current source with ground
             \ground{3}{0}{D}
             \wire{3}{1}{3}{8}
@@ -68,20 +68,24 @@
             \wire{15}{6}{24}{6}
             \Voltarrow{25}{16}{25}{6}{r}{U}
             % device under test
-            \resis{31}{11}{V}{device-under-test}{}
-            \wire{26}{1}{30.5}{1}
-            \pin{31}{1}{Dr}{I-}
-            \wire{26}{6}{30.5}{6}
-            \pin{31}{6}{UD}{U-}
-            \wire{26}{16}{30.5}{16}
-            \pin{31}{16}{UD}{U+}
-            \wire{26}{21}{30.5}{21}
-            \pin{31}{21}{Ur}{I+}
+            \resis{40}{11}{V}{DUT}{}
+            \wire{26}{1}{35.5}{1}
+            \pin{40}{1}{Dr}{}
+            \power{35}{1}{R}{I-}
+            \wire{26}{6}{35.5}{6}
+            \pin{40}{6}{UD}{}
+            \power{35}{6}{R}{U-}
+            \wire{26}{16}{35.5}{16}
+            \pin{40}{16}{UD}{}
+            \power{35}{16}{R}{U+}
+            \wire{26}{21}{35.5}{21}
+            \pin{40}{21}{Ur}{}
+            \power{35}{21}{R}{I+}
             %
-            \wire{31}{2}{31}{5}
-            \wire{31}{7}{31}{8}
-            \wire{31}{14}{31}{15}
-            \wire{31}{17}{31}{20}
+            \wire{40}{2}{40}{5}
+            \wire{40}{7}{40}{8}
+            \wire{40}{14}{40}{15}
+            \wire{40}{17}{40}{20}
             \end{circuitdiagram}
         \end{center}
     \end{figure}
