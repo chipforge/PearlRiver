@@ -47,14 +47,13 @@ OUTPUTDIR =     ..
 CAT ?=          @cat
 ECHO ?=         @echo # -e
 MV ?=           mv
-TAR ?=          rm -f
+RM ?=           rm -f
 TAR ?=          tar -zh
 DATE :=         $(shell date +%Y%m%d)
 
 #   project tools
 
-LATEX ?=        pdflatex -output-directory $(OUTPUTDIR)
-RUBBER ?=       rubber
+LATEX ?=        lualatex
 
 #   ----------------------------------------------------------------
 #               DEFAULT TARGETS
@@ -89,6 +88,5 @@ doc:    pdf clean
 .PHONY: pdf
 pdf:    $(PROJECT).tex revision.tex
 	$(LATEX) $<
-
-%.pdf: %.tex
-	$(RUBBER) -m pdftex $<
+	$(LATEX) $<
+	$(MV) $(PROJECT).pdf $(OUTPUTDIR)
